@@ -1,0 +1,90 @@
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip execute
+/startattack
+/cast execute
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip heroic strike
+/startattack
+/cast heroic strike
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip charge
+/cast battle stance
+/cast charge
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip rend
+/startattack
+/cast rend
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+/run InviteUnit("a"); C_Timer.After(1, LeaveParty)
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip cleave
+/startattack
+/cast cleave
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip intercept
+/cast berserker stance
+/cast intercept
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip taunt
+/cast defensive stance
+/cast taunt
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip berserker rage
+/cast berserker stance
+/cast berserker rage
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip whirlwind
+/cast berserker stance
+/cast whirlwind
+END
+VER 3 000000000100000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip pummel
+/cast berserker stance
+/cast pummel
+END
+VER 3 000000000100000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip mortal strike
+/startattack
+/cast mortal strike
+END
+VER 3 000000000100000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip sweeping strikes
+/cast battle stance
+/cast sweeping strikes
+END
+VER 3 000000000100000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip disarm
+/cast defensive stance
+/cast disarm
+END
+VER 3 0000000001000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip shield wall
+/cast defensive stance
+/equip Intricately Runed Shield
+/equip Mirah's Song
+/cast shield wall
+END
+VER 3 0000000001000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip recklessness
+/cast berserker stance
+/cast recklessness
+END
+VER 3 0000000001000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip hamstring
+/startattack
+/cast hamstring
+END
+VER 3 0000000001000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip thunder clap
+/cast battle stance
+/cast thunder clap
+END

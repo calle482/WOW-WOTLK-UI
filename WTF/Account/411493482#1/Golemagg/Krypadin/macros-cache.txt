@@ -1,0 +1,75 @@
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip crusader strike
+/startattack
+/cast crusader strike
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip repentance
+/cast repentance
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+/tar Boss
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [flyable]Tawny wind rider
+/cast [Ground]Swift pink hawkstrider
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip exorcism
+/startattack
+/cast exorcism
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Judgement of wisdom
+/startattack
+/cast Judgement of wisdom
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Judgement of light
+/startattack
+/cast Judgement of light
+END
+VER 3 0000000001000009 " " "134400"
+#showtooltip hammer of the righteous
+/startattack
+/cast hammer of the righteous
+END
+VER 3 000000000100000A " " "134400"
+#showtooltip hand of reckoning
+/startattack
+/cast hand of reckoning
+END
+VER 3 000000000100000B " " "134400"
+#showtooltip avenger's shield
+/startattack
+/cast avenger's shield
+END
+VER 3 000000000100000C " " "134400"
+#showtooltip Divine Sacrifice
+/cancelaura Divine Sacrifice
+/cast Divine Sacrifice
+END
+VER 3 000000000100000D " " "134400"
+#showtooltip shield of righteousness
+/startattack
+/cast shield of righteousness
+END
+VER 3 000000000100000E " " "134400"
+#showtooltip Avenger's Shield
+/cast Avenging Wrath
+/cast Hand of Reckoning
+/cast Avenger's Shield
+/startattack
+END
+VER 3 000000000100000F " " "134400"
+#showtooltip
+/
+END
+VER 3 0000000001000010 " " "134400"
+#showtooltip righteous defense
+/cast [@targettarget,help,nodead] Righteous Defense
+END
+VER 3 0000000001000002 "target mnrtw" "INV_MISC_QUESTIONMARK"
+/Target Wounded Skirm
+END

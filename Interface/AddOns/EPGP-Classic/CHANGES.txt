@@ -1,0 +1,24 @@
+lightweight tag 8225ac316eeb355383b2d789c6296a5e1f597e3e v1.7.1
+Author:	GitHub <noreply@github.com>
+Date:	Mon Jan 23 12:08:38 2023 +0800
+
+commit 8225ac316eeb355383b2d789c6296a5e1f597e3e
+Author: barkiwicz <50224097+barkiwicz@users.noreply.github.com>
+Date:   Sun Jan 22 23:08:38 2023 -0500
+
+    Replaced SetMinResize and SetMaxResize (#71)
+    
+    with SetResizeBounds due to Patch 10.0 API changes.
+
+commit bbbfd0016f63d95f07e0867d0ce4d2ac0e3bc4ae
+Author: jpxthu <jinpx@qq.com>
+Date:   Thu Oct 6 18:59:33 2022 +0800
+
+    Create LICENSE.md
+
+commit bb6631169ea8cd0d068a0b243328c1f2f4e15edb
+Author: jpxthu <jinpx@qq.com>
+Date:   Thu Oct 6 18:57:49 2022 +0800
+
+    Delete LICENCE
+

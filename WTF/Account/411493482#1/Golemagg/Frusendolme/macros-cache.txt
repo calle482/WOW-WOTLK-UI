@@ -1,0 +1,33 @@
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast death strike
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip heart strike
+/startattack
+/cast heart strike
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [flyable]Tawny wind rider
+/cast [Ground]Acherus Deathcharger
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast icy touch
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast plague strike
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast blood strike
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+/tar dust howler
+END

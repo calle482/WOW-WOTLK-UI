@@ -1,0 +1,12 @@
+## Interface: 20504
+## Title: RingMenu TBC
+## Notes: Adds circular action bar(s) revealed with any chosen binding.
+## Author: jsb, Spronkets
+## Version: 2.5.4-TBC
+## SavedVariablesPerCharacter: RingMenu_globalConfig, RingMenu_ringConfig
+## OptionalDeps: Masque
+libs/LibStub.lua
+copy.lua
+main.lua
+options.lua
+RingMenuOptionsPanel.xml

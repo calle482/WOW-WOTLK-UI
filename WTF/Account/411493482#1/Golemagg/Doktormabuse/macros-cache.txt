@@ -1,0 +1,17 @@
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/cast Shadowfiend
+/use Kibler's Bits
+/cast Shadowcrawl
+END
+VER 3 0000000001000001 " " "132157"
+/dance
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip dispersion
+/cast dispersion
+/cancelaura dispersion
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+/tar Unkor
+END

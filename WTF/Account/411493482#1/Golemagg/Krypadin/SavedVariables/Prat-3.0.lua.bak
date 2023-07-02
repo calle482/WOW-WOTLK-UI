@@ -1,0 +1,956 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:26]|h|r [W From] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:106:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080605,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1596.774,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:26]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:107:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080605,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1596.774,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:51]|h|r [W From] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:573:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080931,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1922.104,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:51]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:574:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080931,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1922.104,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1686080510,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1504.594,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1504.594,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1504.594,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1494.441,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[00:29:50]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["serverTime"] = 1686080510,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1504.594,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1504.594,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1504.594,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:53]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1504.443,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 49,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
+					["timestamp"] = 1494.441,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:45]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 1494.441,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:48]|h|r Error parsing guide 10-20 Eversong Woods / Ghostlands: Invalid syntax\n.hs Hearth to Falconwing and run if its up",
+					["timestamp"] = 1494.441,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:53]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1504.443,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:54]|h|r Unknown macro option: Ground",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1504.594,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:54]|h|r |cff33ff99Decursive|r: Decursive 2.7.9.2 by John Wellesz",
+					["timestamp"] = 1504.594,
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:54]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
+					["timestamp"] = 1504.594,
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:54]|h|r |c00FFAA00ThreatClassic2 v2.47 - Type /tc2 for options.|r",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080510,
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:54]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080510,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:55]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.7.30401|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080511,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:55]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080511,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:55]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 29|r",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080511,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:55]|h|r |cff59f0dcTacoTip v0.4.0 by kebabstorm loaded. Safe travels!",
+					["timestamp"] = 1504.594,
+					["serverTime"] = 1686080511,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:56]|h|r Total time played: 5 |4day:days;, 5 |4hour:hours;, 9 |4minute:minutes;, 40 |4second:seconds;",
+					["serverTime"] = 1686080512,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1506.855,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:56]|h|r Time played this level: 0 |4day:days;, 16 |4hour:hours;, 42 |4minute:minutes;, 1 |4second:seconds;",
+					["serverTime"] = 1686080512,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1506.855,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:56]|h|r |cffffff00Time played this class (Wrath of the Lich King): 0 days 0 hours 22 minutes (/details playedclass)",
+					["timestamp"] = 1506.957,
+					["serverTime"] = 1686080512,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:56]|h|r |Hchannel:channel:5|h[5] |h Changed Channel: |Hchannel:CHANNEL:5|h[5. world]|h",
+					["serverTime"] = 1686080512,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1507.271,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:41:56]|h|r |Hchannel:channel:6|h[6] |h Changed Channel: |Hchannel:CHANNEL:6|h[6. lfg]|h",
+					["serverTime"] = 1686080512,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1507.271,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:02]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Gümm:12:CHANNEL:5|h|cfffff468Gümm|r|h|cffd8d8d8]|r: LFM AQ 40",
+					["serverTime"] = 1686080518,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1512.997,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:16]|h|r [Y] |cffd8d8d8[|r|Hplayer:Megabear-Golemagg:33:YELL|h|cffff7c0aMegabear|r|h|cffd8d8d8]|r: LFM Ulduar 25 SR RUN Normal Clear  (Frag Gbid) --- Wis Me Need Frag Buyer",
+					["serverTime"] = 1686080535,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1527.271,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:30]|h|r |cffd8d8d8[|r|Hplayer:Worthzpal-Golemagg:46:GUILD|h|cff65b26572|r:|cfff48cbaWorthzpal|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:561:Player-4465-04358FF7:1:6:6:23:4294967295:4294967295:4294967295:4294967295|h[D.E.H.T.A's Little P.I.T.A.]|h|r |cffffffff(|rCompleted 24/4/23|cffffffff)|r!",
+					["serverTime"] = 1686080549,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						48, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1540.889,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:36]|h|r |Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. General - Orgrimmar]|h",
+					["serverTime"] = 1686080555,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1546.739,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:36]|h|r |Hchannel:channel:4|h[4] |h Changed Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1686080555,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1546.739,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:43]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Recklessnesx:56:CHANNEL:5|h|cffc69b6dRecklessnesx|r|h|cffd8d8d8]|r: ud10 Vezax+Yogg 1L HM + Alga check 3xSR inspect discord consums /w me spec+gs starting at 19:00 NEED ENHA/FROST",
+					["serverTime"] = 1686080562,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1554.307,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:44]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Recklessnesx-Golemagg:57:CHANNEL:5|h|cffc69b6dRecklessnesx|r|h|cffd8d8d8]|r: ud10 Vezax+Yogg 1L HM + Alga check 3xSR inspect discord consums /w me spec+gs starting at 19:00 NEED ENHA/FROST",
+					["serverTime"] = 1686080563,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1554.582,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:42:46]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Recklessnesx-Golemagg:60:CHANNEL:5|h|cffc69b6dRecklessnesx|r|h|cffd8d8d8]|r: ud10 Vezax+Yogg 1L HM + Alga check 3xSR inspect discord consums /w me spec+gs starting at 19:00 NEED ENHA/FROST",
+					["serverTime"] = 1686080565,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1556.866,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:26]|h|r [W From] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:106:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080605,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1596.774,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:43:26]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:107:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080605,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1596.774,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:35]|h|r [Y] |cffd8d8d8[|r|Hplayer:Eltrahero-Golemagg:196:YELL|h|cff3fc6eaEltrahero|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t PENGUIN CLUB |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  (GDKP) ULD 10 TODAY 22 30 FULL HM ALGA LF OT- SHADOW PRIEST \"DM ME\")  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t |cffffffff|Hurl:https://discord.gg/ejubYvCc7w|h[https://discord.gg/ejubYvCc7w]|h|r |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1686080675,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						9, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1665.679,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:44:55]|h|r Truesilverz looks tipsy.",
+					["serverTime"] = 1686080695,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1685.612,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:41]|h|r |Hchannel:channel:5|h[5] |h|cffd8d8d8[|r|Hplayer:Recklessnesx-Golemagg:490:CHANNEL:5|h|cffc69b6dRecklessnesx|r|h|cffd8d8d8]|r: ud10 Vezax+Yogg 1L HM + Alga check 3xSR inspect discord consums /w me spec+gs starting at 19:00 NEED ENHA/FROST",
+					["serverTime"] = 1686080860,
+					["r"] = 1,
+					["extraData"] = {
+						72, -- [1]
+						false, -- [2]
+						1, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1852.125,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.803921639919281,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:50]|h|r [Y] |cffd8d8d8[|r|Hplayer:Boicot-Golemagg:505:YELL|h|cffaad372Boicot|r|h|cffd8d8d8]|r: CAN ANYBODY MAKE ME A PORTAL TO DALARAN, I CAN PAY",
+					["serverTime"] = 1686080869,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						9, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1861.458,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:53]|h|r |Hplayer:Petrpárek:0:TEXT_EMOTE:|h|cffc69b6dPetrpárek|r|h flexes at Bõ.  Oooooh so strong!",
+					["serverTime"] = 1686080872,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1864.458,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:47:56]|h|r Truesilverz seems to be sobering up.",
+					["serverTime"] = 1686080875,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1867.258,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:01]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Botticello-Golemagg:513:CHANNEL:3|h|cffc69b6dBotticello|r|h|cffd8d8d8]|r: WTS|cff0070dd|Hitem:8225::::::::44:::::::::|h[Tainted Pierce]|h|r|cff0070dd|Hitem:13034::::::::44:::::::::|h[Speedsteel Rapier]|h|r SUPER CHEAP",
+					["serverTime"] = 1686080880,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1872.058,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:07]|h|r |Hplayer:Petrpárek:0:TEXT_EMOTE:|h|cffc69b6dPetrpárek|r|h flexes at Bõ.  Oooooh so strong!",
+					["serverTime"] = 1686080886,
+					["r"] = 1,
+					["extraData"] = {
+						12, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1878.124,
+					["g"] = 0.501960813999176,
+					["b"] = 0.250980406999588,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:08]|h|r [Y] |cffd8d8d8[|r|Hplayer:Eltrahero-Golemagg:520:YELL|h|cff3fc6eaEltrahero|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t PENGUIN CLUB |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t  (GDKP) ULD 10 TODAY 22 30 FULL HM ALGA LF OT- SHADOW PRIEST \"DM ME\")  |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t |cffffffff|Hurl:https://discord.gg/ejubYvCc7w|h[https://discord.gg/ejubYvCc7w]|h|r |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1686080887,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						9, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1879.224,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:16]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Jarie:529:CHANNEL:3|h|cffc41e3aJarie|r|h|cffd8d8d8]|r: LF BS to create |cffffd000|Henchant:63187|h[Blacksmithing: Belt of the Titans]|h|r",
+					["serverTime"] = 1686080896,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						30, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1887.358,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:31]|h|r You are now Away: Away",
+					["serverTime"] = 1686080911,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1902.43,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:35]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Guilta-Golemagg:544:CHANNEL:2|h|cfff48cbaGuilta|r|h|cffd8d8d8]|r: LF undercity portal",
+					["serverTime"] = 1686080915,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1905.797,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:41]|h|r |cffaad372Zalyssra|r has gone offline.",
+					["serverTime"] = 1686080921,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1911.697,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:47]|h|r |Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Phycotic-Golemagg:565:CHANNEL:2|h|cffc69b6dPhycotic|r|h|cffd8d8d8]|r: org fucked for anyone else?",
+					["serverTime"] = 1686080927,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1917.597,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:48]|h|r |cffd8d8d8[|r|Hplayer:Zebrina:568|h|cffd8d83f80|r:|cffffffffZebrina|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1686080928,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1919.52,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:51]|h|r You are no longer Away.",
+					["serverTime"] = 1686080931,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1921.778,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:51]|h|r [W From] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:573:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080931,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1922.104,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [45]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:51]|h|r [W To] |cffd8d8d8[|r|Hplayer:Krypadin-Golemagg:574:WHISPER:KRYPADIN-GOLEMAGG|h|cffd8d83f80|r:|cfff48cbaKrypadin|r|h|cffd8d8d8]|r: 123",
+					["serverTime"] = 1686080931,
+					["r"] = 1,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						21, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1922.104,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:54]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Orgrimmar]|h",
+					["serverTime"] = 1686080934,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1925.201,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:54]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. Trade - City]|h",
+					["serverTime"] = 1686080934,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						30, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1925.201,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:48:54]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1686080934,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						16, -- [3]
+						17, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1925.201,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

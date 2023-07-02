@@ -1,0 +1,100 @@
+VER 3 0000000001000005 " " "132282"
+#showtooltip Heroic Strike
+/startattack
+/cast Heroic Strike
+END
+VER 3 0000000001000004 " " "132223"
+#showtooltip Overpower
+/startattack
+/cast [stance:1] Overpower; Battle Stance
+END
+VER 3 0000000001000006 " " "132155"
+#showtooltip Rend
+/startattack
+/cast Rend
+/cast Overpower
+END
+VER 3 0000000001000003 " " "136080"
+#showtooltip Taunt
+/cast Defensive Stance
+/cast [target=mouseover, exists] Taunt; Taunt
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Thunder Clap
+/cast battle stance
+/startattack
+/cast Thunder Clap
+END
+VER 3 000000000100000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip Cleave
+/startattack
+/cast Cleave
+/stopcasting
+END
+VER 3 0000000001000007 " " "132316"
+#showtooltip Hamstring
+/startattack
+/cast Hamstring
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Execute
+/startattack
+/cast Execute
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Charge
+/cast battle stance
+/startattack
+/cast Charge
+END
+VER 3 000000000100000C " " "136009"
+#showtooltip berserker rage
+/cast berserker stance
+/cast berserker rage
+END
+VER 3 000000000100000D " " "132369"
+#showtooltip whirlwind
+/cast berserker stance
+/startattack
+/cast Whirlwind
+END
+VER 3 000000000100000E " " "132307"
+#showtooltip intercept
+/cast berserker stance
+/startattack
+/cast Intercept
+END
+VER 3 000000000100000F " " "132350"
+#showtooltip Mocking blow
+/cast battle stance
+/startattack
+/cast Mocking Blow
+END
+VER 3 0000000001000010 " " "132355"
+#showtooltip mortal strike
+/startattack
+/cast mortal strike
+/cast overpower
+END
+VER 3 0000000001000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Recklessness
+/cast berserker stance
+/startattack
+/cast recklessness
+END
+VER 3 0000000001000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip pummel
+/cast berserker stance
+/startattack
+/cast pummel
+END
+VER 3 0000000001000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Bloodthirst
+/startattack
+/cast Bloodthirst
+END
+VER 3 0000000001000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip defensive stance
+/cast defensive stance
+/equip The Immovable Object
+END

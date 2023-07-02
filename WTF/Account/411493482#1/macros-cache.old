@@ -1,0 +1,347 @@
+VER 3 000000000000001C " " "INV_MISC_QUESTIONMARK"
+#showtooltip invisibility potion
+/cast blink
+/use invisibility potion
+/cast Combustion
+END
+VER 3 0000000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip sweeping strikes
+/cast battle stance
+/startattack
+/cast sweeping strikes
+END
+VER 3 0000000000000022 " " "INV_MISC_QUESTIONMARK"
+#showtooltip scorch
+/cast scorch
+END
+VER 3 0000000000000023 " " "INV_MISC_QUESTIONMARK"
+#showtooltip fire blast
+/cast fire blast
+END
+VER 3 0000000000000016 " " "INV_MISC_QUESTIONMARK"
+/bonk
+END
+VER 3 0000000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Find herbs
+/cast Find herbs
+/cast Find Minerals
+END
+VER 3 0000000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip sunder armor
+/startattack
+/cast sunder armor
+END
+VER 3 0000000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Disarm
+/cast Defensive Stance
+/cast Disarm
+END
+VER 3 0000000000000025 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Reins of the Cobalt Netherwing Drake
+/cast [flyable, nomounted] Reins of the Cobalt Netherwing Drake 
+/cast [noflyable, nomounted] Amani War Bear 
+/dismount [mounted] /run UIErrorsFrame:Clear();
+END
+VER 3 0000000000000026 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Conjured Manna Biscuit
+#showtooltip Conjured Manna Biscuit
+/use Conjured Manna Biscuit
+/use Conjured Croissant
+END
+VER 3 0000000000000027 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Conjured Glacier Water
+/use Conjured Glacier Water
+END
+VER 3 0000000000000028 " " "INV_MISC_QUESTIONMARK"
+/w Xanq SWAP
+END
+VER 3 0000000000000029 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Counterspell
+/cast Counterspell
+/yell Counterspell used
+END
+VER 3 000000000000002C " " "135799"
+/use Tainted Core
+/y <------- TAINTED CORE TO: %t ! ! !
+/s <------- TAINTED CORE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+END
+VER 3 0000000000000031 " " "INV_MISC_QUESTIONMARK"
+/flex
+END
+VER 3 0000000000000032 " " "INV_MISC_QUESTIONMARK"
+#showtooltip shield wall
+/cast defensive stance
+/equip Aegis of the Blood God
+/cast shield wall
+END
+VER 3 0000000000000037 " " "INV_MISC_QUESTIONMARK"
+#showtooltip hex shrunken head
+/cast [nomod] Hex Shrunken Head
+END
+VER 3 0000000000000038 " " "INV_MISC_QUESTIONMARK"
+#showtooltip CounterSpell
+/stopcasting
+/cast [target=mouseover,exists,harm,nodead][exists,harm,nodead] Counterspell
+END
+VER 3 0000000000000039 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/target Shield Orb
+/cast Arcane Blast
+END
+VER 3 000000000000003A " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [flyable]Black Proto-Drake
+/cast [Ground]Black war bear
+END
+VER 3 000000000000003B " " "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Missiles
+/use [nochanneling] Arcane Missiles
+END
+VER 3 000000000000003C " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/cast Arcane blast
+END
+VER 3 000000000000003D " " "132311"
+/hug
+END
+VER 3 000000000000003E " " "INV_MISC_QUESTIONMARK"
+#showtooltip invisibility
+/cast invisibility
+/cancelaura invisibility
+END
+VER 3 000000000000003F " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [flyable]Tawny wind rider
+/cast [Ground]Dreadsteed 
+END
+VER 3 0000000000000040 " " "INV_MISC_QUESTIONMARK"
+#showtooltip blink
+/cancelaura ice block
+/cast blink
+END
+VER 3 0000000000000041 " " "132095"
+/tar time
+END
+VER 3 0000000000000043 " " "INV_MISC_QUESTIONMARK"
+#showtooltip invisibility
+/cast invisibility
+/cancelaura invisibility
+END
+VER 3 0000000000000044 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/use [nochanneling : Arcane Missiles] Arcane Blast
+END
+VER 3 0000000000000045 " " "INV_MISC_QUESTIONMARK"
+/tar Jotihunt
+END
+VER 3 0000000000000046 " " "134400"
+#showtooltip combustion
+/cast combustion
+/use 10
+/cast icy veins
+/cast Fireball
+/cqs
+END
+VER 3 0000000000000048 " " "134400"
+/use Mana Sapphire
+/cast Frostfire bolt
+/cqs
+END
+VER 3 0000000000000047 " " "134400"
+#showtooltip combustion
+/cast combustion
+/use 10
+/cast Fireball
+/cqs
+END
+VER 3 0000000000000049 " " "134400"
+#showtooltip Runic Mana Injector
+/use Runic Mana Injector
+/use Super Mana Potion
+/cast frostfire bolt
+/cqs
+END
+VER 3 000000000000004A " " "134400"
+#showtooltip
+/stopcasting
+/use item:36894
+/use item:36893
+/use item:36892
+END
+VER 3 000000000000004B " " "132278"
+/cancelaura Prayer of Fortitude
+/cancelaura Power word: Fortitude
+/cancelaura Commanding Shout
+END
+VER 3 000000000000004C " " "134400"
+END
+VER 3 0000000000000033 " ap+iv" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Power
+/use 10
+/cast Icy Veins
+/cast Arcane Power
+/cast Arcane Blast
+/cqs
+END
+VER 3 000000000000001B " blink invis" "INV_MISC_QUESTIONMARK"
+#showtooltip blink
+/cast blink
+/use invisibility potion
+END
+VER 3 0000000000000035 " dest+iv" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Power
+/use Mark of the War Prisoner
+/use Destruction Potion
+/cast Icy Veins
+/cast Arcane Power
+/cast Arcane Blast
+/cqs
+END
+VER 3 0000000000000036 " FLEX" "INV_MISC_QUESTIONMARK"
+/FLEX
+END
+VER 3 000000000000001A " yes" "INV_MISC_QUESTIONMARK"
+#showtooltip combustion
+/console SpellQueueWindow 0
+/use Combustion
+/cast Fireball
+/raid Combustion used, GROUP 2 in 10 seconds
+END
+VER 3 000000000000000E "ax" "132127"
+/target Clerk Horrace Whitesteed
+/cast Charge
+END
+VER 3 000000000000000A "bonk" "132092"
+/bonk
+END
+VER 3 0000000000000008 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Will of the Forsaken; [@mouseover,exists,mod:shift] Remove Curse
+END
+VER 3 0000000000000034 "dest" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Power
+/use Mark of the War Prisoner
+/use Destruction Potion
+/cast Arcane Power
+/cast Arcane Blast
+/cqs
+END
+VER 3 0000000000000010 "Dungeon reset" "132091"
+/script ResetInstances()
+/party has reset the dungeon
+END
+VER 3 0000000000000006 "Equip" "132154"
+/equip Arcanist Robes
+/equip Arcanist Bindings
+/equip Wand of bit
+/equip Blood Guard's Silk Handwraps
+/equip Mana Igniting
+/equip Netherwind Pants
+/equip Blood Guard's Silk
+/equip Arcanist Cr
+/equip Arcanist Ma
+/equip Glowing Brightwood
+/equip Choker
+END
+VER 3 0000000000000030 "flex" "INV_MISC_QUESTIONMARK"
+/flex
+END
+VER 3 000000000000002D "ghetto hs" "INV_MISC_QUESTIONMARK"
+/run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end)
+END
+VER 3 000000000000000C "go big dick" "132147"
+/yell BIG DICK MAGE DPS
+/use Talisman of Ephemeral power
+/cast !Arcane Power
+END
+VER 3 0000000000000002 "go to retail" "132090"
+/yell a c ‚ c ÇÈ ‚ f 30
+END
+VER 3 000000000000002B "grogg " "INV_MISC_QUESTIONMARK"
+/say Mysigt å sitter ute i naturn på dj väskan här åååå aa dricker lite färdigblandad grogg åååå aaah kanske slinker mig en ronk ååh en vet aldrig mmmm fint det
+END
+VER 3 0000000000000001 "Guild Recruit" "132161"
+/4 
+END
+VER 3 000000000000002F "Innervate" "INV_MISC_QUESTIONMARK"
+/w Bodhmall Innervate
+END
+VER 3 0000000000000014 "jaja" "132089"
+/cast blink
+/use Invisibility Potion
+END
+VER 3 0000000000000003 "Jed" "132089"
+/target Jed Runewatcher
+END
+VER 3 000000000000002A "LFM RAMP" "132093"
+/4 LF1M HC Ramparts Need Healer
+/6 LF1M HC Ramparts Need Healer
+END
+VER 3 000000000000000F "looting time" "132092"
+/p looting time
+END
+VER 3 0000000000000020 "PI" "132090"
+/W chillator Power Infusion
+END
+VER 3 0000000000000021 "port org troll" "INV_MISC_QUESTIONMARK"
+/yell Orgrimmar portal inc
+/use Atiesh, Greatstaff of the Guardian
+END
+VER 3 000000000000000D "POWER INFUSION" "132090"
+/w Zebrina POWER INFUSION!!!
+END
+VER 3 000000000000001F "remove players" "132089"
+/run local n,m if GetCVar("componentTexLoadLimit")=="0" then n=6 m=2 else n=0 m=1 end SetCVar("componentTexLoadLimit",n)SetCVar("graphicsTextureResolution",m)
+END
+VER 3 0000000000000005 "Reset instance" "132091"
+/script ResetInstances()
+/camp
+END
+VER 3 0000000000000042 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0000000000000024 "spit" "132092"
+/spit
+END
+VER 3 0000000000000009 "spit" "132092"
+/spit
+END
+VER 3 000000000000002E "spriest" "136013"
+/say White shadow caster 白色阴影投射器 Improve dark damage 提高暗伤害 Mana fountain 法力喷泉 Dog staff priority 狗工作人员优先
+END
+VER 3 0000000000000004 "Target" "132147"
+/Target Congealed Void Horror
+END
+VER 3 000000000000001E "target fp org" "132091"
+/target B
+END
+VER 3 000000000000001D "target shit" "INV_MISC_QUESTIONMARK"
+/tar Owatanka
+END
+VER 3 0000000000000007 "Unequip" "132153"
+/unequip Robe of the Archmage
+/unequip Sublime Wristguards
+/unequip Icefury Wand
+/unequip Hypnotic Blade
+/unequip Hands of Power
+/unequip Ban'thok Sash
+/unequip Skyshroud Leggings
+/unequip Dragonrider Boots
+/unequip Dreamweave Circlet
+/unequip Boreal Man
+END
+VER 3 0000000000000018 "WTB SM BOOST" "132089"
+/1 WTB SM Boost
+/4 WTB SM Boost
+END
+VER 3 0000000000000019 "WTB ZG BOOST" "132089"
+/4 WTB ZG Boost
+END
+VER 3 000000000000000B "ZF Delete" "132094"
+/run local items={[1520]=true,[9335]=true,[9333]=true,[9334]=true,[9332]=true,[1645]=true,[4599]=true}for b=0,4,1 do for s =1,32,1 do local id=select(10,GetContainerItemInfo(b,s)) if items[id] then PickupContainerItem(b,s) DeleteCursorItem() end end end
+END
+VER 3 0000000000000015 "ZG BOOST" "132187"
+/4 WTS ZG Boost 11 pack pull || 30G Solo || 20G Duo || 15G Trio
+/6 WTS ZG Boost 11 pack pull || 30G Solo || 20G Duo || 15G Trio
+END

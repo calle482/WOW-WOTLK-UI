@@ -1,0 +1,79 @@
+
+RXPCData = {
+	["completedWaypoints"] = {
+		[3] = {
+		},
+		[4] = {
+		},
+	},
+	["currentStep"] = 4,
+	["questObjectivesCache"] = {
+		[0] = 1,
+		[747] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Plainstrider Meat: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Plainstrider Feather: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+	},
+	["currentGuideGroup"] = "RestedXP TBC Guide",
+	["flightPaths"] = {
+	},
+	["questNameCache"] = {
+	},
+	["currentGuideName"] = "01-10 Mulgore",
+	["stepSkip"] = {
+	},
+	["currentStepId"] = 3212644585,
+}
+RXPCTrackingData = {
+	["profileKeys"] = {
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+	},
+	["profiles"] = {
+		["Tjurn - Golemagg"] = {
+			["levels"] = {
+				[70] = {
+					["groupExperience"] = 0,
+					["deaths"] = 0,
+					["mobs"] = {
+					},
+					["timestamp"] = {
+						["started"] = 1684858523,
+					},
+					["quests"] = {
+					},
+				},
+			},
+		},
+	},
+}
+RXPCComms = {
+	["profileKeys"] = {
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+	},
+	["profiles"] = {
+		["Tjurn - Golemagg"] = {
+		},
+	},
+}
+RXPCSettings = {
+	["profileKeys"] = {
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+	},
+	["profiles"] = {
+		["Tjurn - Golemagg"] = {
+			["hardcore"] = false,
+		},
+	},
+}

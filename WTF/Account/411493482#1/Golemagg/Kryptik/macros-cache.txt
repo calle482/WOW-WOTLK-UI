@@ -1,0 +1,106 @@
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Talisman of Ephemeral Power
+/console SpellQueueWindow 50
+/use Talisman of Ephemeral Power
+/use Zandalarian Hero Charm
+/cast Fireball
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip mind quickening gem
+/console SpellQueueWindow 50
+/use Mind Quickening Gem
+/cast icy veins
+/cast Fireball
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Zandalarian Hero Charm
+/console SpellQueueWindow 0
+/use Zandalarian Hero Charm
+/use Talisman of Ephemeral Power
+END
+VER 3 0000000001000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip fireball
+/click PetActionButton5
+/cast fireball
+END
+VER 3 000000000100000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip Ice block
+/stopcasting
+/cancelaura Ice block
+/cast Ice block
+END
+VER 3 000000000100001A " " "136048"
+#showtooltip Arcane Power
+/use 10
+/cast Arcane Power
+/cast Arcane Blast
+/cqs
+END
+VER 3 0000000001000019 " " "135862"
+#showtooltip Summon Water Elemental
+/cast Summon Water Elemental
+/petattack
+/cast [mod:shift] Freeze
+/petstay [mod:alt] 
+/petfollow [mod:ctrl] 
+END
+VER 3 0000000001000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip spellsteal
+/stopcasting
+/cast spellsteal
+END
+VER 3 0000000001000015 " " "135865"
+#showtooltip Cold Snap
+/cast Cold Snap
+END
+VER 3 0000000001000016 " " "135988"
+#showtooltip Ice barrier
+/cast Ice Barrier
+END
+VER 3 0000000001000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip counterspell
+/stopcasting
+/cast counterspell
+END
+VER 3 000000000100001C " " "136031"
+#showtooltip Presence Of Mind
+/cast Presence Of Mind
+/cast Arcane Blast
+/cqs
+END
+VER 3 000000000100001F " " "INV_MISC_QUESTIONMARK"
+/use Mana Sapphire
+/cast Arcane Blast
+/cqs
+END
+VER 3 0000000001000020 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Runic Mana Injector
+/use Runic Mana Injector
+/use Super Mana Potion
+/cast Arcane Blast
+/cqs
+END
+VER 3 0000000001000021 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Frostbolt
+/click PetActionButton4
+/cast [nomod] frostbolt
+/cast [mod:alt] presence of mind
+/cast frostbolt
+END
+VER 3 0000000001000022 " " "INV_MISC_QUESTIONMARK"
+#showtooltip arcane blast
+/click PetActionButton3
+/cast Arcane Blast
+END
+VER 3 0000000001000011 " yes" "INV_MISC_QUESTIONMARK"
+#showtooltip Combustion
+/console SpellQueueWindow 0
+/use Combustion
+/cast Fireball
+/raid Group 1 combustion used, next group in 10 seconds.
+END
+VER 3 0000000001000004 "Mara sell" "132095"
+/1 WTS Mara Boost 340+ 25G / reset FFA Loot can summon LAST SPOT
+/4 WTS Mara Boost 340+ 25G / reset FFA Loot can summon LAST SPOT 
+/6 WTS Mara Boost 340+ 25G / reset FFA Loot can summon LAST SPOT
+END

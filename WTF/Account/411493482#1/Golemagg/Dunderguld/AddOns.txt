@@ -1,0 +1,5 @@
+Masque_Dominos: disabled
+OPie_Classic: disabled
+Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

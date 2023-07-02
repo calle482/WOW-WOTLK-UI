@@ -1,0 +1,37 @@
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Tawny Windrider
+/cast [flyable, nomounted] Tawny Windrider 
+/cast [noflyable, nomounted] Great Brown Kodo 
+/dismount [mounted] /run UIErrorsFrame:Clear();
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Flame Shock
+/startattack
+/cast flame shock
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip stormstrike
+/startattack
+/cast stormstrike
+END
+VER 3 0000000001000005 " " "132147"
+/cleartarget
+/targetlasttarget
+/startattack
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Windfury Totem
+/castsequence reset=8 Windfury Totem, Grace of Air Totem
+END
+VER 3 0000000001000001 " flex" "132091"
+/flex
+END
+VER 3 0000000001000004 "target furben" "132089"
+/target Emp
+END
+VER 3 0000000001000002 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000003 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tju[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

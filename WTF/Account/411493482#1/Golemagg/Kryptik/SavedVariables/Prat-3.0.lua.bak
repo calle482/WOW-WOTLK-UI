@@ -1,0 +1,902 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1688255037,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1537.554,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1537.554,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1532.093,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 16,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:03]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:03]|h|r Unknown macro option: Ground",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:30]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["serverTime"] = 1688255037,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:30]|h|r Unknown macro option: Ground",
+					["serverTime"] = 1688255037,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:32]|h|r Total time played: 168 |4day:days;, 17 |4hour:hours;, 58 |4minute:minutes;, 36 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254832,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:32]|h|r Time played this level: 16 |4day:days;, 2 |4hour:hours;, 27 |4minute:minutes;, 10 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254832,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:41:21]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Zohi:32:CHANNEL:3|h|cfff48cbaZohi|r|h|cffd8d8d8]|r: wts|cffa335ee|Hitem:34057::::::::50:::::::::|h[Abyss Crystal]|h|r",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254881,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 2 |4minute:minutes;, 36 |4second:seconds;",
+					["timestamp"] = 1537.554,
+				}, -- [8]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1537.554,
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:56]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.354,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:57]|h|r Unknown macro option: Ground",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:00]|h|r Total time played: 168 |4day:days;, 17 |4hour:hours;, 59 |4minute:minutes;, 41 |4second:seconds;",
+					["serverTime"] = 1688255040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1540.987,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:00]|h|r Time played this level: 16 |4day:days;, 2 |4hour:hours;, 28 |4minute:minutes;, 15 |4second:seconds;",
+					["serverTime"] = 1688255040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1540.987,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:46]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Danszilol:17:CHANNEL:3|h|cfff48cbaDanszilol|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Chippers || ULDU10 GDKP HM Skip Run - Going NOW - LF Shaman Semi-Buyer/Pumper - /w GS/Budget/Spec - Discord: [https://discord.gg/nS8g3CFmMJ] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1688255085,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1587.328,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:47:53]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Skuggarne:52:CHANNEL:3|h|cff8787edSkuggarne|r|h|cffd8d8d8]|r: wts |cffffd000|Henchant:55208|h[Mining: Smelt Titansteel]|h|r",
+					["serverTime"] = 1688255272,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1773.483,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:48:02]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Stoneisland:53:CHANNEL:3|h|cff3fc6eaStoneisland|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:0|t |cffffd000|Htrade:Player-4465-019D8926:26797:197|h[Spellfire Tailoring]|h|r |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:0|t 4/4 ToC, pm me!",
+					["serverTime"] = 1688255281,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1782.509,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 5,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:03]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:30]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["serverTime"] = 1688255037,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1537.554,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1537.554,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:56]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.354,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [5]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 38,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:03]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["g"] = 1,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0.250980406999588,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[08:41:03]|h|r Unknown macro option: Ground",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254830,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:30]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["serverTime"] = 1688255037,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:30]|h|r Unknown macro option: Ground",
+					["serverTime"] = 1688255037,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1537.554,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:32]|h|r Total time played: 168 |4day:days;, 17 |4hour:hours;, 58 |4minute:minutes;, 36 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254832,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:32]|h|r Time played this level: 16 |4day:days;, 2 |4hour:hours;, 27 |4minute:minutes;, 10 |4second:seconds;",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254832,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:35]|h|r |Hchannel:channel:6|h[6] |h Changed Channel: |Hchannel:CHANNEL:6|h[6. onetwelvecast]|h",
+					["b"] = 0.1843137294054031,
+					["r"] = 1,
+					["g"] = 0,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254835,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:35]|h|r |Hchannel:channel:7|h[7] |h Changed Channel: |Hchannel:CHANNEL:7|h[7. stormmage]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254835,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:40:35]|h|r |Hchannel:channel:9|h[9] |h Changed Channel: |Hchannel:CHANNEL:9|h[9. stormepgp]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254835,
+					["extraData"] = {
+						76, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:41:21]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Zohi:32:CHANNEL:3|h|cfff48cbaZohi|r|h|cffd8d8d8]|r: wts|cffa335ee|Hitem:34057::::::::50:::::::::|h[Abyss Crystal]|h|r",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254881,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:41:34]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Dalaran]|h",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688254894,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 2 |4minute:minutes;, 23 |4second:seconds;",
+					["timestamp"] = 1537.554,
+				}, -- [12]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1537.554,
+				}, -- [13]
+				{
+					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
+					["timestamp"] = 1532.093,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:54]|h|r |cff33ff99WowSimsExporter|r: WowSimsExporter v2.5 Initialized. use /wse For Window.",
+					["timestamp"] = 1532.093,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:56]|h|r Guild Message of the Day: Phase 3 drops THIS week (20 June). Prepare for the new raid, do the new dungeons, watch Discord for new raid sign-ups!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.354,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:57]|h|r Unknown macro option: Ground",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1537.554,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:57]|h|r |cff33ff99Decursive|r: Decursive 2.7.9.2 by John Wellesz",
+					["timestamp"] = 1537.554,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:57]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
+					["timestamp"] = 1537.554,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:57]|h|r |c00FFAA00ThreatClassic2 v2.47 - Type /tc2 for options.|r",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255037,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:58]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255038,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:58]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.8.30402|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255038,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:58]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255038,
+				}, -- [23]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:58]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 29|r",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255038,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:43:59]|h|r |cff59f0dcTacoTip v0.4.1 by kebabstorm loaded. Safe travels!",
+					["timestamp"] = 1537.554,
+					["serverTime"] = 1688255039,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:00]|h|r Total time played: 168 |4day:days;, 17 |4hour:hours;, 59 |4minute:minutes;, 41 |4second:seconds;",
+					["serverTime"] = 1688255040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1540.987,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:00]|h|r Time played this level: 16 |4day:days;, 2 |4hour:hours;, 28 |4minute:minutes;, 15 |4second:seconds;",
+					["serverTime"] = 1688255040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1540.987,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:02]|h|r |cffffff00Time played this class (Wrath of the Lich King): 1 days 11 hours 41 minutes (/details playedclass)",
+					["timestamp"] = 1542.974,
+					["serverTime"] = 1688255042,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:02]|h|r |cffffff00Time played this class (Wrath of the Lich King): 1 days 11 hours 41 minutes (/details playedclass)",
+					["timestamp"] = 1542.974,
+					["serverTime"] = 1688255042,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:03]|h|r |Hchannel:channel:6|h[6] |h Changed Channel: |Hchannel:CHANNEL:6|h[6. onetwelvecast]|h",
+					["serverTime"] = 1688255043,
+					["r"] = 1,
+					["extraData"] = {
+						73, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1543.561,
+					["g"] = 0,
+					["b"] = 0.1843137294054031,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:03]|h|r |Hchannel:channel:7|h[7] |h Changed Channel: |Hchannel:CHANNEL:7|h[7. stormmage]|h",
+					["serverTime"] = 1688255043,
+					["r"] = 1,
+					["extraData"] = {
+						74, -- [1]
+						false, -- [2]
+						4, -- [3]
+						5, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1543.561,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:03]|h|r |Hchannel:channel:9|h[9] |h Changed Channel: |Hchannel:CHANNEL:9|h[9. stormepgp]|h",
+					["serverTime"] = 1688255043,
+					["r"] = 1,
+					["extraData"] = {
+						76, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1543.561,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:44:46]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Danszilol:17:CHANNEL:3|h|cfff48cbaDanszilol|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t Chippers || ULDU10 GDKP HM Skip Run - Going NOW - LF Shaman Semi-Buyer/Pumper - /w GS/Budget/Spec - Discord: [https://discord.gg/nS8g3CFmMJ] |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1688255085,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1587.328,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:47:53]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Skuggarne:52:CHANNEL:3|h|cff8787edSkuggarne|r|h|cffd8d8d8]|r: wts |cffffd000|Henchant:55208|h[Mining: Smelt Titansteel]|h|r",
+					["serverTime"] = 1688255272,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						13, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1773.483,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:48:02]|h|r |Hchannel:channel:3|h[3] |h|cffd8d8d8[|r|Hplayer:Stoneisland:53:CHANNEL:3|h|cff3fc6eaStoneisland|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:0|t |cffffd000|Htrade:Player-4465-019D8926:26797:197|h[Spellfire Tailoring]|h|r |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_5:0|t 4/4 ToC, pm me!",
+					["serverTime"] = 1688255281,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1782.509,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:48:10]|h|r |Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. General - Dalaran]|h",
+					["serverTime"] = 1688255289,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						17, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1791.197,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:48:10]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. Trade - City]|h",
+					["serverTime"] = 1688255289,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						10, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1791.197,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[01:48:10]|h|r |Hchannel:channel:4|h[4] |h Left Channel: |Hchannel:CHANNEL:4|h[4. LocalDefense - Dalaran]|h",
+					["serverTime"] = 1688255289,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1791.197,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}
