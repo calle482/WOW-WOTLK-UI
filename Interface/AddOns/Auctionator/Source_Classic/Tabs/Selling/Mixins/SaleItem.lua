@@ -88,6 +88,7 @@ function AuctionatorSaleItemMixin:OnShow()
 
   SetOverrideBinding(self, false, Auctionator.Config.Get(Auctionator.Config.Options.SELLING_POST_SHORTCUT), "CLICK AuctionatorPostButton:LeftButton")
   SetOverrideBinding(self, false, Auctionator.Config.Get(Auctionator.Config.Options.SELLING_SKIP_SHORTCUT), "CLICK AuctionatorSkipPostingButton:LeftButton")
+  SetOverrideBinding(self, false, Auctionator.Config.Get(Auctionator.Config.Options.SELLING_PREV_SHORTCUT), "CLICK AuctionatorPrevPostingButton:LeftButton")
 
   self:UpdateSkipButton()
   self:Reset()
@@ -294,12 +295,14 @@ function AuctionatorSaleItemMixin:ReceiveEvent(event, ...)
     self.clickedSellItem = false
 
     self.itemInfo = itemInfo
+    self.nextItem = self.itemInfo and self.itemInfo.nextItem
+    self.prevItem = self.itemInfo and self.itemInfo.prevItem
 
     if self.itemInfo ~= nil and self.itemInfo.stackSize == nil then
       self.itemInfo = nil
 
       local item
-      if itemInfo.location ~= nil then
+      if IsValidItem(itemInfo) then
         item = Item:CreateFromItemLocation(itemInfo.location)
       else
         item = Item:CreateFromItemLink(itemInfo.itemLink)
@@ -641,7 +644,8 @@ function AuctionatorSaleItemMixin:UpdatePostButtonState()
 end
 
 function AuctionatorSaleItemMixin:UpdateSkipButtonState()
-  self.SkipButton:SetEnabled(self.SkipButton:IsShown() and IsValidItem(self.itemInfo and self.itemInfo.nextItem))
+  self.SkipButton:SetEnabled(self.SkipButton:IsShown() and self.nextItem)
+  self.PrevButton:SetEnabled(self.SkipButton:IsShown() and self.prevItem)
 end
 
 local AUCTION_DURATIONS = {
@@ -739,12 +743,10 @@ function AuctionatorSaleItemMixin:SuccessfulPost(details)
 end
 
 function AuctionatorSaleItemMixin:DoNextItem(details)
-  if (Auctionator.Config.Get(Auctionator.Config.Options.SELLING_AUTO_SELECT_NEXT) and
-      IsValidItem(details.itemInfo.nextItem)
-     ) then
+  if Auctionator.Config.Get(Auctionator.Config.Options.SELLING_AUTO_SELECT_NEXT) and self.nextItem then
     -- Option to automatically select the next item in the bag view
     Auctionator.EventBus:Fire(
-      self, Auctionator.Selling.Events.BagItemClicked, details.itemInfo.nextItem
+      self, Auctionator.Selling.Events.BagItemClicked, self.nextItem
     )
   end
 end
@@ -778,7 +780,23 @@ end
 function AuctionatorSaleItemMixin:SkipItem()
   if self.SkipButton:IsEnabled() then
     Auctionator.EventBus:Fire(
-      self, Auctionator.Selling.Events.BagItemClicked, self.itemInfo.nextItem
+      self, Auctionator.Selling.Events.BagItemClicked, self.nextItem
+    )
+  end
+end
+
+function AuctionatorSaleItemMixin:PrevItem()
+  if self.PrevButton:IsEnabled() then
+    local location = FindItemAgain(self.prevItem.itemLink)
+    if location then
+      self.prevItem.location = location
+      self.prevItem.count = Auctionator.Selling.GetItemCount(location)
+    else
+      self.prevItem.location = nil
+      self.prevItem.count = 0
+    end
+    Auctionator.EventBus:Fire(
+      self, Auctionator.Selling.Events.BagItemClicked, self.prevItem
     )
   end
 end

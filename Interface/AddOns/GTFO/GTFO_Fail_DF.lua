@@ -11,6 +11,12 @@ if (not (GTFO.ClassicMode or GTFO.BurningCrusadeMode or GTFO.WrathMode)) then
 --- * Dragon Isles (World) *
 --- ************************
 
+GTFO.SpellID["408777"] = {
+  --desc = "Entangled (Season 2 Affix - Failed)";
+  applicationOnly = true;
+  sound = 3;
+};
+
 GTFO.SpellID["372139"] = {
   --desc = "Lightning Strike (Lightning Storm)";
   sound = 3;
@@ -681,6 +687,371 @@ GTFO.SpellID["395304"] = {
   sound = 3;
 };
 
+GTFO.SpellID["399065"] = {
+  --desc = "Ground Shatter (Irontide Crusher)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["399063"] = {
+  --desc = "Boulder Throw (Irontide Crusher)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["399069"] = {
+  --desc = "Tidelord's Fury (Farscale Tidelord)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["399080"] = {
+  --desc = "Shell Breach (Farscale Tidelord)";
+  sound = 3;
+};
+
+GTFO.SpellID["393861"] = {
+  --desc = "Poison Juice (Invasive Scalecrawler)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["403570"] = {
+  --desc = "Stasis Trap (Warden Entrix)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["400172"] = {
+  --desc = "Wild Scavenging (Bonesifter Marwak)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["400354"] = {
+  --desc = "Bonemerang (Bonemerang)";
+  sound = 3;
+};
+
+GTFO.SpellID["406187"] = {
+  --desc = "Damp Scavenging (Bonesifter Marwak)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["400887"] = {
+  --desc = "Bubble Burster (Rampant Tide)";
+  sound = 3;
+};
+
+GTFO.SpellID["406188"] = {
+  --desc = "Heated Scavenging (Bonesifter Marwak)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["402901"] = {
+  --desc = "Torrid Upheaval (Bonesifter Marwak)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["406283"] = {
+  --desc = "Ruinous Pyre (Bonesifter Marwak)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["406572"] = {
+  --desc = "Banana Broadside (Ookbeard)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["404568"] = {
+  --desc = "Stormy Weather (Galakhad)";
+  sound = 3;
+};
+
+GTFO.SpellID["404481"] = {
+  --desc = "Spiraling Squall (Spiraling Squall)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["403731"] = {
+  --desc = "Left Reap (Duzalgor)";
+  sound = 3;
+};
+
+GTFO.SpellID["405230"] = {
+  --desc = "Right Reap (Duzalgor)";
+  sound = 3;
+};
+
+GTFO.SpellID["403371"] = {
+  --desc = "Expel (Expulsion Drone)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["404781"] = {
+  --desc = "Crash Course (Grugoth the Hullcrusher)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["324511"] = {
+  --desc = "Slime Wave (Experimental Misstep)";
+  sound = 3;
+};
+
+GTFO.SpellID["405617"] = {
+  --desc = "Coin Shower (Animated Riches)";
+  sound = 3;
+};
+
+GTFO.SpellID["404710"] = {
+  --desc = "Lightning Storm (Jamoku)";
+  sound = 3;
+};
+
+GTFO.SpellID["404601"] = {
+  --desc = "Storm Stomp (Jamoku)";
+  sound = 3;
+};
+
+GTFO.SpellID["405347"] = {
+  --desc = "Cave In (Gahz'raxes)";
+  tankSound = 0;
+  sound = 3;
+};
+
+GTFO.SpellID["400159"] = {
+  --desc = "Wing Shredder (Vraken the Hunter)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["400344"] = {
+  --desc = "Spike Traps (Vraken the Hunter)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["405416"] = {
+  --desc = "Chilling Wave (Lady Shaz'ra)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["403169"] = {
+  --desc = "Judgement Wave (Ishyra)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["401455"] = {
+  --desc = "Obsidian Blast";
+  applicationOnly = true;
+  sound = 3;
+  negatingBuffSpellID = 396787; -- Protective Ward of Flames
+};
+
+GTFO.SpellID["400342"] = {
+  --desc = "Awakened Avalanche (Cliffkeeper Bouldani)";
+  sound = 3;
+};
+
+GTFO.SpellID["410812"] = {
+  --desc = "Faint";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["410539"] = {
+  --desc = "Falling Embers (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["412781"] = {
+  --desc = "Drum Solo (Dinn)";
+  sound = 3;
+};
+
+GTFO.SpellID["407299"] = {
+  --desc = "Dark Rupture (Erupting Shadowflame)";
+  sound = 3;
+};
+
+GTFO.SpellID["407292"] = {
+  --desc = "Tenebrous Outburst (Erupting Shadowflame)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["412486"] = {
+  --desc = "Tongues of Flame (Warchanter Ronvath)";
+  sound = 3;
+};
+
+GTFO.SpellID["408276"] = {
+  --desc = "Lava Bomb (Unstable Magmaling)";
+  sound = 3;
+};
+
+GTFO.SpellID["407734"] = {
+  --desc = "Collapsing Cave (Dreadful Defender)";
+  sound = 3;
+};
+
+GTFO.SpellID["396430"] = {
+  --desc = "Devastating Slam (Viridian King)";
+  sound = 3;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["412614"] = {
+  --desc = "Heavy Stomp (Viridian King)";
+  sound = 3;
+};
+
+GTFO.SpellID["404515"] = {
+  --desc = "Scorching Eclipse (Vakan)";
+  sound = 3;
+};
+
+GTFO.SpellID["403774"] = {
+  --desc = "Umbral Smash (Vakan)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["404176"] = {
+  --desc = "Enveloping Darkness (Vakan)";
+  sound = 3;
+};
+
+GTFO.SpellID["402997"] = {
+  --desc = "Incineration (Gholna)";
+  sound = 3;
+};
+
+GTFO.SpellID["413129"] = {
+  --desc = "Doom Spew (Forgemaster Kraglin)";
+  sound = 3;
+};
+
+GTFO.SpellID["401098"] = {
+  --desc = "Shadowflame Vortex (Flaming Tornado)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["401362"] = {
+  --desc = "Combustive Blast (Zaqali Heatbinder)";
+  sound = 3;
+};
+
+GTFO.SpellID["375275"] = {
+  --desc = "Waterfall (Luttrok)";
+  sound = 3;
+};
+
+GTFO.SpellID["409501"] = {
+  --desc = "Fury of Fyrakk (Kretchenwrath)";
+  sound = 3;
+};
+
+GTFO.SpellID["411306"] = {
+  --desc = "Lithic Disgorge (Diganthor)";
+  sound = 3;
+};
+
+GTFO.SpellID["412653"] = {
+  --desc = "Explosive (Treasure Goblin)";
+  sound = 3;
+};
+
+GTFO.SpellID["411114"] = {
+  --desc = "Scent Bomb (Calibrating Scent Matrix)";
+  sound = 3;
+};
+
+GTFO.SpellID["399662"] = {
+  --desc = "Shadowlava Geyser (Igneous Darkness)";
+  sound = 3;
+};
+
+GTFO.SpellID["412383"] = {
+  --desc = "Demolish (Colossian)";
+  sound = 3;
+};
+
+GTFO.SpellID["382780"] = {
+  --desc = "Charged Slam (Obsidian Tyrant)";
+  sound = 3;
+};
+
+GTFO.SpellID["411399"] = {
+  --desc = "Briny Burst (Bogg)";
+  sound = 3;
+};
+
+GTFO.SpellID["411396"] = {
+  --desc = "Entangling Kelp (Bogg)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["404759"] = {
+  --desc = "Mana Detonation (Sundered Flame Manaweaver)";
+  sound = 3;
+};
+
+GTFO.SpellID["404220"] = {
+  --desc = "Arcane Gust (Lieutenant Narlena)";
+  sound = 3;
+};
+
+GTFO.SpellID["412284"] = {
+  --desc = "Arcane Upheaval (Captain Reykal)";
+  sound = 3;
+};
+
+GTFO.SpellID["398978"] = {
+  --desc = "Arcane Eruption (Memory of an Attacker)";
+  sound = 3;
+};
+
+GTFO.SpellID["406426"] = {
+  --desc = "Tomb of Tears (Remnants of Sindragosa)";
+  sound = 3;
+};
+
+GTFO.SpellID["406345"] = {
+  --desc = "Arcane Breath (Remnants of Sindragosa)";
+  sound = 3;
+};
+
+GTFO.SpellID["411720"] = {
+  --desc = "Fire Blast";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["411719"] = {
+  --desc = "Frost Blast";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["411643"] = {
+  --desc = "Bubble Burst";
+  sound = 3;
+};
+
+
 --- *******************
 --- * Ruby Life Pools *
 --- *******************
@@ -879,7 +1250,7 @@ GTFO.SpellID["385524"] = {
   sound = 3;
 };
 
-GTFO.SpellID["385356"] = {
+GTFO.SpellID["384148"] = {
   --desc = "Ensnaring Trap (Gutshot)";
   applicationOnly = true;
   sound = 3;
@@ -901,11 +1272,6 @@ GTFO.SpellID["377559"] = {
   --desc = "Vine Whip (Treemouth)";
   sound = 3;
   tankSound = 0;
-};
-
-GTFO.SpellID["381770"] = {
-  --desc = "Gushing Ooze (Decaying Slime)";
-  sound = 3;
 };
 
 GTFO.SpellID["383392"] = {
@@ -931,7 +1297,6 @@ GTFO.SpellID["374075"] = {
 GTFO.SpellID["384524"] = {
   --desc = "Titanic Fist (Watcher Irideus)";
   sound = 3;
-  tankSound = 0;
 };
 
 GTFO.SpellID["389446"] = {
@@ -979,6 +1344,11 @@ GTFO.SpellID["386295"] = {
 
 GTFO.SpellID["386562"] = {
   --desc = "Glacial Surge (Khajin the Unyielding)";
+  sound = 3;
+};
+
+GTFO.SpellID["375952"] = {
+  --desc = "Glacial Surge (Khajin the Unyielding, Mythic+)";
   sound = 3;
 };
 
@@ -1407,6 +1777,49 @@ GTFO.SpellID["369409"] = {
   tankSound = 0;
 };
 
+--- *******************
+--- * Vortex Pinnacle *
+--- *******************
+
+GTFO.SpellID["88194"] = {
+	--desc = "Chilling Blast - Now Icy Buffet (Young Storm Dragon, Vortex Pinnacle)";
+	tankSound = 0;
+	sound = 0;
+};
+
+GTFO.SpellID["410999"] = {
+  --desc = "Pressurized Blast (Armored Mistral)";
+  sound = 3;
+};
+
+GTFO.SpellID["411005"] = {
+  --desc = "Bomb Cyclone (Cloud Prince)";
+  sound = 3;
+};
+
+GTFO.SpellID["413296"] = {
+  --desc = "Downburst (Altairus)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["88308"] = {
+  --desc = "Chilling Breath (Altairus)";
+  sound = 3;
+};
+
+GTFO.SpellID["411012"] = {
+  --desc = "Chilling Breath (Young Storm Dragon)";
+  sound = 3;
+};
+
+GTFO.SpellID["413165"] = {
+  --desc = "Lost in the Clouds";
+  applicationOnly = true;
+  sound = 3;
+};
+
+
 --- ***************************
 --- * Vault of the Incarnates *
 --- ***************************
@@ -1521,6 +1934,11 @@ GTFO.SpellID["396394"] = {
 
 GTFO.SpellID["370991"] = {
   --desc = "Earthen Pillar (Opalfang)";
+  sound = 3;
+};
+
+GTFO.SpellID["396868"] = {
+  --desc = "Searing Barrage (Magmas)";
   sound = 3;
 };
 
@@ -1658,6 +2076,361 @@ GTFO.SpellID["385073"] = {
   --desc = "Ball Lightning (Colossal Stormfiend)";
   applicationOnly = true;
   sound = 3;
+};
+
+--- **********************************
+--- * Aberrus, the Shadowed Crucible *
+--- **********************************
+
+GTFO.SpellID["408619"] = {
+  --desc = "Fire Pillar (Sundered Devastator)";
+  sound = 3;
+};
+
+GTFO.SpellID["411873"] = {
+  --desc = "Dread Landing (Kazzara, the Hellforged)";
+  sound = 3;
+};
+
+GTFO.SpellID["402461"] = {
+  --desc = "Hellsteel Fragment (Kazzara, the Hellforged)";
+  sound = 3;
+};
+
+GTFO.SpellID["404743"] = {
+  --desc = "Terror Claws (Kazzara, the Hellforged)";
+  applicationOnly = true;
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["404789"] = {
+  --desc = "Revenant's Blood (Kazzara, the Hellforged)";
+  sound = 3;
+};
+
+GTFO.SpellID["406288"] = {
+  --desc = "Dream Burst (Sundered Naturalist)";
+  applicationOnly = true;
+  sound = 4;
+};
+
+GTFO.SpellID["406860"] = {
+  --desc = "Arcane Chaos (Sundered Arcanist)";
+  sound = 3;
+};
+
+GTFO.SpellID["411917"] = {
+  --desc = "Dreadfire Emission (Sundered Devourer)";
+  sound = 3;
+};
+
+GTFO.SpellID["411908"] = {
+  --desc = "Flame Canister (Sundered Chemist)";
+  sound = 3;
+};
+
+GTFO.SpellID["408947"] = {
+  --desc = "Cleansing Breath (Sundered Preserver)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["408714"] = {
+  --desc = "Splintered Flames (Eternal Blaze)";
+  sound = 3;
+};
+
+GTFO.SpellID["404910"] = {
+  --desc = "Swirling Flame (Eternal Blaze)";
+  sound = 3;
+};
+
+GTFO.SpellID["408717"] = {
+  --desc = "Splintered Shadow (Essence of Shadow)";
+  sound = 3;
+};
+
+GTFO.SpellID["407611"] = {
+  --desc = "Shadows Convergence (Essence of Shadow)";
+  sound = 3;
+};
+
+GTFO.SpellID["405704"] = {
+  --desc = "Swirling Shadowflame (Shadowflame Amalgamation)";
+  sound = 3;
+};
+
+GTFO.SpellID["406783"] = {
+  --desc = "Shadowflame Burst (Shadowflame Amalgamation)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["408224"] = {
+  --desc = "Convergent Orb (Shadowflame Amalgamation)";
+  sound = 3;
+};
+
+GTFO.SpellID["404472"] = {
+  --desc = "Massive Slam (Neldris)";
+  sound = 3;
+};
+
+GTFO.SpellID["407733"] = {
+  --desc = "Massive Slam (Neldris)";
+  sound = 3;
+};
+
+GTFO.SpellID["405599"] = {
+  --desc = "Volatile Spew (Thadrion)";
+  sound = 3;
+};
+
+GTFO.SpellID["405601"] = {
+  --desc = "Volatile Spew (Thadrion)";
+  sound = 3;
+};
+
+GTFO.SpellID["408462"] = {
+  --desc = "Unstable Essence (Thadrion)";
+  sound = 3;
+};
+
+GTFO.SpellID["406233"] = {
+  --desc = "Deep Breath (Rionthus)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["411755"] = {
+  --desc = "Eradicate (Conduit Guardian)";
+  sound = 3;
+};
+
+GTFO.SpellID["401510"] = {
+  --desc = "Shadowflame Fissure (Rashok)";
+  sound = 3;
+};
+
+GTFO.SpellID["403543"] = {
+  --desc = "Lava Wave (Rashok)";
+  sound = 3;
+};
+
+GTFO.SpellID["406333"] = {
+  --desc = "Shadowlava Blast (Rashok)";
+  sound = 3;
+};
+
+GTFO.SpellID["409233"] = {
+  --desc = "Ground Rupture (Colossal Draconic Golem)";
+  sound = 3;
+};
+
+GTFO.SpellID["405439"] = {
+  --desc = "Tactical Destruction (Zskarn) - Near";
+  sound = 3;
+};
+
+GTFO.SpellID["406206"] = {
+  --desc = "Tactical Destruction (Zskarn) - Far";
+  sound = 3;
+};
+
+GTFO.SpellID["406207"] = {
+  --desc = "Tactical Destruction (Zskarn) - Wherever you are";
+  sound = 3;
+};
+
+GTFO.SpellID["411223"] = {
+  --desc = "Molten Cinders (Djaradin Lavamancer)";
+  sound = 3;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["406936"] = {
+  --desc = "Lava Burst (Djaradin Skullcrusher)";
+  sound = 3;
+};
+
+GTFO.SpellID["409931"] = {
+  --desc = "Finishing Strike (Djaradin Commander)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["406976"] = {
+  --desc = "Arbalest Fire (Warlord Kagni)";
+  sound = 3;
+};
+
+GTFO.SpellID["400450"] = {
+  --desc = "Cave Rubble (Warlord Kagni)";
+  sound = 3;
+};
+
+GTFO.SpellID["398938"] = {
+  --desc = "Devastating Leap (Warlord Kagni)";
+  sound = 3;
+};
+
+GTFO.SpellID["408873"] = {
+  --desc = "Heavy Cudgel (Warlord Kagni)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["401452"] = {
+  --desc = "Blazing Spear (Warlord Kagni) - Targetted";
+  soundFunction = function() -- Warn only if you get hit more than once
+	GTFO_AddEvent("SpearTarget", 10);
+	return 0;
+  end;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["401407"] = {
+  --desc = "Blazing Spear (Warlord Kagni) - First Hit";
+  ignoreEvent = "SpearTarget";
+  sound = 3;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["401119"] = {
+  --desc = "Blazing Spear (Warlord Kagni) - Final Hit";
+  sound = 3;
+};
+
+GTFO.SpellID["404955"] = {
+  --desc = "Shrapnel Bomb (Zskarn)";
+  applicationOnly = true;
+  tankSound = 0;
+  sound = 3;
+};
+
+GTFO.SpellID["409476"] = {
+  --desc = "Lava Purge (Voracious Magma Worm)";
+  sound = 3;
+};
+
+GTFO.SpellID["409445"] = {
+  --desc = "Pyroclastic Smash (Voracious Magma Worm)";
+  tankSound = 0;
+  sound = 3;
+};
+
+GTFO.SpellID["406581"] = {
+  --desc = "Lava Eruption (Primal Lava Elemental)";
+  sound = 3;
+};
+
+GTFO.SpellID["410953"] = {
+  --desc = "Volcanic Heart (Neltharion)";
+  applicationOnly = true;
+  minimumStacks = 1;
+  sound = 3;
+};
+
+GTFO.SpellID["409598"] = {
+  --desc = "Crumbling Facade (Neltharion)";
+  sound = 3;
+};
+
+GTFO.SpellID["407220"] = {
+  --desc = "Rushing Darkness (Neltharion)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["402120"] = {
+  --desc = "Collapsed Earth (Neltharion)";
+  sound = 3;
+};
+
+GTFO.SpellID["409616"] = {
+  --desc = "Umbral Torrent (Whisper in the Dark)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["402746"] = {
+  --desc = "Drifting Embers (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["410243"] = {
+  --desc = "Abyssal Breath (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["406428"] = {
+  --desc = "Motes of Oblivion (Scalecommander Sarkareth)";
+  sound = 3;
+  negatingDebuffSpellID = 404218; -- Void Fracture
+};
+
+GTFO.SpellID["403771"] = {
+  --desc = "Cosmic Ascension (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["401680"] = {
+  --desc = "Mass Disintegrate (Scalecommander Sarkareth)";
+  applicationOnly = true;
+  soundFunction = function() -- You're targetted, so you'll get hit at least once
+	GTFO_AddEvent("MassDisintegrate", 10);
+	return 0;
+  end;
+};
+
+GTFO.SpellID["402600"] = {
+  --desc = "Mass Disintegrate (Scalecommander Sarkareth)";
+  soundFunction = function() -- Warn only if you get hit more than once
+	if (GTFO_FindEvent("MassDisintegrate")) then
+		GTFO_AddEvent("MassDisintegrate", 0);
+		return 0;
+	end
+	if (GTFO_HasDebuff("player", 401383)) then -- Oppressing Howl
+		return 0;
+	end
+	return 4;
+  end
+};
+
+GTFO.SpellID["407521"] = {
+  --desc = "Out of Space (Scalecommander Sarkareth)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["403625"] = {
+  --desc = "Scouring Eternity (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["403497"] = {
+  --desc = "Astral Formation (Scalecommander Sarkareth)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["403520"] = {
+  --desc = "Embrace of Nothingness (Scalecommander Sarkareth)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["404008"] = {
+  --desc = "Lost In Space (Scalecommander Sarkareth)";
+  sound = 3;
+};
+
+GTFO.SpellID["408429"] = {
+  --desc = "Void Slash (Scalecommander Sarkareth)";
+  applicationOnly = true;
+  sound = 3;
+  tankSound = 0;
 };
 
 end

@@ -3,8 +3,8 @@ DecursiveDB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
@@ -13,8 +13,8 @@ DecursiveDB = {
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
 		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -131,7 +131,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1688254840,
+		["LastVersionAnnounce"] = 1688319089,
 	},
 	["profiles"] = {
 		["Default"] = {

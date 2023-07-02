@@ -7,8 +7,8 @@ OmniCCDB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
@@ -17,19 +17,19 @@ OmniCCDB = {
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
 		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
-						},
 						["soon"] = {
 						},
 						["minutes"] = {
+						},
+						["seconds"] = {
 						},
 					},
 				},

@@ -3603,12 +3603,14 @@ function addon.functions.bankdeposit(self, text, ...)
     end
 
     local element = self.element
-
-    if addon.IsItemNotInBags(element.items) then
-        addon.SetElementComplete(self)
-        return
+    if element.step.active then
+        if addon.IsItemNotInBags(element.items) then
+            addon.SetElementComplete(self)
+            return
+        end
+        addon.DepositItems(element.items)
     end
-    addon.DepositItems(element.items)
+
 end
 
 function addon.functions.bankwithdraw(self, text, ...)
@@ -3624,14 +3626,15 @@ function addon.functions.bankwithdraw(self, text, ...)
         return element
     end
 
-    local event = ...
     local element = self.element
 
-    if addon.IsItemNotInBank(element.items) then
-        addon.SetElementComplete(self)
-        return
+    if element.step.active then
+        if addon.IsItemNotInBank(element.items) then
+            addon.SetElementComplete(self)
+            return
+        end
+        addon.WithdrawItems(element.items)
     end
-    addon.WithdrawItems(element.items)
 end
 
 function addon.functions.bronzetube(self, text, rev)
@@ -5025,8 +5028,13 @@ end
 addon.dungeons = {}
 function addon.functions.dungeon(self, text, instance)
     if type(self) == "string" and addon.GetDungeonName then -- on parse
+        local skip
+        if instance and instance:sub(1,1) == "!" then
+            instance = instance:sub(2,-1)
+            skip = true
+        end
         local name, tag = addon.GetDungeonName(instance)
-        if tag then
+        if tag and not skip then
             if RXPData.guideMetaData.enabledDungeons[addon.player.faction] then
                 RXPData.guideMetaData.enabledDungeons[addon.player.faction][tag] = name
             end
@@ -5034,8 +5042,8 @@ function addon.functions.dungeon(self, text, instance)
             addon.step.dungeon = tag
             --print(tag,name)
             RXPData.guideMetaData.dungeonGuides[addon.currentGuideGroup] = true
-        elseif instance and instance:sub(1,1) == "!" then
-            addon.step.dugeon = strupper(instance)
+        elseif tag and skip then
+            addon.step.dungeonskip = tag
         else
             return addon.error(
                 L("Error parsing guide") .. " "  .. addon.currentGuideName ..

@@ -952,10 +952,19 @@ It might not work correctly with your version!]=] ] = "此光环由更新版本�
 	L["You already have this group/aura. Importing will create a duplicate."] = "此组/光环已经存在，继续导入将会创建副本。"
 	L["You are about to delete %d aura(s). |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "正在删除 %d 个光环，|cFFFF0000此操作无法被撤销！|r真的要删除吗?"
 	L["You are about to delete a trigger. |cFFFF0000This cannot be undone!|r Would you like to continue?"] = "你正在删除一个触发器。|cFFFF0000这个操作无法撤销！|r你要继续吗？"
+	L[ [=[You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the Anchor Code on.
+
+WeakAuras will always run custom anchor code if you include 'changed' in this list, or when a region is added, removed, or re-ordered.]=] ] = [=[你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras将运行自定义锚点代码。
+
+WeakAuras总是在状态被标记为已改变，或者一个框体被添加、删除、重新排序时运行自定义发光代码。]=]
 	L[ [=[You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the Grow Code on.
 
-WeakAuras will always run custom grow code if you include 'changed' in this list, or when a region is added, removed, or re-ordered.]=] ] = "你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras将运行自定义发光代码。WeakAuras总是在状态被标记为已改变，或者一个框体被添加、删除、重新排序时运行自定义发光代码。"
-	L["You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the sort code on.WeakAuras will always run custom sort code if you include 'changed' in this list, or when a region is added, removed."] = "你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras将运行自定义排序代码。WeakAuras总是在状态被标记为已改变，或者一个框体被添加、删除时运行自定义排序代码。"
+WeakAuras will always run custom grow code if you include 'changed' in this list, or when a region is added, removed, or re-ordered.]=] ] = [=[你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras将运行自定义发光代码。
+
+WeakAuras总是在状态被标记为已改变，或者一个框体被添加、删除、重新排序时运行自定义发光代码。]=]
+	L["You can add a comma-separated list of state values here that (when changed) WeakAuras should also run the sort code on.WeakAuras will always run custom sort code if you include 'changed' in this list, or when a region is added, removed."] = [=[你可以添加一个由英文逗号分隔的状态键列表，当它对应的值被改变时，WeakAuras将运行自定义排序代码。
+
+WeakAuras总是在状态被标记为已改变，或者一个框体被添加、删除时运行自定义排序代码。]=]
 	L["Your Saved Snippets"] = "已保存片段"
 	L["Z Offset"] = "Z 偏移"
 	L["Z Rotation"] = "Z轴旋转"

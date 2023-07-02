@@ -3,8 +3,8 @@ Details_StreamerDB = {
 	["characters"] = {
 		["Doktormabuse - Golemagg"] = "Kryptik - Golemagg",
 		["Frusendolme - Golemagg"] = "Kryptik - Golemagg",
-		["Kryptok - Golemagg"] = "Kryptik - Golemagg",
 		["Tjurn - Golemagg"] = "Kryptik - Golemagg",
+		["Kryptok - Golemagg"] = "Kryptik - Golemagg",
 		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
 		["Kryptokk - Golemagg"] = "Kryptik - Golemagg",
 		["Flintn - Golemagg"] = "Kryptik - Golemagg",
@@ -13,8 +13,8 @@ Details_StreamerDB = {
 		["Emoshrek - Golemagg"] = "Kryptik - Golemagg",
 		["Dunderguld - Golemagg"] = "Kryptik - Golemagg",
 		["Manameister - Golemagg"] = "Kryptik - Golemagg",
-		["Jägerskytt - Golemagg"] = "Kryptik - Golemagg",
 		["Emomage - Golemagg"] = "Kryptik - Golemagg",
+		["Jägerskytt - Golemagg"] = "Kryptik - Golemagg",
 	},
 	["profiles"] = {
 		["Kryptik - Golemagg"] = {
@@ -26,11 +26,11 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
 				300, -- [1]
 				500.0000305175781, -- [2]
 			},
+			["arrow_anchor_y"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 120.8713916094744,
 				["radius"] = 160,
@@ -38,30 +38,19 @@ Details_StreamerDB = {
 			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_x"] = 0,
+			["author"] = "Terciob",
+			["row_texture"] = "Details Serenity",
+			["square_grow_direction"] = "right",
+			["y"] = -1.52587890625e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["row_texture"] = "Details Serenity",
-			["square_grow_direction"] = "right",
-			["use_spark"] = true,
-			["author"] = "Terciob",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -73,6 +62,17 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["use_spark"] = true,
+			["font_size"] = 10,
 			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

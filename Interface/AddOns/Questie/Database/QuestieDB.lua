@@ -554,7 +554,7 @@ function QuestieDB.IsDoable(questId, debugPrint)
     if (requiredMinRep or requiredMaxRep) then
         local aboveMinRep, hasMinFaction, belowMaxRep, hasMaxFaction = QuestieReputation:HasFactionAndReputationLevel(requiredMinRep, requiredMaxRep)
         if (not ((aboveMinRep and hasMinFaction) and (belowMaxRep and hasMaxFaction))) then
-            Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet reputation requirements for", questId)
+            if debugPrint then Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet reputation requirements for", questId) end
 
             --- If we haven't got the faction for min or max we blacklist it
             if not hasMinFaction or not hasMaxFaction then -- or not belowMaxRep -- This is something we could have done, but would break if you rep downwards
@@ -649,6 +649,12 @@ function QuestieDB.IsDoable(questId, debugPrint)
             if debugPrint then Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet spell requirements for", questId) end
             return false
         end
+    end
+
+    -- Check and see if the Quest requires an achievement before showing as available
+    if _QuestieDB:CheckAchievementRequirements(questId) == false then
+        if debugPrint then Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet achievement requirements for", questId) end
+        return false
     end
 
     return true
@@ -933,6 +939,7 @@ function QuestieDB:GetQuest(questId) -- /dump QuestieDB:GetQuest(867)
             QO.SpecialObjectives[index] = {
                 Icon = o[2],
                 Description = o[3],
+                RealObjectiveIndex = o[4],
             }
             if o[1] then -- custom spawn
                 QO.SpecialObjectives[index].spawnList = {{
@@ -1122,6 +1129,23 @@ end
 
 ---------------------------------------------------------------------------------------------------
 -- Modifications to questDB
+
+function _QuestieDB:CheckAchievementRequirements(questId)
+    -- So far the only Quests that we know of that requires an earned Achievement are the ones offered by:
+    -- https://www.wowhead.com/wotlk/npc=35094/crusader-silverdawn
+    -- Get Kraken (14108)
+    -- The Fate Of The Fallen (14107)
+    -- This NPC requires these earned Achievements baseed on a Players home faction:
+    -- https://www.wowhead.com/wotlk/achievement=2817/exalted-argent-champion-of-the-alliance
+    -- https://www.wowhead.com/wotlk/achievement=2816/exalted-argent-champion-of-the-horde
+    if questId == 14101 or questId == 14102 or questId == 14104 or questId == 14105 or questId == 14107 or questId == 14108 then
+        if select(13, GetAchievementInfo(2817)) or select(13, GetAchievementInfo(2816)) then
+            return true
+        end
+
+        return false
+    end
+end
 
 function _QuestieDB:HideClassAndRaceQuests()
     local questKeys = QuestieDB.questKeys

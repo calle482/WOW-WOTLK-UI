@@ -16,7 +16,7 @@ H: 100
 Frame: AtlasLoot_GUI-Frame
 FrameLevel: 1
 Anchor: TOP
-X: -75
+X: -79
 Y: -30
 W: 920
 H: 600

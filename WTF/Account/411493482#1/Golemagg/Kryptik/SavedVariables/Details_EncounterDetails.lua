@@ -3446,15 +3446,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swarm Scarab",
 		},
-		[32330] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[65766] = {
+			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Darkweb Recluse",
+			["source"] = "Fjola Lightbane",
 		},
 		[64532] = {
 			["school"] = 68,
@@ -3473,24 +3472,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runemaster Molgeim",
 		},
-		[66725] = {
+		[64596] = {
 			["school"] = 4,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Koralon the Flame Watcher",
 		},
-		[65766] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[32330] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fjola Lightbane",
+			["source"] = "Darkweb Recluse",
 		},
 		[62614] = {
 			["school"] = 1,
@@ -3798,16 +3794,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Guardian",
 		},
-		[63830] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[1680] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sara",
+			["source"] = "Notankyou",
 		},
 		[62775] = {
 			["school"] = 1,
@@ -3818,13 +3811,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "XT-002 Deconstructor",
 		},
-		[1680] = {
-			["school"] = 1,
+		[63830] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Notankyou",
+			["source"] = "Sara",
 		},
 		[59018] = {
 			["school"] = 8,
@@ -3929,15 +3925,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irieth Shadowstep",
 		},
-		[65541] = {
-			["school"] = 32,
+		[56222] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Brienna Nightfell",
+			["source"] = "Rnz",
 		},
 		[65301] = {
 			["school"] = 32,
@@ -3969,14 +3964,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nostradam",
 		},
-		[56222] = {
+		[60314] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rnz",
+			["source"] = "Notankyou",
 		},
 		[6788] = {
 			["school"] = 2,
@@ -4012,11 +4006,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hodir",
 		},
-		[64566] = {
-			["school"] = 4,
+		[66665] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Koralon the Flame Watcher",
 		},
 		[64598] = {
 			["school"] = 64,
@@ -4096,6 +4092,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aephyria",
 		},
+		[59803] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Trollgore",
+		},
 		[62872] = {
 			["school"] = 4,
 			["token"] = {
@@ -4104,14 +4108,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Freya",
-		},
-		[59803] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Trollgore",
 		},
 		[65860] = {
 			["school"] = 8,
@@ -4644,15 +4640,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Qtilate",
 		},
-		[62938] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Storm Lasher",
-		},
 		[65542] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -4662,6 +4649,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brienna Nightfell",
 		},
+		[49639] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Trollgore",
+		},
 		[62906] = {
 			["school"] = 8,
 			["token"] = {
@@ -4669,12 +4663,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Freya's Ward",
 		},
-		[49639] = {
-			["school"] = 1,
+		[62938] = {
+			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Trollgore",
+			["source"] = "Storm Lasher",
 		},
 		[63490] = {
 			["school"] = 32,
@@ -4832,21 +4828,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aephyria",
 		},
-		[65648] = {
-			["school"] = 68,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aerial Command Unit",
-		},
 		[61564] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Ormorok the Tree-Shaper",
+		},
+		[48265] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Qecebly",
 		},
 		[62619] = {
 			["school"] = 1,
@@ -4908,12 +4904,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kokosh",
 		},
-		[49800] = {
+		[8374] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Morticâ",
+			["source"] = "XM-024 Pummeller",
 		},
 		[61920] = {
 			["school"] = 8,
@@ -4972,13 +4969,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim's Hammer",
 		},
-		[8374] = {
+		[49800] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "XM-024 Pummeller",
+			["source"] = "Morticâ",
 		},
 		[24932] = {
 			["school"] = 1,
@@ -4988,12 +4984,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Morticâ",
 		},
-		[47818] = {
-			["school"] = 4,
+		[65209] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zsâdist",
+			["source"] = "Guardian of Yogg-Saron",
 		},
 		[10444] = {
 			["school"] = 4,
@@ -5166,12 +5163,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Qtilate",
 		},
-		[50536] = {
-			["school"] = 32,
+		[60766] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Craxy",
+			["source"] = "Raeok",
 		},
 		[31884] = {
 			["school"] = 2,
@@ -5305,13 +5303,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Snowpacked Icicle",
 		},
-		[54181] = {
-			["school"] = 2,
-			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Xanq",
-		},
 		[414266] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -5321,12 +5312,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irieth Shadowstep",
 		},
-		[62397] = {
-			["school"] = 1,
+		[54181] = {
+			["school"] = 2,
 			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Xanq",
+		},
+		[63420] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Flame Leviathan Turret",
+			["source"] = "Saronite Animus",
 		},
 		[63763] = {
 			["school"] = 1,
@@ -5499,12 +5499,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Notankyou",
 		},
-		[42833] = {
-			["school"] = 4,
+		[63293] = {
+			["school"] = 68,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fappelmoes",
+			["source"] = "VX-001",
 		},
 		[64156] = {
 			["school"] = 32,
@@ -5554,12 +5554,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Platerogue",
 		},
-		[63293] = {
-			["school"] = 68,
+		[42833] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Fappelmoes",
 		},
 		[64162] = {
 			["school"] = 1,
@@ -5602,14 +5602,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Liquid Pyrite",
 		},
-		[62526] = {
-			["school"] = 1,
+		[58434] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ancient Rune Giant",
+			["source"] = "Coccis",
 		},
 		[66613] = {
 			["school"] = 2,
@@ -5620,14 +5620,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Velanaa",
 		},
-		[58434] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[21049] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Coccis",
+			["source"] = "Alliance Berserker",
 		},
 		[48300] = {
 			["school"] = 32,
@@ -5654,14 +5654,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Assault Bot",
 		},
-		[21049] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[62526] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Alliance Berserker",
+			["source"] = "Ancient Rune Giant",
 		},
 		[65974] = {
 			["school"] = 4,
@@ -5806,14 +5806,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yogg-Saron",
 		},
-		[63420] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[62397] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Saronite Animus",
+			["source"] = "Flame Leviathan Turret",
 		},
 		[53000] = {
 			["school"] = 2,
@@ -5905,13 +5903,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irieth Shadowstep",
 		},
-		[60766] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[50536] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Raeok",
+			["source"] = "Craxy",
 		},
 		[56453] = {
 			["school"] = 1,
@@ -6015,13 +6012,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Morticâ",
 		},
-		[65209] = {
-			["school"] = 32,
+		[47818] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of Yogg-Saron",
+			["source"] = "Zsâdist",
 		},
 		[63007] = {
 			["school"] = 1,
@@ -6079,6 +6075,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Champion",
 		},
+		[65648] = {
+			["school"] = 68,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Aerial Command Unit",
+		},
 		[3600] = {
 			["school"] = 8,
 			["type"] = "DEBUFF",
@@ -6086,15 +6091,6 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Earthbind Totem",
-		},
-		[48265] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Qecebly",
 		},
 		[64536] = {
 			["school"] = 68,
@@ -6454,13 +6450,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Stoutbeard",
 		},
-		[66665] = {
-			["school"] = 1,
+		[64566] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Koralon the Flame Watcher",
 		},
 		[65916] = {
 			["school"] = 1,
@@ -6479,13 +6473,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aephyria",
 		},
-		[60314] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[65541] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Notankyou",
+			["source"] = "Brienna Nightfell",
 		},
 		[65044] = {
 			["school"] = 4,
@@ -6693,11 +6689,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim",
 		},
-		[64596] = {
+		[66725] = {
 			["school"] = 4,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Koralon the Flame Watcher",
 		},
 		[62055] = {
 			["school"] = 8,

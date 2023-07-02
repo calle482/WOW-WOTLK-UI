@@ -1,7 +1,7 @@
 local mod = DBM:NewMod(603, "DBM-Party-WotLK", 16, 276)
 local L = mod:GetLocalizedStrings()
 
-mod:SetRevision("20230621050852")
+mod:SetRevision("20230624194820")
 --mod:SetEncounterID(1990)--TODO, why was this unreliable?
 
 mod:RegisterEvents(

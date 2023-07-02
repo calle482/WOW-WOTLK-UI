@@ -54,6 +54,9 @@ function QuestieTBCQuestFixes:Load()
         [254] = {
             [questKeys.requiredRaces] = raceIDs.ALL_ALLIANCE,
         },
+        [275] = {
+            [questKeys.objectivesText] = {"Kill 8 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands."}, -- override classic correction
+        },
         [287] = {
             [questKeys.triggerEnd] = {"Fully explore Frostmane Hold", {[zoneIDs.DUN_MOROGH]={{21.47,52.2}}}},
         },
@@ -174,6 +177,9 @@ function QuestieTBCQuestFixes:Load()
         [1109] = {
             [questKeys.requiredLevel] = 22,
             [questKeys.questLevel] = 26,
+        },
+        [1133] = {
+            [questKeys.zoneOrSort] = zoneIDs.DARKSHORE,
         },
         [1135] = {
             [questKeys.startedBy] = {{4456},nil,nil},
@@ -1095,6 +1101,9 @@ function QuestieTBCQuestFixes:Load()
         },
         [9608] = {
             [questKeys.triggerEnd] = {"Fully Investigate The Blood Furnace", {[zoneIDs.HELLFIRE_PENINSULA]={{45.89,51.93}}}},
+        },
+        [9616] = {
+            [questKeys.startedBy] = {{17591},nil,{23910}},
         },
         [9618] = {
             [questKeys.requiredRaces] = raceIDs.BLOOD_ELF,

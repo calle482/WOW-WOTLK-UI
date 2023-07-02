@@ -1862,3 +1862,68 @@ Change Log:
 * Added Dragonflight spells (world)
 * Added Wrath spells for Ulduar (thanks Furento)
 * Added Wrath spells (Heroic+) (thanks wazerFPS)
+
+5.0.6
+* Updated for patch 10.0.7
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Vault of the Incarnates
+
+5.1
+* Fixed heroic difficulty check in raids
+* Fixed Dragonflight spells for Vault of the Incarnates
+* Added Dragonflight spells (world)
+
+5.1.1
+* Added Dragonflight spells for Vault of the Incarnates
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+
+5.1.2
+* Updated for patch 10.1.0
+* Added WoD spells for Grimrail Depot
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+
+5.1.3
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+* Added Dragonflight spells for Halls of Infusion (thanks aisenfaire)
+* Fixed Cataclysm spells for Vortex Pinnacle (Dragonflight Mythic+)
+
+5.1.4
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+
+5.2
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+* Fixed Dragonflight spells for Aberrus, the Shadowed Crucible (thanks astrocamptv)
+* Fixed Dragonflight spells for Brackenhide Hollow
+* Added Dragonflight spells for Vortex Pinnacle
+* Fixed BFA spells for Freehold (thanks aisenfaire)
+* Added BFA spells for The Underrot
+* Added Legion spells for Neltharion's Lair
+
+5.3
+* Added support for custom ignoring spells
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+
+5.3.1
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+* Added Dragonflight spells for Vortex Pinnacle
+* Added Dragonflight spells for Brackenhide Hollow
+* Fixed BFA spells for The Underrot
+* Added BFA spells for The Underrot
+* Fixed BFA spells for Freehold
+
+5.3.2
+* Added Dragonflight spells (world)
+* Added Dragonflight spells for Aberrus, the Shadowed Crucible
+* Added Dragonflight spells for Vortex Pinnacle
+* Added Dragonflight spells for Halls of Infusion
+* Fixed BFA spells for The Underrot
+* Added Legion spells for Neltharion's Lair
+
+5.3.3
+* Added Dragonflight spells (world)
+* Fixed Wrath spells for Trial of the Grand Crusader (thanks jorvanus)

@@ -5,7 +5,7 @@ if not mod:IsClassic() then
 	mod.statTypes = "normal,heroic,timewalker"
 end
 
-mod:SetRevision("20230621050852")
+mod:SetRevision("20230624194820")
 mod:SetCreatureID(26693)
 mod:SetEncounterID(2029)
 

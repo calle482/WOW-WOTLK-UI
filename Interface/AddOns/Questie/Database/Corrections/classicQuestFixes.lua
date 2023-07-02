@@ -131,6 +131,9 @@ function QuestieQuestFixes:Load()
         [273] = {
             [questKeys.triggerEnd] = {"Find Huldar, Miran, and Saean",{[zoneIDs.LOCH_MODAN]={{51.16, 68.96}}}},
         },
+        [275] = {
+            [questKeys.objectivesText] = {"Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands."},
+        },
         [282] = {
             [questKeys.exclusiveTo] = {287},
         },
@@ -663,6 +666,7 @@ function QuestieQuestFixes:Load()
         },
         [1133] = {
             [questKeys.preQuestSingle] = {}, -- #1738
+            [questKeys.zoneOrSort] = zoneIDs.DUSTWALLOW_MARSH,
         },
         [1136] = {
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_OBJECT, l10n("Use a Fresh Carcass at the Flame of Uzel"), 0, {{"object", 1770}}}},
