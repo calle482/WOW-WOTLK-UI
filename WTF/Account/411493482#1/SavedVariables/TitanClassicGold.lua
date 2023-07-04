@@ -13,7 +13,7 @@ GoldSave = {
 	["Kryptik_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Kryptik",
-		["gold"] = 12211265,
+		["gold"] = 11919714,
 	},
 	["Krypadin_Golemagg::Horde"] = {
 		["show"] = true,

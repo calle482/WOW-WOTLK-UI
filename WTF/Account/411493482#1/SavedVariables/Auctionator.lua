@@ -1,5 +1,6 @@
 
 AUCTIONATOR_CONFIG = {
+	["no_price_database"] = false,
 	["selling_always_load_more"] = false,
 	["columns_buying_historical_prices"] = {
 		["Date"] = false,
@@ -9,18 +10,19 @@ AUCTIONATOR_CONFIG = {
 	},
 	["selling_post_shortcut"] = "SPACE",
 	["shift_stack_tooltips"] = true,
+	["enchant_tooltips"] = false,
 	["selling_favourite_keys_2"] = {
 	},
-	["no_price_database"] = false,
-	["selling_bag_select_shortcut"] = "alt left click",
-	["show_selling_bag"] = true,
 	["selling_missing_favourites"] = true,
+	["default_list_2"] = "",
+	["show_selling_bag"] = true,
+	["auction_mean_days_limit"] = 21,
 	["search_no_filters_matched_entry"] = true,
 	["hide_splash_screen"] = false,
-	["enchant_tooltips"] = false,
+	["selling_bag_select_shortcut"] = "alt left click",
 	["shopping_always_load_more"] = false,
-	["starting_price_percentage_2"] = 95,
-	["default_list_2"] = "",
+	["auction_tooltips"] = true,
+	["auctions_history_length"] = 10,
 	["columns_buying_auctions_2"] = {
 		["Available"] = false,
 		["Unit Price"] = false,
@@ -32,8 +34,63 @@ AUCTIONATOR_CONFIG = {
 	["vendor_tooltips"] = true,
 	["auction_age_tooltips"] = false,
 	["replicate_scan_3"] = false,
+	["undercut_static_value"] = 1,
 	["chain_buy_stacks"] = false,
-	["auction_mean_days_limit"] = 21,
+	["selling_confirm_low_price"] = true,
+	["stack_size_memory"] = {
+	},
+	["selling_bag_collapsed"] = false,
+	["columns_selling_search_3"] = {
+	},
+	["price_history_days"] = 21,
+	["selling_auto_select_next"] = false,
+	["default_selling_stacks"] = {
+		["stackSize"] = 0,
+		["numStacks"] = 0,
+	},
+	["selling_icon_size"] = 35,
+	["selling_prev_shortcut"] = "BACKSPACE",
+	["selling_skip_shortcut"] = "SHIFT-SPACE",
+	["shopping_list_missing_terms"] = false,
+	["auction_chat_log"] = true,
+	["default_tab"] = 0,
+	["cancel_undercut_shortcut"] = "SPACE",
+	["auto_list_search"] = false,
+	["selling_ignored_keys"] = {
+	},
+	["selling_grey_post_button"] = true,
+	["save_last_duration_as_default"] = false,
+	["crafting_info_show_cost"] = true,
+	["auction_mean_tooltips"] = false,
+	["historical_prices"] = {
+	},
+	["show_selling_bid_price"] = false,
+	["undercut_items_ahead"] = 0,
+	["columns_shopping_historical_prices"] = {
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Upper Unit Price"] = true,
+		["Available"] = false,
+	},
+	["prospect_tooltips"] = false,
+	["columns_shopping"] = {
+		["Name"] = false,
+		["Available"] = false,
+		["Price"] = false,
+		["Owned?"] = true,
+		["Top?"] = true,
+	},
+	["undercut_percentage"] = 0,
+	["shopping_last_container_view"] = 1,
+	["crafting_info_show_profit"] = true,
+	["mailbox_tooltips"] = true,
+	["columns_posting_history"] = {
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Bid Price"] = true,
+		["Quantity"] = false,
+	},
+	["selling_post_stack_remainder"] = false,
 	["columns_cancelling"] = {
 		["Stack Price"] = true,
 		["Bidder"] = true,
@@ -45,67 +102,12 @@ AUCTIONATOR_CONFIG = {
 		["Time Left"] = false,
 		["Name"] = false,
 	},
-	["auctions_history_length"] = 10,
-	["auction_duration"] = 24,
-	["undercut_static_value"] = 1,
-	["price_history_days"] = 21,
-	["selling_icon_size"] = 35,
-	["selling_bag_collapsed"] = false,
-	["selling_confirm_low_price"] = true,
-	["default_selling_stacks"] = {
-		["stackSize"] = 0,
-		["numStacks"] = 0,
-	},
-	["selling_skip_shortcut"] = "SHIFT-SPACE",
-	["shopping_list_missing_terms"] = false,
-	["prospect_tooltips"] = false,
-	["shopping_last_container_view"] = 1,
-	["cancel_undercut_shortcut"] = "SPACE",
-	["auction_chat_log"] = true,
-	["selling_ignored_keys"] = {
-	},
-	["save_last_duration_as_default"] = false,
-	["default_tab"] = 0,
-	["auto_list_search"] = false,
-	["auction_mean_tooltips"] = false,
-	["selling_grey_post_button"] = true,
-	["show_selling_bid_price"] = false,
-	["crafting_info_show_cost"] = true,
-	["columns_shopping_historical_prices"] = {
-		["Date"] = false,
-		["Unit Price"] = false,
-		["Upper Unit Price"] = true,
-		["Available"] = false,
-	},
-	["columns_selling_search_3"] = {
-	},
-	["historical_prices"] = {
-	},
-	["undercut_percentage"] = 0,
-	["columns_shopping"] = {
-		["Name"] = false,
-		["Available"] = false,
-		["Price"] = false,
-		["Owned?"] = true,
-		["Top?"] = true,
-	},
-	["crafting_info_show_profit"] = true,
-	["mailbox_tooltips"] = true,
-	["columns_posting_history"] = {
-		["Date"] = false,
-		["Unit Price"] = false,
-		["Bid Price"] = true,
-		["Quantity"] = false,
-	},
-	["selling_post_stack_remainder"] = false,
-	["selling_auto_select_next"] = false,
 	["mill_tooltips"] = false,
 	["auction_sales_preference"] = "static",
-	["stack_size_memory"] = {
-	},
+	["auction_duration"] = 24,
 	["splash_screen_version"] = "10.1.6",
 	["crafting_info_show"] = true,
-	["auction_tooltips"] = true,
+	["starting_price_percentage_2"] = 95,
 	["gear_vendor_price_multiplier"] = 0,
 }
 AUCTIONATOR_SAVEDVARS = {
@@ -727,16 +729,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 42929,
 		},
-		["45104"] = {
+		["38962"] = {
 			["a"] = {
-				[1278] = 5,
 			},
 			["l"] = {
 			},
 			["h"] = {
-				[1278] = 1889995,
 			},
-			["m"] = 1889995,
+			["m"] = 750000,
 		},
 		["41098"] = {
 			["a"] = {
@@ -774,14 +774,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 499946,
 		},
-		["38962"] = {
+		["45104"] = {
 			["a"] = {
+				[1278] = 5,
 			},
 			["l"] = {
 			},
 			["h"] = {
+				[1278] = 1889995,
 			},
-			["m"] = 750000,
+			["m"] = 1889995,
 		},
 		["38679"] = {
 			["a"] = {
@@ -890,18 +892,18 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1685044645,
 		}, -- [1]
 	},
-	["7456"] = {
-		{
-			["price"] = 99999,
-			["quantity"] = 1,
-			["time"] = 1685007382,
-		}, -- [1]
-	},
 	["9393"] = {
 		{
 			["price"] = 2499999,
 			["quantity"] = 1,
 			["time"] = 1685044645,
+		}, -- [1]
+	},
+	["g:7456:38"] = {
+		{
+			["price"] = 99999,
+			["quantity"] = 1,
+			["time"] = 1685007382,
 		}, -- [1]
 	},
 	["4338"] = {
@@ -911,7 +913,7 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1685098852,
 		}, -- [1]
 	},
-	["g:7456:38"] = {
+	["7456"] = {
 		{
 			["price"] = 99999,
 			["quantity"] = 1,
@@ -958,7 +960,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["239"] = 1413,
 	["44193"] = 592849,
 	["2524"] = 17273,
-	["28061"] = 12,
+	["28061"] = 15,
 	["8766"] = 800,
 	["44132"] = 600000,
 	["27857"] = 1120,
@@ -1059,7 +1061,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["44644"] = 95515,
 	["2479"] = 92,
 	["22053"] = 1000,
-	["41586"] = 12,
+	["41586"] = 15,
 	["44615"] = 2000,
 	["27695"] = 17000,
 	["422"] = 90,
@@ -1135,7 +1137,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["8950"] = 680,
 	["2101"] = 4,
 	["1197"] = 2267,
-	["41584"] = 12,
+	["41584"] = 15,
 	["2512"] = 0.045,
 	["2494"] = 342,
 	["2469"] = 5702,
@@ -1149,7 +1151,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["15810"] = 9638,
 	["2535"] = 58479,
 	["15809"] = 13956,
-	["28056"] = 12,
+	["28056"] = 15,
 	["17021"] = 700,
 	["35952"] = 3200,
 	["5956"] = 18,

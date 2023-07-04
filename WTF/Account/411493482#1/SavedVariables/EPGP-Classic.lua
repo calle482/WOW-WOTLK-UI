@@ -1618,7 +1618,7 @@ EPGP_DB = {
 					},
 					["snapshot"] = {
 						["guild_info"] = "@DECAY_P:10\n@EXTRAS_P:100\n@MIN_EP:0\n@BASE_GP:2000\n@OUTSIDERS:0\n@DECAY_BASE_GP:1",
-						["time"] = 1688319658,
+						["time"] = 1688496153,
 						["roster_info"] = {
 							{
 								"Perfid-Golemagg", -- [1]
@@ -1666,73 +1666,73 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [9]
 							{
-								"Seppurt-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"54,0", -- [3]
-							}, -- [10]
-							{
 								"Turbodina-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"2,0", -- [3]
-							}, -- [11]
+							}, -- [10]
 							{
-								"Nireim-Golemagg", -- [1]
-								"HUNTER", -- [2]
+								"Ducare-Golemagg", -- [1]
+								"DRUID", -- [2]
 								"0,0", -- [3]
-							}, -- [12]
+							}, -- [11]
 							{
 								"Empala-Golemagg", -- [1]
 								"HUNTER", -- [2]
 								"0,0", -- [3]
-							}, -- [13]
+							}, -- [12]
 							{
 								"Qtuz-Golemagg", -- [1]
 								"DRUID", -- [2]
 								"117,0", -- [3]
-							}, -- [14]
+							}, -- [13]
 							{
 								"Melydin-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"0,0", -- [3]
-							}, -- [15]
+							}, -- [14]
 							{
 								"Divinestørm-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"204,0", -- [3]
-							}, -- [16]
+							}, -- [15]
 							{
 								"Tebb-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"164,0", -- [3]
-							}, -- [17]
+							}, -- [16]
 							{
 								"Luebu-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"0,0", -- [3]
-							}, -- [18]
+							}, -- [17]
 							{
 								"Deathrina-Golemagg", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
-							}, -- [19]
+							}, -- [18]
 							{
 								"Worthzz-Golemagg", -- [1]
 								"PRIEST", -- [2]
 								"3105,8213", -- [3]
-							}, -- [20]
+							}, -- [19]
 							{
 								"Worthzpal-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"0,0", -- [3]
-							}, -- [21]
+							}, -- [20]
 							{
 								"Worthz-Golemagg", -- [1]
 								"ROGUE", -- [2]
 								"0,0", -- [3]
+							}, -- [21]
+							{
+								"Trøndrstruck-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"", -- [3]
 							}, -- [22]
 							{
-								"Qunter-Golemagg", -- [1]
-								"HUNTER", -- [2]
+								"Diefetteelfe-Golemagg", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [23]
 							{
@@ -1746,13 +1746,13 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [25]
 							{
-								"Thefatorc-Golemagg", -- [1]
-								"SHAMAN", -- [2]
+								"Qecebolt-Golemagg", -- [1]
+								"MAGE", -- [2]
 								"0,0", -- [3]
 							}, -- [26]
 							{
-								"Qecebolt-Golemagg", -- [1]
-								"MAGE", -- [2]
+								"Kelhum-Golemagg", -- [1]
+								"WARLOCK", -- [2]
 								"0,0", -- [3]
 							}, -- [27]
 							{
@@ -1766,8 +1766,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [29]
 							{
-								"Furbn-Golemagg", -- [1]
-								"WARRIOR", -- [2]
+								"Qece-Golemagg", -- [1]
+								"SHAMAN", -- [2]
 								"0,0", -- [3]
 							}, -- [30]
 							{
@@ -1776,13 +1776,13 @@ EPGP_DB = {
 								"3025,2891", -- [3]
 							}, -- [31]
 							{
-								"Ducare-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Incredibu-Golemagg", -- [1]
+								"HUNTER", -- [2]
 								"0,0", -- [3]
 							}, -- [32]
 							{
-								"Lemp-Golemagg", -- [1]
-								"WARLOCK", -- [2]
+								"Furbn-Golemagg", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [33]
 							{
@@ -1791,9 +1791,9 @@ EPGP_DB = {
 								"2304,4237", -- [3]
 							}, -- [34]
 							{
-								"Bhbbank-Golemagg", -- [1]
+								"Empw-Golemagg", -- [1]
 								"WARRIOR", -- [2]
-								"0,0", -- [3]
+								"278,0", -- [3]
 							}, -- [35]
 							{
 								"Tebz-Golemagg", -- [1]
@@ -1801,14 +1801,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [36]
 							{
+								"Bhbbank-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [37]
+							{
 								"Zsâdist-Golemagg", -- [1]
 								"WARLOCK", -- [2]
 								"2560,4997", -- [3]
-							}, -- [37]
-							{
-								"Zebrina-Golemagg", -- [1]
-								"PRIEST", -- [2]
-								"2980,3683", -- [3]
 							}, -- [38]
 							{
 								"Croxo-Golemagg", -- [1]
@@ -1816,9 +1816,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [39]
 							{
-								"Turborina-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"2602,1274", -- [3]
+								"Zebrina-Golemagg", -- [1]
+								"PRIEST", -- [2]
+								"2980,3683", -- [3]
 							}, -- [40]
 							{
 								"Xinq-Golemagg", -- [1]
@@ -1851,9 +1851,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [46]
 							{
-								"Theunderdog-Golemagg", -- [1]
-								"WARLOCK", -- [2]
-								"2063,4225", -- [3]
+								"Turborina-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"2602,1274", -- [3]
 							}, -- [47]
 							{
 								"Hatte-Golemagg", -- [1]
@@ -1871,9 +1871,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [50]
 							{
-								"Tebi-Golemagg", -- [1]
+								"Theunderdog-Golemagg", -- [1]
 								"WARLOCK", -- [2]
-								"2022,4120", -- [3]
+								"2063,4225", -- [3]
 							}, -- [51]
 							{
 								"Hebeast-Golemagg", -- [1]
@@ -1881,14 +1881,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [52]
 							{
+								"Tebi-Golemagg", -- [1]
+								"WARLOCK", -- [2]
+								"2022,4120", -- [3]
+							}, -- [53]
+							{
 								"Siniviel-Golemagg", -- [1]
 								"PRIEST", -- [2]
 								"1673,3218", -- [3]
-							}, -- [53]
-							{
-								"Saunafiend-Golemagg", -- [1]
-								"PRIEST", -- [2]
-								"1458,297", -- [3]
 							}, -- [54]
 							{
 								"Iceguy-Golemagg", -- [1]
@@ -1901,29 +1901,29 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [56]
 							{
+								"Saunafiend-Golemagg", -- [1]
+								"PRIEST", -- [2]
+								"1458,297", -- [3]
+							}, -- [57]
+							{
 								"Rubyrag-Golemagg", -- [1]
 								"PALADIN", -- [2]
 								"3093,7542", -- [3]
-							}, -- [57]
+							}, -- [58]
 							{
 								"Roggrogg-Golemagg", -- [1]
 								"ROGUE", -- [2]
 								"1542,3452", -- [3]
-							}, -- [58]
-							{
-								"Pineapplee-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"2587,7139", -- [3]
 							}, -- [59]
 							{
-								"Oppress-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"3089,6998", -- [3]
+								"Rnz-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"2986,4672", -- [3]
 							}, -- [60]
 							{
-								"Oohfer-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"2466,5768", -- [3]
+								"Morticâ-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"1998,4533", -- [3]
 							}, -- [61]
 							{
 								"Greenbiscuit-Golemagg", -- [1]
@@ -1946,9 +1946,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [65]
 							{
-								"Notankyou-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"2291,5599", -- [3]
+								"Maggiman-Golemagg", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
 							}, -- [66]
 							{
 								"Frusendolme-Golemagg", -- [1]
@@ -1966,9 +1966,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [69]
 							{
-								"Morticâ-Golemagg", -- [1]
-								"DRUID", -- [2]
-								"1998,4533", -- [3]
+								"Pineapplee-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"2587,7139", -- [3]
 							}, -- [70]
 							{
 								"Felsoup-Golemagg", -- [1]
@@ -1986,9 +1986,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [73]
 							{
-								"Krypadin-Golemagg", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
+								"Oppress-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"3089,6998", -- [3]
 							}, -- [74]
 							{
 								"Saimaanorppa-Golemagg", -- [1]
@@ -1996,9 +1996,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [75]
 							{
-								"Gróók-Golemagg", -- [1]
-								"PALADIN", -- [2]
-								"3105,5649", -- [3]
+								"Oohfer-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"2466,5768", -- [3]
 							}, -- [76]
 							{
 								"Teby-Golemagg", -- [1]
@@ -2021,9 +2021,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [80]
 							{
-								"Craxxy-Golemagg", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
+								"Notankyou-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"2291,5599", -- [3]
 							}, -- [81]
 							{
 								"Raeok-Golemagg", -- [1]
@@ -2066,9 +2066,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [89]
 							{
-								"Coccis-Golemagg", -- [1]
-								"HUNTER", -- [2]
-								"3106,5085", -- [3]
+								"Gróók-Golemagg", -- [1]
+								"PALADIN", -- [2]
+								"3105,5649", -- [3]
 							}, -- [90]
 							{
 								"Bahena-Golemagg", -- [1]
@@ -2076,24 +2076,24 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [91]
 							{
-								"Holybu-Golemagg", -- [1]
-								"PRIEST", -- [2]
+								"Qtstorm-Golemagg", -- [1]
+								"SHAMAN", -- [2]
 								"0,0", -- [3]
 							}, -- [92]
 							{
-								"Kaleih-Golemagg", -- [1]
+								"Furben-Golemagg", -- [1]
 								"MAGE", -- [2]
-								"0,0", -- [3]
+								"3113,6040", -- [3]
 							}, -- [93]
 							{
-								"Laziza-Golemagg", -- [1]
-								"PALADIN", -- [2]
+								"Shoutout-Golemagg", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [94]
 							{
-								"Bakbased-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"1123,332", -- [3]
+								"Hyrophet-Golemagg", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
 							}, -- [95]
 							{
 								"Velarae-Golemagg", -- [1]
@@ -2101,14 +2101,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [96]
 							{
-								"Zutq-Golemagg", -- [1]
-								"ROGUE", -- [2]
+								"Craxxy-Golemagg", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [97]
 							{
-								"Empw-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"278,0", -- [3]
+								"Coccis-Golemagg", -- [1]
+								"HUNTER", -- [2]
+								"3106,5085", -- [3]
 							}, -- [98]
 							{
 								"Koekiewoekie-Golemagg", -- [1]
@@ -2121,19 +2121,19 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [100]
 							{
-								"Emps-Golemagg", -- [1]
-								"SHAMAN", -- [2]
+								"Heavyrains-Golemagg", -- [1]
+								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [101]
 							{
-								"Empres-Golemagg", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
+								"Bakbased-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"1123,332", -- [3]
 							}, -- [102]
 							{
-								"Brayze-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
+								"Soupe-Golemagg", -- [1]
+								"ROGUE", -- [2]
+								"183,0", -- [3]
 							}, -- [103]
 							{
 								"Hornyheifer-Golemagg", -- [1]
@@ -2161,13 +2161,13 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [108]
 							{
-								"Edenhazárd-Golemagg", -- [1]
-								"WARRIOR", -- [2]
+								"Emps-Golemagg", -- [1]
+								"SHAMAN", -- [2]
 								"0,0", -- [3]
 							}, -- [109]
 							{
-								"Toró-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Empres-Golemagg", -- [1]
+								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [110]
 							{
@@ -2176,9 +2176,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [111]
 							{
-								"Sairenji-Golemagg", -- [1]
-								"WARLOCK", -- [2]
-								"1000,2533", -- [3]
+								"Evoulz-Golemagg", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
 							}, -- [112]
 							{
 								"Joak-Golemagg", -- [1]
@@ -2186,8 +2186,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [113]
 							{
-								"Homingpigeon-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Lemp-Golemagg", -- [1]
+								"WARLOCK", -- [2]
 								"0,0", -- [3]
 							}, -- [114]
 							{
@@ -2196,19 +2196,19 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [115]
 							{
-								"Krialder-Golemagg", -- [1]
-								"PALADIN", -- [2]
-								"41,0", -- [3]
+								"Edenhazárd-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
 							}, -- [116]
 							{
-								"Lynley-Golemagg", -- [1]
-								"ROGUE", -- [2]
+								"Toró-Golemagg", -- [1]
+								"DRUID", -- [2]
 								"0,0", -- [3]
 							}, -- [117]
 							{
-								"Snéák-Golemagg", -- [1]
+								"Sairenji-Golemagg", -- [1]
 								"WARLOCK", -- [2]
-								"0,0", -- [3]
+								"1000,2533", -- [3]
 							}, -- [118]
 							{
 								"Benissimo-Golemagg", -- [1]
@@ -2236,9 +2236,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [123]
 							{
-								"Fudgizz-Golemagg", -- [1]
-								"DRUID", -- [2]
-								"12,0", -- [3]
+								"Gráhf-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
 							}, -- [124]
 							{
 								"Buluscious-Golemagg", -- [1]
@@ -2246,9 +2246,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [125]
 							{
-								"Daroshamy-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"500,6238", -- [3]
+								"Snéák-Golemagg", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
 							}, -- [126]
 							{
 								"Forben-Golemagg", -- [1]
@@ -2261,9 +2261,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [128]
 							{
-								"Vexon-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"0,0", -- [3]
+								"Daroshamy-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"500,6238", -- [3]
 							}, -- [129]
 							{
 								"Iamfit-Golemagg", -- [1]
@@ -2276,9 +2276,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [131]
 							{
-								"Veiovis-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"37,0", -- [3]
+								"Holybu-Golemagg", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
 							}, -- [132]
 							{
 								"Lidker-Golemagg", -- [1]
@@ -2286,14 +2286,14 @@ EPGP_DB = {
 								"18,0", -- [3]
 							}, -- [133]
 							{
-								"Evoulz-Golemagg", -- [1]
-								"ROGUE", -- [2]
+								"Vexon-Golemagg", -- [1]
+								"MAGE", -- [2]
 								"0,0", -- [3]
 							}, -- [134]
 							{
-								"Soupe-Golemagg", -- [1]
-								"ROGUE", -- [2]
-								"183,0", -- [3]
+								"Veiovis-Golemagg", -- [1]
+								"MAGE", -- [2]
+								"37,0", -- [3]
 							}, -- [135]
 							{
 								"Ntÿdk-Golemagg", -- [1]
@@ -2316,9 +2316,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [139]
 							{
-								"Snoopj-Golemagg", -- [1]
-								"HUNTER", -- [2]
-								"18,0", -- [3]
+								"Idkwhatname-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
 							}, -- [140]
 							{
 								"Aephyria-Golemagg", -- [1]
@@ -2341,9 +2341,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [144]
 							{
-								"Kelhum-Golemagg", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
+								"Snoopj-Golemagg", -- [1]
+								"HUNTER", -- [2]
+								"18,0", -- [3]
 							}, -- [145]
 							{
 								"Fudgizzbank-Golemagg", -- [1]
@@ -2351,8 +2351,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [146]
 							{
-								"Diefetteelfe-Golemagg", -- [1]
-								"PALADIN", -- [2]
+								"Nireim-Golemagg", -- [1]
+								"HUNTER", -- [2]
 								"0,0", -- [3]
 							}, -- [147]
 							{
@@ -2366,9 +2366,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [149]
 							{
-								"Densedynamit-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
+								"Krialder-Golemagg", -- [1]
+								"PALADIN", -- [2]
+								"41,0", -- [3]
 							}, -- [150]
 							{
 								"Qecebly-Golemagg", -- [1]
@@ -2376,9 +2376,9 @@ EPGP_DB = {
 								"3113,12733", -- [3]
 							}, -- [151]
 							{
-								"Bulyen-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"203,0", -- [3]
+								"Densedynamit-Golemagg", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
 							}, -- [152]
 							{
 								"Rnx-Golemagg", -- [1]
@@ -2401,9 +2401,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [156]
 							{
-								"Kaajhkaalbh-Golemagg", -- [1]
+								"Bulyen-Golemagg", -- [1]
 								"SHAMAN", -- [2]
-								"0,0", -- [3]
+								"203,0", -- [3]
 							}, -- [157]
 							{
 								"Mythrà-Golemagg", -- [1]
@@ -2431,8 +2431,8 @@ EPGP_DB = {
 								"1964,5915", -- [3]
 							}, -- [162]
 							{
-								"Bighomie-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Kaleih-Golemagg", -- [1]
+								"MAGE", -- [2]
 								"0,0", -- [3]
 							}, -- [163]
 							{
@@ -2446,8 +2446,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [165]
 							{
-								"Grumpii-Golemagg", -- [1]
-								"PRIEST", -- [2]
+								"Bighomie-Golemagg", -- [1]
+								"DRUID", -- [2]
 								"0,0", -- [3]
 							}, -- [166]
 							{
@@ -2456,7 +2456,7 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [167]
 							{
-								"Heavyrains-Golemagg", -- [1]
+								"Grumpii-Golemagg", -- [1]
 								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [168]
@@ -2466,7 +2466,7 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [169]
 							{
-								"Idkwhatname-Golemagg", -- [1]
+								"Kaajhkaalbh-Golemagg", -- [1]
 								"SHAMAN", -- [2]
 								"0,0", -- [3]
 							}, -- [170]
@@ -2486,18 +2486,18 @@ EPGP_DB = {
 								"78,0", -- [3]
 							}, -- [173]
 							{
-								"Îce-Golemagg", -- [1]
-								"WARRIOR", -- [2]
+								"Mifree-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
 							}, -- [174]
 							{
-								"Ijsbergsla-Golemagg", -- [1]
-								"PALADIN", -- [2]
+								"Îce-Golemagg", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [175]
 							{
-								"Whirlingsoup-Golemagg", -- [1]
-								"WARRIOR", -- [2]
+								"Qunter-Golemagg", -- [1]
+								"HUNTER", -- [2]
 								"0,0", -- [3]
 							}, -- [176]
 							{
@@ -2511,9 +2511,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [178]
 							{
-								"Mifree-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
+								"Zalyssra-Golemagg", -- [1]
+								"HUNTER", -- [2]
+								"225,0", -- [3]
 							}, -- [179]
 							{
 								"Benaddiction-Golemagg", -- [1]
@@ -2526,14 +2526,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [181]
 							{
-								"Zalyssra-Golemagg", -- [1]
-								"HUNTER", -- [2]
-								"225,0", -- [3]
+								"Brayze-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
 							}, -- [182]
 							{
-								"Zalindra-Golemagg", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
+								"Rawrkitty-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
 							}, -- [183]
 							{
 								"Milkmatits-Golemagg", -- [1]
@@ -2546,14 +2546,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [185]
 							{
-								"Trøndrstruck-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"", -- [3]
+								"Zalindra-Golemagg", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
 							}, -- [186]
 							{
-								"Trønderfuk-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"", -- [3]
+								"Angellove-Golemagg", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
 							}, -- [187]
 							{
 								"Plowdown-Golemagg", -- [1]
@@ -2576,32 +2576,32 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [191]
 							{
+								"Trønderfuk-Golemagg", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [192]
+							{
+								"Thefatorc-Golemagg", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
+							}, -- [193]
+							{
+								"Lastodie-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
+							}, -- [194]
+							{
 								"Sofioksanen-Golemagg", -- [1]
 								"WARRIOR", -- [2]
 								"0,0", -- [3]
-							}, -- [192]
+							}, -- [195]
 							{
 								"Rûbyy-Golemagg", -- [1]
 								"MAGE", -- [2]
 								"18,0", -- [3]
-							}, -- [193]
-							{
-								"Qtstorm-Golemagg", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [194]
-							{
-								"Qtfaith-Golemagg", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
-							}, -- [195]
-							{
-								"Peggerbu-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
 							}, -- [196]
 							{
-								"Pixinox-Golemagg", -- [1]
+								"Qtfaith-Golemagg", -- [1]
 								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [197]
@@ -2611,9 +2611,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [198]
 							{
-								"Rnz-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"2986,4672", -- [3]
+								"Homingpigeon-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
 							}, -- [199]
 							{
 								"Kanniemikken-Golemagg", -- [1]
@@ -2621,13 +2621,13 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [200]
 							{
-								"Nostradam-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"558,3305", -- [3]
+								"Zutq-Golemagg", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
 							}, -- [201]
 							{
-								"Hyrophet-Golemagg", -- [1]
-								"MAGE", -- [2]
+								"Pixinox-Golemagg", -- [1]
+								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [202]
 							{
@@ -2636,14 +2636,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [203]
 							{
-								"Lastodie-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
+								"Nostradam-Golemagg", -- [1]
+								"MAGE", -- [2]
+								"558,3305", -- [3]
 							}, -- [204]
 							{
-								"Kyrklig-Golemagg", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
+								"Fudgizz-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"12,0", -- [3]
 							}, -- [205]
 							{
 								"Bahëna-Golemagg", -- [1]
@@ -2656,8 +2656,8 @@ EPGP_DB = {
 								"2679,4421", -- [3]
 							}, -- [207]
 							{
-								"Koshken-Golemagg", -- [1]
-								"WARRIOR", -- [2]
+								"Peggerbu-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
 							}, -- [208]
 							{
@@ -2671,9 +2671,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [210]
 							{
-								"Furben-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"3113,6040", -- [3]
+								"Soupoflife-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
 							}, -- [211]
 							{
 								"Qecefury-Golemagg", -- [1]
@@ -2681,9 +2681,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [212]
 							{
-								"Koschus-Golemagg", -- [1]
-								"WARLOCK", -- [2]
-								"34,0", -- [3]
+								"Kyrklig-Golemagg", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
 							}, -- [213]
 							{
 								"Lightflash-Golemagg", -- [1]
@@ -2696,24 +2696,24 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [215]
 							{
-								"Ufosieni-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Krypadin-Golemagg", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [216]
 							{
-								"Incredibu-Golemagg", -- [1]
-								"HUNTER", -- [2]
+								"Koshken-Golemagg", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [217]
 							{
-								"Guldonzo-Golemagg", -- [1]
-								"WARLOCK", -- [2]
-								"12,0", -- [3]
+								"Ufosieni-Golemagg", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
 							}, -- [218]
 							{
-								"Shoutout-Golemagg", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
+								"Koschus-Golemagg", -- [1]
+								"WARLOCK", -- [2]
+								"34,0", -- [3]
 							}, -- [219]
 							{
 								"Râgnâryy-Golemagg", -- [1]
@@ -2741,13 +2741,13 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [224]
 							{
-								"Maggiman-Golemagg", -- [1]
-								"MAGE", -- [2]
-								"0,0", -- [3]
+								"Guldonzo-Golemagg", -- [1]
+								"WARLOCK", -- [2]
+								"12,0", -- [3]
 							}, -- [225]
 							{
-								"Gráhf-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Ijsbergsla-Golemagg", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [226]
 							{
@@ -2771,8 +2771,8 @@ EPGP_DB = {
 								"2027,582", -- [3]
 							}, -- [230]
 							{
-								"Angellove-Golemagg", -- [1]
-								"ROGUE", -- [2]
+								"Doograte-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
 							}, -- [231]
 							{
@@ -2786,8 +2786,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [233]
 							{
-								"Soupoflife-Golemagg", -- [1]
-								"DRUID", -- [2]
+								"Whirlingsoup-Golemagg", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [234]
 							{
@@ -2796,8 +2796,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [235]
 							{
-								"Doograte-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Lynley-Golemagg", -- [1]
+								"ROGUE", -- [2]
 								"0,0", -- [3]
 							}, -- [236]
 							{
@@ -2821,8 +2821,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [240]
 							{
-								"Qece-Golemagg", -- [1]
-								"SHAMAN", -- [2]
+								"Xonq-Golemagg", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
 							}, -- [241]
 							{
@@ -2831,8 +2831,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [242]
 							{
-								"Xonq-Golemagg", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Laziza-Golemagg", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [243]
 							{
@@ -2855,11 +2855,11 @@ EPGP_DB = {
 		},
 		["warnings"] = {
 		},
-		["announce"] = {
+		["gptooltip"] = {
 		},
 		["points"] = {
 		},
-		["gptooltip"] = {
+		["announce"] = {
 		},
 		["whisper"] = {
 		},
@@ -2871,8 +2871,8 @@ EPGP_DB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Been Here Before",
 		["Frusendolme - Golemagg"] = "Been Here Before",
-		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
 		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
 		["Kryptik - Golemagg"] = "Been Here Before",
 		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
 		["Flintn - Golemagg"] = "Flintn - Golemagg",
@@ -2881,8 +2881,8 @@ EPGP_DB = {
 		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
 		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
 		["Manameister - Golemagg"] = "Manameister - Golemagg",
-		["Emomage - Golemagg"] = "Been Here Before",
 		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
+		["Emomage - Golemagg"] = "Been Here Before",
 	},
 	["profiles"] = {
 		["Doktormabuse - Golemagg"] = {
@@ -2912,38 +2912,6 @@ EPGP_DB = {
 			["base_gp_guild_info"] = 2000,
 			["min_ep_guild_info"] = 0,
 			["decay_p_guild_info"] = 10,
-		},
-		["Kryptik - Golemagg"] = {
-			["outsiders_guild_info"] = 0,
-			["outsiders"] = 0,
-			["base_gp"] = 2000,
-			["whisperSenderMap"] = {
-			},
-			["extras_p_guild_info"] = 100,
-			["decay_base_gp"] = 1,
-			["decay_p"] = 10,
-			["decay_base_gp_guild_info"] = 1,
-			["decay_p_guild_info"] = 10,
-			["min_ep_guild_info"] = 0,
-			["base_gp_guild_info"] = 2000,
-		},
-		["Emomage - Golemagg"] = {
-			["outsiders_guild_info"] = 0,
-			["outsiders"] = 0,
-			["base_gp"] = 2000,
-			["whisperSenderMap"] = {
-			},
-			["extras_p_guild_info"] = 100,
-			["decay_base_gp"] = 1,
-			["decay_p"] = 10,
-			["decay_base_gp_guild_info"] = 1,
-			["decay_p_guild_info"] = 10,
-			["min_ep_guild_info"] = 0,
-			["base_gp_guild_info"] = 2000,
-		},
-		["Tjurn - Golemagg"] = {
-			["whisperSenderMap"] = {
-			},
 		},
 		["Been Here Before"] = {
 			["outsiders"] = 0,
@@ -3629,9 +3597,8 @@ EPGP_DB = {
 			},
 			["selected_count"] = 0,
 			["outsiders_guild_info"] = 0,
+			["show_everyone"] = true,
 			["min_ep_guild_info"] = 0,
-			["whisperSenderMap"] = {
-			},
 			["extras_p_guild_info"] = 100,
 			["decay_base_gp"] = 1,
 			["lootItemLinks"] = {
@@ -3642,8 +3609,41 @@ EPGP_DB = {
 				["trust"] = "",
 			},
 			["decay_base_gp_guild_info"] = 1,
+			["whisperSenderMap"] = {
+			},
 			["base_gp_guild_info"] = 2000,
-			["show_everyone"] = true,
+		},
+		["Emomage - Golemagg"] = {
+			["outsiders_guild_info"] = 0,
+			["outsiders"] = 0,
+			["base_gp"] = 2000,
+			["whisperSenderMap"] = {
+			},
+			["extras_p_guild_info"] = 100,
+			["decay_base_gp"] = 1,
+			["decay_p"] = 10,
+			["decay_base_gp_guild_info"] = 1,
+			["decay_p_guild_info"] = 10,
+			["min_ep_guild_info"] = 0,
+			["base_gp_guild_info"] = 2000,
+		},
+		["Kryptok - Golemagg"] = {
+			["whisperSenderMap"] = {
+			},
+		},
+		["Kryptik - Golemagg"] = {
+			["outsiders_guild_info"] = 0,
+			["outsiders"] = 0,
+			["base_gp"] = 2000,
+			["whisperSenderMap"] = {
+			},
+			["extras_p_guild_info"] = 100,
+			["decay_base_gp"] = 1,
+			["decay_p"] = 10,
+			["decay_base_gp_guild_info"] = 1,
+			["decay_p_guild_info"] = 10,
+			["min_ep_guild_info"] = 0,
+			["base_gp_guild_info"] = 2000,
 		},
 		["Kryptokk - Golemagg"] = {
 			["whisperSenderMap"] = {
@@ -3675,8 +3675,8 @@ EPGP_DB = {
 			},
 			["extras_p_guild_info"] = 100,
 			["decay_base_gp"] = 1,
-			["decay_p"] = 10,
 			["base_gp_guild_info"] = 2000,
+			["decay_p"] = 10,
 			["decay_base_gp_guild_info"] = 1,
 			["min_ep_guild_info"] = 0,
 			["selected"] = {
@@ -3700,7 +3700,7 @@ EPGP_DB = {
 			["whisperSenderMap"] = {
 			},
 		},
-		["Kryptok - Golemagg"] = {
+		["Tjurn - Golemagg"] = {
 			["whisperSenderMap"] = {
 			},
 		},

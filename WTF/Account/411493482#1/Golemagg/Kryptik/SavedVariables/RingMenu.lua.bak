@@ -15,10 +15,10 @@ RingMenu_ringConfig = {
 		["backdropScale"] = 1.5,
 		["closeOnClick"] = true,
 		["holdToggle"] = false,
-		["angle"] = 0,
 		["level"] = 1,
-		["numSlots"] = 11,
+		["angle"] = 0,
 		["firstSlot"] = 64,
+		["numSlots"] = 11,
 	}, -- [1]
 	{
 		["backdropColor"] = {
@@ -31,9 +31,9 @@ RingMenu_ringConfig = {
 		["backdropScale"] = 1.5,
 		["closeOnClick"] = true,
 		["holdToggle"] = false,
-		["angle"] = 0,
 		["level"] = 1,
-		["numSlots"] = 14,
+		["angle"] = 0,
 		["firstSlot"] = 82,
+		["numSlots"] = 14,
 	}, -- [2]
 }

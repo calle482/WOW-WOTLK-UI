@@ -156,7 +156,7 @@ TwitchEmoteStatistics = {
 	["PepeLaugh"] = {
 		3, -- [1]
 		3, -- [2]
-		7, -- [3]
+		8, -- [3]
 	},
 	["gachiSLAP"] = {
 		0, -- [1]
@@ -219,8 +219,8 @@ TwitchEmoteStatistics = {
 		7, -- [3]
 	},
 	["COPIUM"] = {
-		0, -- [1]
-		0, -- [2]
+		1, -- [1]
+		1, -- [2]
 		4, -- [3]
 	},
 	["PepeLove"] = {
@@ -260,7 +260,7 @@ TwitchEmoteStatistics = {
 	},
 	["KEKL"] = {
 		0, -- [1]
-		3, -- [2]
+		4, -- [2]
 		3, -- [3]
 	},
 	["HUH"] = {
@@ -306,7 +306,7 @@ TwitchEmoteStatistics = {
 	["KEKW"] = {
 		0, -- [1]
 		11, -- [2]
-		82, -- [3]
+		84, -- [3]
 	},
 	["peepoSE"] = {
 		0, -- [1]
@@ -316,7 +316,12 @@ TwitchEmoteStatistics = {
 	["NOPERS"] = {
 		0, -- [1]
 		0, -- [2]
-		4, -- [3]
+		5, -- [3]
+	},
+	["alkPopo"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
 	},
 	["CROGGERS"] = {
 		0, -- [1]
@@ -325,7 +330,7 @@ TwitchEmoteStatistics = {
 	},
 	["PagChomp"] = {
 		2, -- [1]
-		2, -- [2]
+		3, -- [2]
 		0, -- [3]
 	},
 	["1Head"] = {
@@ -431,7 +436,7 @@ TwitchEmoteStatistics = {
 	["FLOPPERS"] = {
 		0, -- [1]
 		0, -- [2]
-		23, -- [3]
+		24, -- [3]
 	},
 	["KEKSad"] = {
 		0, -- [1]

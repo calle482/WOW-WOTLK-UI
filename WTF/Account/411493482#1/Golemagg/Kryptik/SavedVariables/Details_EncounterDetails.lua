@@ -3,492 +3,174 @@ EncounterDetailsDB = {
 	["emotes"] = {
 		{
 			{
-				11.78999999999996, -- [1]
-				"%s begins to boil upon touching Daroshamy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				0.1, -- [1]
+				"This place will serve as your tomb!", -- [2]
+				"Anub'arak", -- [3]
+				7, -- [4]
 			}, -- [1]
 			{
-				13.88900000000012, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				80.57900000002701, -- [1]
+				"Auum na-l ak-k-k-k, isshhh. Rise, minions. Devour...", -- [2]
+				"Anub'arak", -- [3]
+				7, -- [4]
 			}, -- [2]
 			{
-				14.89199999999983, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				80.57900000002701, -- [1]
+				"%s burrows into the ground!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [3]
 			{
-				14.89199999999983, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				87.46000000002095, -- [1]
+				"%s's spikes pursue Shirõ!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [4]
 			{
-				15.90299999999934, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				108.5350000000035, -- [1]
+				"%s's spikes pursue Rnc!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [5]
 			{
-				30.35599999999977, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
+				125.960000000021, -- [1]
+				"%s's spikes pursue Exca!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [6]
 			{
-				36.82299999999941, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
+				138.960000000021, -- [1]
+				"%s's spikes pursue Oohfer!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [7]
 			{
-				46.89199999999983, -- [1]
-				"%s begins to boil upon touching Kryptik!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				147.0040000000154, -- [1]
+				"%s emerges from the ground!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [8]
 			{
-				47.88599999999951, -- [1]
-				"%s begins to boil upon touching Kryptik!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				164.8100000000268, -- [1]
+				"The swarm shall overtake you!", -- [2]
+				"Anub'arak", -- [3]
+				7, -- [4]
 			}, -- [9]
 			{
-				48.90299999999934, -- [1]
-				"%s begins to boil upon touching Kryptik!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
+				164.8100000000268, -- [1]
+				"%s unleashes a Leeching Swarm to heal himself!", -- [2]
+				"Anub'arak", -- [3]
+				1, -- [4]
 			}, -- [10]
-			{
-				49.89300000000003, -- [1]
-				"%s begins to boil upon touching Kryptik!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [11]
-			{
-				57.89599999999973, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [12]
-			{
-				62.70399999999972, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				77.90299999999934, -- [1]
-				"%s begins to boil upon touching Exca!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [14]
-			{
-				89.44200000000001, -- [1]
-				"I am the lucid dream.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				94.35199999999986, -- [1]
-				"The monster in your nightmares.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				99.20299999999952, -- [1]
-				"The fiend of a thousand faces.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				104.067, -- [1]
-				"Cower before my true form.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				107.3059999999996, -- [1]
-				"BOW DOWN BEFORE THE GOD OF DEATH!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				122.8220000000001, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [20]
-			{
-				126.5589999999993, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				165.6049999999996, -- [1]
-				"Portals open into %s's mind!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [22]
-			{
-				165.6049999999996, -- [1]
-				"MADNESS WILL CONSUME YOU!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [23]
-			{
-				171.7969999999996, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				186.7019999999993, -- [1]
-				"The illusion shatters and a path to the central chamber opens!", -- [2]
-				"Brain of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [25]
-			{
-				235.0209999999997, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				256.25, -- [1]
-				"Portals open into %s's mind!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [27]
-			{
-				256.25, -- [1]
-				"MADNESS WILL CONSUME YOU!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				266.9359999999997, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [29]
-			{
-				275.2039999999997, -- [1]
-				"The illusion shatters and a path to the central chamber opens!", -- [2]
-				"Brain of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [30]
-			{
-				318.5609999999997, -- [1]
-				"Look upon the true face of death, and know that your end comes soon!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [31]
-			{
-				335.5479999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [32]
-			{
-				336.5869999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [33]
-			{
-				337.5540000000001, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [34]
-			{
-				348.482, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [35]
-			{
-				349.4939999999997, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [36]
-			{
-				349.9569999999994, -- [1]
-				"%s opens his mouth wide!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [37]
-			{
-				349.9569999999994, -- [1]
-				"Eternal suffering awaits!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [38]
-			{
-				350.4839999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [39]
-			{
-				369.5129999999999, -- [1]
-				"%s prepares to unleash Empowering Shadows!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [40]
-			{
-				369.5129999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [41]
-			{
-				370.5289999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [42]
-			{
-				371.5329999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [43]
-			{
-				384.0630000000001, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [44]
-			{
-				384.8649999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 Sanity Low!|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [45]
-			{
-				384.8649999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [46]
-			{
-				405.1229999999996, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [47]
-			{
-				411.5479999999998, -- [1]
-				"%s opens his mouth wide!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [48]
-			{
-				411.5479999999998, -- [1]
-				"Eternal suffering awaits!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [49]
-			{
-				424.5419999999995, -- [1]
-				"%s prepares to unleash Empowering Shadows!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [50]
-			{
-				424.5419999999995, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [51]
-			{
-				425.5479999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [52]
-			{
-				428.3779999999997, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [53]
-			{
-				443.9719999999998, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Kryptik", -- [3]
-				2, -- [4]
-			}, -- [54]
-			["boss"] = "Yogg-Saron",
+			["boss"] = "Anub'arak",
 		}, -- [1]
 		{
 			{
-				8.411000000000058, -- [1]
-				"I remember you... in the mountains.... But you... what is this? Where am--", -- [2]
-				"Thorim", -- [3]
+				0.2050000000162982, -- [1]
+				"In the name of our dark master. For the Lich King. You. Will. Die.", -- [2]
+				"Eydis Darkbane", -- [3]
 				7, -- [4]
 			}, -- [1]
 			{
-				16.49699999999939, -- [1]
-				"Thorim, my lord!  Why else would these invaders have come into your sanctum but to slay you?  They must be stopped!", -- [2]
-				"Sif", -- [3]
+				0.2050000000162982, -- [1]
+				"In the name of our dark master. For the Lich King. You. Will. Die.", -- [2]
+				"Fjola Lightbane", -- [3]
 				7, -- [4]
 			}, -- [2]
 			{
-				62.20399999999972, -- [1]
-				"%s surrounds itself with a crackling Runic Barrier!", -- [2]
-				"Runic Colossus", -- [3]
-				1, -- [4]
+				19.34500000000116, -- [1]
+				"Unworthy!", -- [2]
+				"Fjola Lightbane", -- [3]
+				7, -- [4]
 			}, -- [3]
 			{
-				123.5889999999999, -- [1]
-				"Impertinent whelps, you dare challenge me atop my pedestal? I will crush you myself!", -- [2]
-				"Thorim", -- [3]
-				7, -- [4]
+				45.21000000002096, -- [1]
+				"%s begins to cast |cFFFFFFFFLight Vortex!|r Switch to |cFFFFFFFFLight|r Essence!", -- [2]
+				"Fjola Lightbane", -- [3]
+				1, -- [4]
 			}, -- [4]
 			{
-				132.9789999999994, -- [1]
-				"Impossible!  Lord Thorim, I will bring your foes a frigid death!", -- [2]
-				"Sif", -- [3]
+				45.21000000002096, -- [1]
+				"Let the light consume you!", -- [2]
+				"Fjola Lightbane", -- [3]
 				7, -- [4]
 			}, -- [5]
-			["boss"] = "Thorim",
-		}, -- [2]
-		{
 			{
-				0.1920000000000073, -- [1]
-				"Your destruction will herald a new age of suffering!", -- [2]
-				"General Vezax", -- [3]
+				45.21000000002096, -- [1]
+				"Let the light consume you!", -- [2]
+				"Eydis Darkbane", -- [3]
 				7, -- [4]
-			}, -- [1]
-			{
-				30.92100000000028, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				61.65599999999995, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [3]
-			{
-				63.26599999999962, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				92.71600000000035, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				123.0389999999998, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
 			}, -- [6]
 			{
-				127.9809999999998, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
+				90.21900000001187, -- [1]
+				"CHAOS!", -- [2]
+				"Fjola Lightbane", -- [3]
 				7, -- [4]
 			}, -- [7]
 			{
-				153.9070000000002, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
+				90.21900000001187, -- [1]
+				"%s begins to cast Twin's Pact!", -- [2]
+				"Fjola Lightbane", -- [3]
 				1, -- [4]
 			}, -- [8]
 			{
-				184.6360000000004, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
+				90.21900000001187, -- [1]
+				"CHAOS!", -- [2]
+				"Eydis Darkbane", -- [3]
+				7, -- [4]
 			}, -- [9]
+			["boss"] = "Val'kyr Twins",
+		}, -- [2]
+		{
 			{
-				189.4880000000003, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
+				16.60700000001816, -- [1]
+				"Hardly a challenge.", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [10]
+			}, -- [1]
 			{
-				215.4120000000003, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [11]
-			{
-				246.1570000000002, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				250.9979999999996, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
+				70.50400000001537, -- [1]
+				"Worthless scrub.", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [13]
+			}, -- [2]
 			{
-				252.2089999999998, -- [1]
-				"The saronite vapors mass and swirl violently, merging into a monstrous form!", -- [2]
-				"Vezax Bunny", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				255.4520000000002, -- [1]
-				"A saronite barrier appears around General Vezax!", -- [2]
-				"Vezax Bunny", -- [3]
-				1, -- [4]
-			}, -- [15]
-			{
-				255.4520000000002, -- [1]
-				"Behold now: terror absolute!", -- [2]
-				"General Vezax", -- [3]
+				84.08499999999185, -- [1]
+				"Is this the best the Horde has to offer?", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [16]
+			}, -- [3]
 			{
-				305.9750000000004, -- [1]
-				"You thought to stand before the legions of death and survive?", -- [2]
-				"General Vezax", -- [3]
+				90.25400000001537, -- [1]
+				"Is this the best the Horde has to offer?", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [17]
+			}, -- [4]
 			{
-				315.7470000000003, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
+				101.3360000000102, -- [1]
+				"Hardly a challenge.", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [18]
+			}, -- [5]
 			{
-				333.2719999999999, -- [1]
-				"You thought to stand before the legions of death and survive?", -- [2]
-				"General Vezax", -- [3]
+				108.1050000000105, -- [1]
+				"Hardly a challenge.", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [19]
+			}, -- [6]
 			{
-				355.2470000000003, -- [1]
-				"The saronite barrier protecting General Vezax shimmers and fades away!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [20]
-			{
-				377.3249999999998, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
+				113.5380000000005, -- [1]
+				"HAH!", -- [2]
+				"King Varian Wrynn", -- [3]
 				7, -- [4]
-			}, -- [21]
-			["boss"] = "General Vezax",
+			}, -- [7]
+			{
+				119.8930000000109, -- [1]
+				"Worthless scrub.", -- [2]
+				"King Varian Wrynn", -- [3]
+				7, -- [4]
+			}, -- [8]
+			["boss"] = "Faction Champions",
 		}, -- [3]
 	},
 	["encounter_spells"] = {
@@ -1792,6 +1474,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lava Fissure",
 		},
+		[65809] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
 		[64234] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -2227,6 +1919,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Alliance Cleric",
 		},
+		[65814] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
 		[66901] = {
 			["school"] = 8,
 			["token"] = {
@@ -2302,6 +2004,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suit of Armor",
 		},
+		[65815] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
 		[66902] = {
 			["school"] = 4,
 			["token"] = {
@@ -2375,6 +2086,16 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Onyxia",
+		},
+		[65816] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
 		},
 		[65880] = {
 			["school"] = 16,
@@ -3130,6 +2851,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sara",
 		},
+		[65821] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
+		[24259] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Zhaagrym",
+		},
 		[50720] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3138,6 +2875,24 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Pineapplee",
+		},
+		[65976] = {
+			["school"] = 8,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Shaabad",
+		},
+		[65810] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
 		},
 		[47747] = {
 			["school"] = 64,
@@ -3177,6 +2932,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tyrius Duskblade",
 		},
+		[65817] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
 		[46916] = {
 			["school"] = 1,
 			["type"] = "BUFF",
@@ -3185,6 +2947,39 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Notankyou",
+		},
+		[65986] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Shaabad",
+		},
+		[67519] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Zhaagrym",
+		},
+		[65812] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Serissa Grimdabbler",
+		},
+		[67518] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Zhaagrym",
 		},
 		[1604] = {
 			["school"] = 1,
@@ -3209,6 +3004,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "VX-001",
+		},
+		[57623] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Qecebly",
 		},
 		[49233] = {
 			["school"] = 4,
@@ -3446,14 +3250,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Swarm Scarab",
 		},
-		[65766] = {
-			["school"] = 4,
-			["type"] = "BUFF",
+		[32330] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Fjola Lightbane",
+			["source"] = "Darkweb Recluse",
 		},
 		[64532] = {
 			["school"] = 68,
@@ -3472,21 +3277,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runemaster Molgeim",
 		},
-		[64596] = {
+		[66725] = {
 			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[32330] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Darkweb Recluse",
+			["source"] = "Koralon the Flame Watcher",
+		},
+		[65766] = {
+			["school"] = 4,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Fjola Lightbane",
 		},
 		[62614] = {
 			["school"] = 1,
@@ -3794,23 +3602,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Guardian",
 		},
-		[1680] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Notankyou",
-		},
-		[62775] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "XT-002 Deconstructor",
-		},
 		[63830] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -3821,6 +3612,23 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sara",
+		},
+		[62775] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "XT-002 Deconstructor",
+		},
+		[1680] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Notankyou",
 		},
 		[59018] = {
 			["school"] = 8,
@@ -4006,13 +3814,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hodir",
 		},
-		[66665] = {
-			["school"] = 1,
+		[64566] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Koralon the Flame Watcher",
 		},
 		[64598] = {
 			["school"] = 64,
@@ -4092,14 +3898,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aephyria",
 		},
-		[59803] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Trollgore",
-		},
 		[62872] = {
 			["school"] = 4,
 			["token"] = {
@@ -4108,6 +3906,14 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Freya",
+		},
+		[59803] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Trollgore",
 		},
 		[65860] = {
 			["school"] = 8,
@@ -4649,20 +4455,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Brienna Nightfell",
 		},
-		[49639] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Trollgore",
-		},
-		[62906] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Freya's Ward",
-		},
 		[62938] = {
 			["school"] = 8,
 			["token"] = {
@@ -4671,6 +4463,20 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Storm Lasher",
+		},
+		[62906] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Freya's Ward",
+		},
+		[49639] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Trollgore",
 		},
 		[63490] = {
 			["school"] = 32,
@@ -4821,12 +4627,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "VX-001",
 		},
-		[31789] = {
-			["school"] = 2,
+		[65648] = {
+			["school"] = 68,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Aephyria",
+			["source"] = "Aerial Command Unit",
 		},
 		[61564] = {
 			["school"] = 8,
@@ -4835,14 +4643,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ormorok the Tree-Shaper",
 		},
-		[48265] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[3600] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Qecebly",
+			["source"] = "Earthbind Totem",
 		},
 		[62619] = {
 			["school"] = 1,
@@ -4904,13 +4711,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kokosh",
 		},
-		[8374] = {
+		[49800] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "XM-024 Pummeller",
+			["source"] = "Morticâ",
 		},
 		[61920] = {
 			["school"] = 8,
@@ -4969,12 +4775,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim's Hammer",
 		},
-		[49800] = {
+		[8374] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Morticâ",
+			["source"] = "XM-024 Pummeller",
 		},
 		[24932] = {
 			["school"] = 1,
@@ -4984,13 +4791,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Morticâ",
 		},
-		[65209] = {
-			["school"] = 32,
+		[47818] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of Yogg-Saron",
+			["source"] = "Zsâdist",
 		},
 		[10444] = {
 			["school"] = 4,
@@ -5163,13 +4969,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Qtilate",
 		},
-		[60766] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[50536] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Raeok",
+			["source"] = "Craxy",
 		},
 		[31884] = {
 			["school"] = 2,
@@ -5303,6 +5108,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Snowpacked Icicle",
 		},
+		[54181] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+			},
+			["source"] = "Xanq",
+		},
 		[414266] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
@@ -5312,21 +5124,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irieth Shadowstep",
 		},
-		[54181] = {
-			["school"] = 2,
+		[62397] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Xanq",
-		},
-		[63420] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Saronite Animus",
+			["source"] = "Flame Leviathan Turret",
 		},
 		[63763] = {
 			["school"] = 1,
@@ -5499,12 +5302,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Notankyou",
 		},
-		[63293] = {
-			["school"] = 68,
+		[42833] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Fappelmoes",
 		},
 		[64156] = {
 			["school"] = 32,
@@ -5554,12 +5357,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Platerogue",
 		},
-		[42833] = {
-			["school"] = 4,
+		[63293] = {
+			["school"] = 68,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Fappelmoes",
+			["source"] = "VX-001",
 		},
 		[64162] = {
 			["school"] = 1,
@@ -5602,14 +5405,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Liquid Pyrite",
 		},
-		[58434] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
+		[21049] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Coccis",
+			["source"] = "Alliance Berserker",
 		},
 		[66613] = {
 			["school"] = 2,
@@ -5620,14 +5423,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Velanaa",
 		},
-		[21049] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[62526] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Alliance Berserker",
+			["source"] = "Ancient Rune Giant",
 		},
 		[48300] = {
 			["school"] = 32,
@@ -5654,14 +5457,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Assault Bot",
 		},
-		[62526] = {
-			["school"] = 1,
+		[58434] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ancient Rune Giant",
+			["source"] = "Coccis",
 		},
 		[65974] = {
 			["school"] = 4,
@@ -5806,12 +5609,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Yogg-Saron",
 		},
-		[62397] = {
-			["school"] = 1,
+		[63420] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Flame Leviathan Turret",
+			["source"] = "Saronite Animus",
 		},
 		[53000] = {
 			["school"] = 2,
@@ -5903,12 +5708,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Irieth Shadowstep",
 		},
-		[50536] = {
-			["school"] = 32,
+		[60766] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Craxy",
+			["source"] = "Raeok",
 		},
 		[56453] = {
 			["school"] = 1,
@@ -6012,12 +5818,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Morticâ",
 		},
-		[47818] = {
-			["school"] = 4,
+		[65209] = {
+			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Zsâdist",
+			["source"] = "Guardian of Yogg-Saron",
 		},
 		[63007] = {
 			["school"] = 1,
@@ -6075,22 +5882,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Champion",
 		},
-		[65648] = {
-			["school"] = 68,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aerial Command Unit",
-		},
-		[3600] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[48265] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Earthbind Totem",
+			["source"] = "Qecebly",
+		},
+		[31789] = {
+			["school"] = 2,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Aephyria",
 		},
 		[64536] = {
 			["school"] = 68,
@@ -6401,14 +6207,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Acidmaw",
 		},
-		[57623] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[67514] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Qecebly",
+			["source"] = "Serissa Grimdabbler",
 		},
 		[62465] = {
 			["school"] = 4,
@@ -6450,11 +6254,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Stoutbeard",
 		},
-		[64566] = {
-			["school"] = 4,
+		[66665] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
+			["source"] = "Koralon the Flame Watcher",
 		},
 		[65916] = {
 			["school"] = 1,
@@ -6689,15 +6495,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim",
 		},
-		[66725] = {
+		[64596] = {
 			["school"] = 4,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Koralon the Flame Watcher",
 		},
 		[62055] = {
 			["school"] = 8,
