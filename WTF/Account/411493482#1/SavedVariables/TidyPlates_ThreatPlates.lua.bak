@@ -7,10 +7,10 @@ ThreatPlatesDB = {
 		["Frusendolme - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Jägerskytt - Golemagg"] = {
+		["Tjurn - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Tjurn - Golemagg"] = {
+		["Kryptok - Golemagg"] = {
 			["welcome"] = true,
 		},
 		["Kryptik - Golemagg"] = {
@@ -19,7 +19,7 @@ ThreatPlatesDB = {
 		["Kryptokk - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Emomage - Golemagg"] = {
+		["Flintn - Golemagg"] = {
 			["welcome"] = true,
 		},
 		["Krypadin - Golemagg"] = {
@@ -37,35 +37,35 @@ ThreatPlatesDB = {
 		["Manameister - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Flintn - Golemagg"] = {
+		["Emomage - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Kryptok - Golemagg"] = {
+		["Jägerskytt - Golemagg"] = {
 			["welcome"] = true,
 		},
 	},
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
+		["Flintn - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Flintn - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
+		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.23",
+		["version"] = "11.1.25",
 	},
 	["profiles"] = {
 		["Default"] = {

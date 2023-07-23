@@ -2420,6 +2420,15 @@ function addon.functions.reputation(self, ...)
     local step = element.step
     local _, _, standing, bottomValue, topValue, earnedValue =
         GetFactionInfoByID(element.faction)
+    local relativeValue = earnedValue
+    local replength = topValue - bottomValue
+    if relativeValue < 0 then
+        relativeValue = replength + earnedValue
+    else
+        relativeValue = earnedValue - bottomValue
+    end
+    --print('r:',standing,bottomValue,topValue,earnedValue,topValue-bottomValue,relativeValue)
+
     if ((element.repValue < 0 and (standing >= element.standing or
         (standing == element.standing - 1 and earnedValue >= topValue +
             element.repValue))) or
@@ -2428,14 +2437,15 @@ function addon.functions.reputation(self, ...)
                 element.repValue))) or
         (element.repValue >= 0 and element.repValue < 1 and
             ((standing > element.standing) or
-                (element.standing == standing and earnedValue >=
-                    (topValue - bottomValue) * element.repValue)))) ==
+                (element.standing == standing and relativeValue >=
+                    replength * element.repValue)))) ==
         element.operator then
         if not element.skipStep then
             addon.SetElementComplete(self, true)
         elseif step.active and not addon.isHidden then
             addon.updateSteps = true
             step.completed = true
+             self.element.tooltipText = "Step skipped: Reputation condition not met"
         end
     end
 end
@@ -2587,13 +2597,23 @@ function addon.functions.next(skip, guide)
         element.textOnly = true
         return element
     elseif skip and
-        (type(skip) == "number" or (skip.step and not skip.step.active)) then
+        (type(skip) == "number" or (skip.step and (not skip.step.active and not skip.step.completed))) then
         return
     end
-    guide = guide or addon.currentGuide
-    if guide.next then
+
+    local next
+    if type(guide) == "table" then
+        next = guide.next
+    elseif type(guide) == "string" then
+        next = guide
+        guide = addon.currentGuide
+    else
+        guide = addon.currentGuide
+        next = guide.next
+    end
+
+    if next then
         local group = guide.group
-        local next = guide.next
         local guideSkip
         --Different guides can be separated by a semicolon when using #next
         for guideName in string.gmatch(guide.next,"%s*([^;]+)%s*") do
@@ -4447,6 +4467,7 @@ function addon.functions.dmf(self, ...)
 
     local element = self.element
     local isDmfInTown = false
+    local step = element.step
 
     local event
     local monthDay = GetCurrentCalendarTime().monthDay
@@ -4454,10 +4475,12 @@ function addon.functions.dmf(self, ...)
     -- Async relies on CALENDAR_UPDATE_EVENT_LIST
     -- Currently results in one false negative if on a DMF step at login
     -- If called during the loading process, (even at PLAYER_ENTERING_WORLD) the query will not return
-    if not addon.calendarLoaded then
-        OpenCalendar()
-        return
+    if not _G.IsAddOnLoaded('Blizzard_Calendar') then
+        _G.LoadAddOn("Blizzard_Calendar")
+        addon.calendarLoaded = true
     end
+
+    if not step.active then return end
 
     for i = 1, GetNumDayEvents(0, monthDay) do
         event = GetDayEvent(0, monthDay, i)
@@ -4467,9 +4490,9 @@ function addon.functions.dmf(self, ...)
             break
         end
     end
-
-    if element.step.active and not addon.settings.profile.debug and (not isDmfInTown) == not element.reverse and not addon.isHidden then
-        element.step.completed = true
+    --print('dmf',isDmfInTown,element.reverse)
+    if (not isDmfInTown == not element.reverse) and not addon.isHidden then
+        step.completed = true
         addon.updateSteps = true
     end
 end

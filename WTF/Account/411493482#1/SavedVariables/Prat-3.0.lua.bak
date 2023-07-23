@@ -53,11 +53,11 @@ Prat3DB = {
 		},
 		["Prat_Bubbles"] = {
 		},
-		["Prat_TellTarget"] = {
-		},
-		["Prat_Achievements"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_Paragraph"] = {
+		},
+		["Prat_Achievements"] = {
 		},
 		["Prat_DebugModules"] = {
 		},
@@ -69,13 +69,13 @@ Prat3DB = {
 		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_ChannelNames"] = {
 		},
 		["Prat_Invites"] = {
 		},
 		["Prat_LinkInfoIcons"] = {
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_ChannelSticky"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
@@ -83,7 +83,7 @@ Prat3DB = {
 		},
 		["Prat_Buttons"] = {
 		},
-		["Prat_Timestamps"] = {
+		["Prat_TellTarget"] = {
 		},
 		["Prat_HoverTips"] = {
 		},
@@ -91,23 +91,23 @@ Prat3DB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
+		["Flintn - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Flintn - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
+		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -117,7 +117,7 @@ Prat3DB = {
 				["LinkInfoIcons"] = 2,
 				["DebugModules"] = 2,
 				["OriginalButtons"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 	},

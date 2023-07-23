@@ -891,7 +891,7 @@ function BigDebuffs:AttachUnitFrame(unit)
     local frameName = addonName .. unit .. "UnitFrame"
 
     if not frame then
-        frame = CreateFrame("Button", frameName, UIParent, "BigDebuffsUnitFrameTemplate")
+        frame = CreateFrame("Frame", frameName, UIParent, "BigDebuffsUnitFrameTemplate")
         self.UnitFrames[unit] = frame
         frame:SetScript("OnEvent", function() self:UNIT_AURA(unit) end)
         if self.db.profile.unitFrames.cooldownCount then
@@ -949,22 +949,18 @@ function BigDebuffs:AttachUnitFrame(unit)
 
     if frame.anchor then
         if frame.blizzard then
-            -- Blizzard Frame
-			if frame.anchor.SetDrawLayer then frame.anchor:SetDrawLayer("BACKGROUND") end
             local parent = frame.anchor.portrait and frame.anchor.portrait:GetParent() or frame.anchor:GetParent()
             frame:SetParent(parent)
-            if unit == "player" then
-				frame:SetFrameLevel(parent:GetFrameLevel() + 1)
-			else
-				frame:SetFrameLevel(parent:GetFrameLevel())
-			end
-
+            frame:SetFrameLevel(parent:GetFrameLevel())
             if frame.anchor.portrait then
-                frame.anchor.portrait:SetDrawLayer("BACKGROUND")
+                local portraitParent = frame.anchor.portrait:GetParent()
+                if portraitParent and portraitParent.FrameTexture then
+                    portraitParent.FrameTexture:SetDrawLayer("ARTWORK", 1)
+                end
+                frame.anchor.portrait:SetDrawLayer("BACKGROUND", 0)
             elseif frame.anchor.SetDrawLayer then
-                frame.anchor:SetDrawLayer("BACKGROUND")
+                frame.anchor:SetDrawLayer("BACKGROUND", 0)
             end
-
             frame.cooldown:SetSwipeTexture("Interface\\CHARACTERFRAME\\TempPortraitAlphaMaskSmall")
         else
             frame:SetParent(frame.parent and frame.parent or frame.anchor)
@@ -1160,6 +1156,7 @@ end
 function BigDebuffs:PLAYER_ENTERING_WORLD()
     for i = 1, #units do
         self:AttachUnitFrame(units[i])
+        self:UNIT_AURA(units[i])
     end
 end
 
@@ -1289,18 +1286,26 @@ function BigDebuffs:AddBigDebuffs(frame)
 
     frame.BigDebuffs = frame.BigDebuffs or {}
     local max = self.db.profile.raidFrames.maxDebuffs + 1 -- add a frame for warning debuffs
+    local wrapAt = self.db.profile.raidFrames.wrapAt or 10
     for i = 1, max do
         local big = frame.BigDebuffs[i] or
             CreateFrame("Button", frameName .. "BigDebuffsRaid" .. i, frame, "BigDebuffsDebuffTemplate")
         big:ClearAllPoints()
-        if i > 1 then
-            if self.db.profile.raidFrames.anchor == "INNER" or self.db.profile.raidFrames.anchor == "RIGHT" or
-                self.db.profile.raidFrames.anchor == "TOP" then
+        if i > 1 and i ~= wrapAt + 1 then
+            if self.db.profile.raidFrames.anchor == "INNER" or self.db.profile.raidFrames.anchor == "RIGHT" or self.db.profile.raidFrames.anchor == "TOP" then
                 big:SetPoint("BOTTOMLEFT", frame.BigDebuffs[i - 1], "BOTTOMRIGHT", 0, 0)
             elseif self.db.profile.raidFrames.anchor == "LEFT" then
                 big:SetPoint("BOTTOMRIGHT", frame.BigDebuffs[i - 1], "BOTTOMLEFT", 0, 0)
             elseif self.db.profile.raidFrames.anchor == "BOTTOM" then
                 big:SetPoint("TOPLEFT", frame.BigDebuffs[i - 1], "TOPRIGHT", 0, 0)
+            end
+        elseif i == wrapAt + 1 and  wrapAt ~= 0 then
+            if self.db.profile.raidFrames.anchor == "INNER" or self.db.profile.raidFrames.anchor == "RIGHT" or self.db.profile.raidFrames.anchor == "TOP" then
+                big:SetPoint("BOTTOMLEFT", frame.BigDebuffs[1], "TOPLEFT",0, 1)
+            elseif self.db.profile.raidFrames.anchor == "LEFT" then
+                big:SetPoint("BOTTOMRIGHT", frame.BigDebuffs[1], "TOPRIGHT", 0,1)
+            elseif self.db.profile.raidFrames.anchor == "BOTTOM" then
+                big:SetPoint("TOPLEFT", frame.BigDebuffs[1], "BOTTOMLEFT", 0, -1)
             end
         else
             if self.db.profile.raidFrames.anchor == "INNER" then

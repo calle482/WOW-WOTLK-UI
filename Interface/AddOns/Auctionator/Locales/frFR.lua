@@ -177,6 +177,8 @@ L["CONFIG_SELLING_NOT_LIFO_HEADER"] = "Vente : Équipement / Mascottes"
 L["CONFIG_SELLING_NOT_LIFO_TEXT"] = "Options permettant de fixer le pourcentage de sous-cotation ou les valeurs et la durée de l'équipement et des mascottes. Ces catégories d'objets sont répertoriées individuellement et l'acheteur peut choisir celle qu'il souhaite. La sous-cotation peut être utile."
 L["CONFIG_SELLING_POST_SHORTCUT"] = "Mettre en vente l'objet sélectionné avec :"
 L["CONFIG_SELLING_POST_SHORTCUT_TOOLTIP_TEXT"] = "Cliquez puis appuyez sur les boutons que vous souhaitez utiliser comme raccourci. Ce raccourci ne sera actif que dans l'onglet Vente et n'affectera pas les autres raccourcis liés aux boutons."
+--[[Translation missing --]]
+L["CONFIG_SELLING_PREV_SHORTCUT"] = "A shortcut to go back to the previously selected item"
 L["CONFIG_SELLING_SHORTCUTS_CATEGORY"] = "Vente : Raccourcis"
 L["CONFIG_SELLING_SHORTCUTS_TEXT"] = "Options des raccourcis de l'onglet Vente."
 L["CONFIG_SELLING_SHOW_BID_PRICE"] = "Afficher le prix d'enchère lors de la mise en vente d'un objet (/reload requis)"
@@ -209,6 +211,10 @@ L["CONFIG_SMALL_TABS_TOOLTIP_TEXT"] = "Lorsque trop d'addons ajoutent des onglet
 L["CONFIG_STACK_TOOLTIP"] = "Maintenir la touche Maj affichera le prix par pile"
 L["CONFIG_TOOLTIPS_CATEGORY"] = "Infobulles"
 L["CONFIG_TOOLTIPS_TEXT"] = "Options liées à l'affichage des informations disponibles sur les prix dans les infobulles du jeu."
+--[[Translation missing --]]
+L["CONFIG_UNDERCUT_ITEMS_AHEAD"] = "How many items can be ahead of your listings before they count as undercut"
+--[[Translation missing --]]
+L["CONFIG_UNDERCUT_ITEMS_AHEAD_CLASSIC"] = "How many items can be ahead of your listings before they count as undercut (max 50)"
 --[[Translation missing --]]
 L["CONFIG_UNDERCUT_SCAN_MATCH_ILVL_VARIANTS"] = "For gear use item level and title when doing undercut checks"
 L["CONFIG_UNDERCUT_SCAN_MATCH_ILVL_VARIANTS_TOOLTIP_HEADER"] = "Niveau et titre de l'objet d'utilisation de l'équipement"
@@ -298,6 +304,8 @@ L["ITEM_CLASS"] = "Catégorie d'objet"
 L["ITEM_LEVEL"] = "Niveau d'objet"
 L["ITEM_LEVEL_COLUMN"] = "Niveau d'objet"
 L["ITEM_PRICE_HISTORY"] = "Historique des prix de l'objet"
+--[[Translation missing --]]
+L["ITEMS_AHEAD"] = "Items Ahead"
 L["LEFT_CLICK"] = "Clic gauche"
 L["LEVEL"] = "Niveau"
 L["LIMITED_FUNCTIONALITY_MESSAGE"] = "Fonctionnalité limitée en raison des mises à jour de la version 8.3"
@@ -361,6 +369,8 @@ L["PET_TOOLTIP_TOOLTIP_HEADER"] = "Prix des mascottes"
 L["PET_TOOLTIP_TOOLTIP_TEXT"] = "Inclus les prix des mascottes dans les infobulles."
 L["POST"] = "Mettre en vente"
 L["POST_ATTEMPT_FAILED"] = "Votre dernière tentative de post n'a pas fonctionné. Essayez à nouveau."
+--[[Translation missing --]]
+L["PREVIOUS"] = "Previous"
 L["PRICE"] = "Prix"
 L["PRICE_HISTORY"] = "Historique des prix"
 L["PRICE_INCREASE_WARNING"] = "Prix augmenté de %s, attente de %ss"

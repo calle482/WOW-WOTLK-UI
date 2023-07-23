@@ -1,15 +1,10 @@
 # ClassicCastbars
 
-## [v1.6.2](https://github.com/wardz/ClassicCastbars/tree/v1.6.2) (2023-05-28)
-[Full Changelog](https://github.com/wardz/ClassicCastbars/compare/v1.6.1...v1.6.2) [Previous Releases](https://github.com/wardz/ClassicCastbars/releases)
+## [v1.6.3](https://github.com/wardz/ClassicCastbars/tree/v1.6.3) (2023-07-05)
+[Full Changelog](https://github.com/wardz/ClassicCastbars/compare/v1.6.2...v1.6.3) [Previous Releases](https://github.com/wardz/ClassicCastbars/releases)
 
-- simplify OnUpdate delete cast, set cast failed instead of unknown state  
-- cleanup  
-- bump retail toc version & add IconTexture  
-- update README.md to match curseforge  
-- dont think this is necessarry anymore with spell batching removed  
-- code cleanups  
-- cleanups for handling npcCastUninterruptibleCache & npcCastTimeCache  
-- check castImmunityBuffs on aura gained aswell incase caster was buffed by different unit while casting  
-- only skip haste modifiers check for playerguid/self, not special cases like uninterruptible state  
-- use proper registration for LibClassicDurations  
+- fix luacheck error  
+- fix lua error on ptr, blizz changed Color object again  
+- bump wrath toc version  
+- store npcCastTimeCache in savedvariables (across logouts)  
+- bump delay just incase  

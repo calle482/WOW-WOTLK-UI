@@ -3,18 +3,18 @@ DecursiveDB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Flintn - Golemagg"] = "Default",
+		["Emomage - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
+		["Flintn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -96,14 +96,14 @@ DecursiveDB = {
 				[32] = -13,
 			},
 		},
-		["SHAMAN"] = {
+		["HUNTER"] = {
 			["CureOrder-1"] = {
-				-14, -- [1]
-				-13, -- [2]
+				-11, -- [1]
+				-15, -- [2]
 				nil, -- [3]
-				-15, -- [4]
-				[8] = 1,
-				[16] = 2,
+				-12, -- [4]
+				[8] = -13,
+				[16] = -14,
 				[32] = -16,
 			},
 		},
@@ -118,20 +118,20 @@ DecursiveDB = {
 				[32] = -16,
 			},
 		},
-		["HUNTER"] = {
+		["SHAMAN"] = {
 			["CureOrder-1"] = {
-				-11, -- [1]
-				-15, -- [2]
+				-14, -- [1]
+				-13, -- [2]
 				nil, -- [3]
-				-12, -- [4]
-				[8] = -13,
-				[16] = -14,
+				-15, -- [4]
+				[8] = 1,
+				[16] = 2,
 				[32] = -16,
 			},
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1688496128,
+		["LastVersionAnnounce"] = 1689892175,
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -217,7 +217,7 @@ VER 3 000000000000000A "bonk" "132092"
 END
 VER 3 0000000000000008 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Will of the Forsaken; [@mouseover,exists,mod:shift] Remove Curse
+/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Polymorph; [@mouseover,exists,mod:shift] Remove Curse
 END
 VER 3 0000000000000034 "dest" "INV_MISC_QUESTIONMARK"
 #showtooltip Arcane Power
@@ -301,10 +301,10 @@ END
 VER 3 0000000000000042 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
-VER 3 0000000000000009 "spit" "132092"
+VER 3 0000000000000024 "spit" "132092"
 /spit
 END
-VER 3 0000000000000024 "spit" "132092"
+VER 3 0000000000000009 "spit" "132092"
 /spit
 END
 VER 3 000000000000002E "spriest" "136013"

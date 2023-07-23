@@ -1,24 +1,24 @@
 
 OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.1",
+	},
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
+		["Flintn - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
-		["Flintn - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-	},
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.1",
+		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -53,9 +53,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["soon"] = {
-						},
 						["seconds"] = {
+						},
+						["soon"] = {
 						},
 						["minutes"] = {
 						},

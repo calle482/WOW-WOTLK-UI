@@ -1,6 +1,10 @@
 # Auctionator
 
-## [10.1.11](https://github.com/Auctionator/Auctionator/tree/10.1.11) (2023-07-02)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.10...10.1.11) 
+## [1.1.13](https://github.com/Auctionator/Auctionator/tree/1.1.13) (2023-07-12)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.12...1.1.13) 
 
-- [Fixes #1404] Error when bid-only auction and no competition with a buyout  
+- Update toc for 10.1.5 (#1411)  
+- Classic: Buy: Adjust refreshes when using load all results option  
+- Classic: Buying: Optional time left column  
+- Selling: Bag: Sort order for favourites is consistent regardless of quantity  
+- Classic: Attempt to fix search hang after internal auction error  

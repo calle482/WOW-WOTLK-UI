@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("Onyxia", "DBM-Raids-Vanilla", 7)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20230620214325")
+mod:SetRevision("20230711080216")
 mod:SetCreatureID(10184)
 mod:SetEncounterID(1084)
 mod:SetModelID(8570)

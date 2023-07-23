@@ -108,6 +108,7 @@ function TitanPanelRepairButton_OnLoad(self)
 			DiscountHonored = false,
 			DiscountPVP = false,
 			DiscountCombined = false,
+			DiscountExalted = false,
 			ShowPercentage = false,
 			ShowColoredText = false,
 			ShowInventory = false,

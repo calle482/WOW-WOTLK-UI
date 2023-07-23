@@ -1927,3 +1927,10 @@ Change Log:
 5.3.3
 * Added Dragonflight spells (world)
 * Fixed Wrath spells for Trial of the Grand Crusader (thanks jorvanus)
+
+5.4
+* Fixed UI Settings for Wrath Classic (thanks prokn4h)
+* Fixed UI Settings for Hardcore Classic PTR
+* Added Dragonflight spells for Dawn of the Infinite
+
+

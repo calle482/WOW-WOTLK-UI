@@ -1,0 +1,16 @@
+## Interface: 100002
+## Title: Memoria
+## Version: 10.0-2
+## Notes: Memoria automatically screenshots various milestones of your characters.
+## Author: Shadnix
+## LoadOnDemand: 0
+## DefaultState: enabled
+## SavedVariables: Memoria_Options
+## SavedVariablesPerCharacter: Memoria_CharBossKillDB, Memoria_CharLevelTimes
+## X-Website: http://cosmocanyon.de
+
+embeds.xml
+locals.xml
+Options.xml
+Options.lua
+Memoria.lua

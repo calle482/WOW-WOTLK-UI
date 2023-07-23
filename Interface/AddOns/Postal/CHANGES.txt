@@ -1,14 +1,15 @@
 ------------------------------------------------------------------------
-r576 | Zimzarina | 2023-05-03 02:53:43 +0000 (Wed, 03 May 2023) | 1 line
+r579 | Zimzarina | 2023-07-13 12:58:17 +0000 (Thu, 13 Jul 2023) | 1 line
 Changed paths:
-   M /trunk/Modules/BlackBook.lua
+   M /trunk/Postal.toc
+   M /trunk/Postal_Wrath.toc
 
-The Alts and All Alts menu had some issues and inconsistencies that were caused by Blizzard's changes in allowing different items to be mailed across factions and realms.  This code has been reworked now to have the Alts menu show only toons on the same realm and faction as the current toon.  The All Alts menu will now show every toon that Postal is aware of you having no matter what realm or faction they are.
+Toc update for Wrath and Retail.
 ------------------------------------------------------------------------
-r575 | Zimzarina | 2023-05-03 02:45:38 +0000 (Wed, 03 May 2023) | 1 line
+r578 | Zimzarina | 2023-05-18 20:03:23 +0000 (Thu, 18 May 2023) | 1 line
 Changed paths:
    M /trunk/Postal.toc
 
-TOC Update.
+Added IconTexture to Postal.toc retail release.
 ------------------------------------------------------------------------
 

@@ -642,10 +642,11 @@ function QuestieDB.IsDoable(questId, debugPrint)
     local requiredSpell = QuestieDB.QueryQuestSingle(questId, "requiredSpell")
     if (requiredSpell) and (requiredSpell ~= 0) then
         local hasSpell = IsSpellKnownOrOverridesKnown(math.abs(requiredSpell))
-        if (requiredSpell > 0) and (not hasSpell) then --if requiredSpell is positive, we make the quest ineligible if the player does NOT have the spell
+        local hasProfSpell = IsPlayerSpell(math.abs(requiredSpell))
+        if (requiredSpell > 0) and (not hasSpell) and (not hasProfSpell) then --if requiredSpell is positive, we make the quest ineligible if the player does NOT have the spell
             if debugPrint then Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet spell requirements for", questId) end
             return false
-        elseif (requiredSpell < 0) and hasSpell then --if requiredSpell is negative, we make the quest ineligible if the player DOES  have the spell
+        elseif (requiredSpell < 0) and (hasSpell or hasProfSpell) then --if requiredSpell is negative, we make the quest ineligible if the player DOES  have the spell
             if debugPrint then Questie:Debug(Questie.DEBUG_SPAM, "[QuestieDB.IsDoable] Player does not meet spell requirements for", questId) end
             return false
         end
@@ -664,13 +665,17 @@ end
 ---@return number @Complete = 1, Failed = -1, Incomplete = 0
 function QuestieDB.IsComplete(questId)
     local questLogEntry = QuestLogCache.questLog_DO_NOT_MODIFY[questId] -- DO NOT MODIFY THE RETURNED TABLE
+    local noQuestItem = not QuestieQuest:CheckQuestSourceItem(questId)
+
     --[[ pseudo:
     if no questLogEntry then return 0
     if has questLogEntry.isComplete then return questLogEntry.isComplete
+    if no objectives and an item is needed but not obtained then return 0
     if no objectives then return 1
     return 0
-    ]]--
-    return questLogEntry and (questLogEntry.isComplete or (questLogEntry.objectives[1] and 0) or 1) or 0
+    --]]
+
+    return questLogEntry and (questLogEntry.isComplete or (questLogEntry.objectives[1] and 0) or (#questLogEntry.objectives == 0 and noQuestItem and 0) or 1) or 0
 end
 
 ---@param self Quest
@@ -908,15 +913,31 @@ function QuestieDB:GetQuest(questId) -- /dump QuestieDB:GetQuest(867)
 
     ---@type ItemId[]
     local requiredSourceItems = rawdata[questKeys.requiredSourceItems]
-    if requiredSourceItems ~= nil then --required source items
+    if requiredSourceItems ~= nil then
         for _, itemId in pairs(requiredSourceItems) do
             if itemId ~= nil then
-                QO.SpecialObjectives[itemId] = {
-                    Type = "item",
-                    Id = itemId,
-                    ---@type string @We have to hard-type it here because of the function
-                    Description = QuestieDB.QueryItemSingle(itemId, "name")
-                }
+                -- Make sure requiredSourceItems aren't already an objective
+                local itemObjPresent = false
+                if objectives[3] ~= nil then
+                    for _, itemObjective in pairs(objectives[3]) do
+                        if itemObjective ~= nil then
+                            if itemId == itemObjective[1] then
+                                itemObjPresent = true
+                                break
+                            end
+                        end
+                    end
+                end
+
+                -- Make an objective for requiredSourceItem
+                if not itemObjPresent then
+                    QO.SpecialObjectives[itemId] = {
+                        Type = "item",
+                        Id = itemId,
+                        ---@type string @We have to hard-type it here because of the function
+                        Description = QuestieDB.QueryItemSingle(itemId, "name")
+                    }
+                end
             end
         end
     end

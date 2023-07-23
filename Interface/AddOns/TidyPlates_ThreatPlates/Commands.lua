@@ -5,7 +5,7 @@
 ---------------------------------------------------------------------------------------------------
 local L = Addon.ThreatPlates.L
 
-Addon.DEBUG = Addon.ThreatPlates.Meta("version") == "11.1.23"
+Addon.DEBUG = Addon.ThreatPlates.Meta("version") == "11.1.25"
 
 local function toggleDPS()
 	if Addon.db.profile.optionRoleDetectionAutomatic then

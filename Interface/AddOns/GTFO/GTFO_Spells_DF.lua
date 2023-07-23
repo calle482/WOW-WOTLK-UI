@@ -1256,5 +1256,39 @@ GTFO.SpellID["402051"] = {
   negatingDebuffSpellID = 401383; -- Oppressing Howl
 };
 
+--- ************************
+--- * Dawn of the Infinite *
+--- ************************
+
+-- TODO: Withering Sandpool - Pool (Chronikar)
+-- TODO: Decaying Time (Manifested Timeways) - Low Damage, No warning if afflicated with Chrono-Faded
+-- TODO: Accelerating Time (Manifested Timeways) - Low Damage, High Damage if afflicated with Chrono-Faded
+-- TODO: Chronofade (Manifested Timeways)
+-- TODO: Fragments of Time (Manifested Timeways)
+-- TODO: Radiant (Manifested Timeways) - Tank-only High damage
+-- TODO: Incinerating Blightbreath (Dazhak) - Avoidable by tank?
+-- TODO: Punctured Ground (Iridikron the Stonescaled)
+-- TODO: Rain of Fire (Horde Warlock)
+-- TODO: Bladestorm (Grommash Hellscream)
+-- TODO: Shockwave (Grommash Hellscream)
+-- TODO: Temporal Breath (Chrono-Lord Deios)
+
+GTFO.SpellID["419447"] = {
+  --desc = "Bronze Radiance";
+  sound = 1;
+};
+
+GTFO.SpellID["407147"] = {
+  --desc = "Blight Seep (Blight of Galakrond)";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["403724"] = {
+  --desc = "Consecrated Ground (Tyr, the Infinite Keeper)";
+  sound = 1;
+  test = true;
+};
+
 end
 

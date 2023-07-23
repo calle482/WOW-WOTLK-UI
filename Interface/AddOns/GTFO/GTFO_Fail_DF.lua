@@ -2433,5 +2433,33 @@ GTFO.SpellID["408429"] = {
   tankSound = 0;
 };
 
+--- ************************
+--- * Dawn of the Infinite *
+--- ************************
+
+-- TODO: Withering Sandpool - Spawn (Chronikar)
+-- TODO: Eon Shatter (Chronikar)
+-- TODO: Eon Fragments (Chronikar)
+-- TODO: Unwind (Manifested Timeways) - Non-tank fail
+-- TODO: Blight Reclamation (Blight of Galakrond) - Non-tank fail when not afflicated with Corrosion
+-- TODO: Corrosive Explosion (Blight of Galakrond) - Application fail
+-- TODO: Necrotic Winds (Ahnzon) - Tornado damage, not wind damage
+-- TODO: Extinction Blast (Iridikron the Stonescaled) - Only when not under the Timeline Protection buff/debuff?
+-- TODO: Rending Earthspikes (Iridikron the Stonescaled)
+-- TODO: Pulverizing Exhalation (Iridikron the Stonescaled)
+-- TODO: Pulverizing Creations (Iridikron the Stonescaled) - Damage on spawn, Avoidable?
+-- TODO: Titanic Blow (Tyr, the Infinite Keeper) - Non-tank fail
+-- TODO: Infinite Annihilation (Tyr, the Infinite Keeper) - Avoidable?
+-- TODO: Sand Blast (Morchie) - Avoidable?
+-- TODO: Sand Buffeted (Morchie) - Application fail
+-- TODO: Time Statis (Morchie) - Application fail
+-- TODO: Infinite Corruption - Small bolts (Chrono-Lord Deios)
+-- TODO: Infinite Corruption - Large bolts (Chrono-Lord Deios)
+
+GTFO.SpellID["419380"] = {
+  --desc = "Timeline Conflux (Nozdormu)";
+  sound = 3;
+};
+
 end
 
