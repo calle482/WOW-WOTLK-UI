@@ -7,18 +7,18 @@ Emoticons_Settings = {
 	["ENABLE_ANIMATEDEMOTES"] = true,
 	["CHAT_MSG_RAID_WARNING"] = true,
 	["CHAT_MSG_CHANNEL"] = true,
-	["CHAT_MSG_BN_WHISPER"] = true,
-	["CHAT_MSG_WHISPER"] = true,
 	["CHAT_MSG_PARTY_GUIDE"] = true,
+	["CHAT_MSG_WHISPER"] = true,
+	["CHAT_MSG_BN_WHISPER"] = true,
 	["CHAT_MSG_PARTY"] = true,
-	["CHAT_MSG_WHISPER_INFORM"] = true,
+	["LARGEEMOTES"] = false,
 	["CHAT_MSG_INSTANCE_CHAT_LEADER"] = true,
 	["CHAT_MSG_RAID"] = true,
-	["CHAT_MSG_BN_WHISPER_INFORM"] = true,
-	["CHAT_MSG_YELL"] = true,
-	["CHAT_MSG_RAID_LEADER"] = true,
+	["ENABLE_AUTOCOMPLETE"] = true,
 	["MINIMAPBUTTON"] = true,
-	["CHAT_MSG_BN_CONVERSATION"] = true,
+	["CHAT_MSG_RAID_LEADER"] = true,
+	["CHAT_MSG_YELL"] = true,
+	["CHAT_MSG_SAY"] = true,
 	["FAVEMOTES"] = {
 		true, -- [1]
 		true, -- [2]
@@ -49,10 +49,10 @@ Emoticons_Settings = {
 		true, -- [27]
 	},
 	["MAIL"] = true,
-	["CHAT_MSG_SAY"] = true,
+	["CHAT_MSG_BN_CONVERSATION"] = true,
 	["ENABLE_CLICKABLEEMOTES"] = true,
-	["ENABLE_AUTOCOMPLETE"] = true,
-	["LARGEEMOTES"] = false,
+	["CHAT_MSG_BN_WHISPER_INFORM"] = true,
+	["CHAT_MSG_WHISPER_INFORM"] = true,
 	["MINIMAPDATA"] = {
 		["minimapPos"] = 243.6287690056216,
 	},
@@ -71,7 +71,7 @@ TwitchEmoteStatistics = {
 	["Kreygasm"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 	["TeaTime"] = {
 		0, -- [1]
@@ -96,12 +96,12 @@ TwitchEmoteStatistics = {
 	["monkaW"] = {
 		0, -- [1]
 		0, -- [2]
-		8, -- [3]
+		12, -- [3]
 	},
 	["REEE"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
+		3, -- [3]
 	},
 	[":clueless:"] = {
 		0, -- [1]
@@ -134,8 +134,8 @@ TwitchEmoteStatistics = {
 		5, -- [3]
 	},
 	["Prayge"] = {
-		1, -- [1]
-		0, -- [2]
+		2, -- [1]
+		1, -- [2]
 		2, -- [3]
 	},
 	["Squid4"] = {
@@ -154,14 +154,14 @@ TwitchEmoteStatistics = {
 		1, -- [3]
 	},
 	["PepeLaugh"] = {
-		4, -- [1]
-		4, -- [2]
-		10, -- [3]
+		6, -- [1]
+		6, -- [2]
+		11, -- [3]
 	},
 	["gachiSLAP"] = {
 		0, -- [1]
 		0, -- [2]
-		8, -- [3]
+		10, -- [3]
 	},
 	["forsen1"] = {
 		0, -- [1]
@@ -191,12 +191,12 @@ TwitchEmoteStatistics = {
 	["OMEGALUL"] = {
 		0, -- [1]
 		0, -- [2]
-		7, -- [3]
+		8, -- [3]
 	},
 	[":skull:"] = {
-		4, -- [1]
-		0, -- [2]
-		8, -- [3]
+		5, -- [1]
+		1, -- [2]
+		10, -- [3]
 	},
 	["fingi"] = {
 		0, -- [1]
@@ -211,7 +211,7 @@ TwitchEmoteStatistics = {
 	["ratJAM"] = {
 		0, -- [1]
 		0, -- [2]
-		77, -- [3]
+		85, -- [3]
 	},
 	["PepoHide"] = {
 		0, -- [1]
@@ -241,7 +241,7 @@ TwitchEmoteStatistics = {
 	["Deadge"] = {
 		0, -- [1]
 		0, -- [2]
-		4, -- [3]
+		5, -- [3]
 	},
 	["POOGERS"] = {
 		0, -- [1]
@@ -266,22 +266,22 @@ TwitchEmoteStatistics = {
 	["Pausey"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 	["KEKL"] = {
 		0, -- [1]
-		5, -- [2]
+		6, -- [2]
 		3, -- [3]
 	},
 	["HUH"] = {
 		0, -- [1]
 		0, -- [2]
-		19, -- [3]
+		21, -- [3]
 	},
 	["YEP"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
+		4, -- [3]
 	},
 	["finalDIDSOMEONESAY"] = {
 		0, -- [1]
@@ -296,7 +296,7 @@ TwitchEmoteStatistics = {
 	["peepoPog"] = {
 		0, -- [1]
 		0, -- [2]
-		10, -- [3]
+		94, -- [3]
 	},
 	["HomieL"] = {
 		0, -- [1]
@@ -313,6 +313,11 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
+	["politeCatWTF"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["WeirdChamp"] = {
 		0, -- [1]
 		0, -- [2]
@@ -320,8 +325,8 @@ TwitchEmoteStatistics = {
 	},
 	["KEKW"] = {
 		1, -- [1]
-		20, -- [2]
-		127, -- [3]
+		25, -- [2]
+		155, -- [3]
 	},
 	["peepoSE"] = {
 		0, -- [1]
@@ -339,6 +344,11 @@ TwitchEmoteStatistics = {
 		24, -- [3]
 	},
 	["alkPopo"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["xqcOld"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -376,7 +386,7 @@ TwitchEmoteStatistics = {
 	["5Head"] = {
 		0, -- [1]
 		0, -- [2]
-		4, -- [3]
+		5, -- [3]
 	},
 	["4Head"] = {
 		0, -- [1]
@@ -386,7 +396,7 @@ TwitchEmoteStatistics = {
 	["3Head"] = {
 		0, -- [1]
 		0, -- [2]
-		8, -- [3]
+		9, -- [3]
 	},
 	["FeelsBirthdayMan"] = {
 		0, -- [1]
@@ -403,6 +413,21 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
+	["gachiGASM"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["peepoParty"] = {
+		0, -- [1]
+		0, -- [2]
+		2, -- [3]
+	},
+	["Starege"] = {
+		0, -- [1]
+		0, -- [2]
+		2, -- [3]
+	},
 	["peepoFH"] = {
 		0, -- [1]
 		0, -- [2]
@@ -413,10 +438,25 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
+	["PepeMeltdown"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["HomieKiss"] = {
 		0, -- [1]
 		0, -- [2]
 		2, -- [3]
+	},
+	["HappyJammies"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["intjSalute"] = {
+		0, -- [1]
+		0, -- [2]
+		5, -- [3]
 	},
 	["Pooga"] = {
 		0, -- [1]
@@ -428,22 +468,37 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	["spit1"] = {
+	["gachiBASS"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
-	},
-	["HabibiPrayge"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 	["forsenY"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["Kappap"] = {
+	[":aware:"] = {
+		0, -- [1]
+		0, -- [2]
+		5, -- [3]
+	},
+	["Classic"] = {
+		0, -- [1]
+		0, -- [2]
+		3, -- [3]
+	},
+	["HabibiPrayge"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["FeelsLoveMan"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["BedgeTogether"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -463,15 +518,15 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		41, -- [3]
 	},
-	["intjSalute"] = {
-		0, -- [1]
-		0, -- [2]
-		3, -- [3]
-	},
-	["peepoSad"] = {
+	["PogeyU"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
+	},
+	["Kapp"] = {
+		0, -- [1]
+		0, -- [2]
+		2, -- [3]
 	},
 	["pokeG"] = {
 		0, -- [1]
@@ -483,24 +538,24 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		2, -- [3]
 	},
-	["Kapp"] = {
-		0, -- [1]
-		0, -- [2]
-		2, -- [3]
-	},
-	["FeelsLoveMan"] = {
+	["PepeFeet"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["Weirdga"] = {
+	["KEKE"] = {
 		0, -- [1]
 		0, -- [2]
 		2, -- [3]
 	},
-	["Pepege"] = {
+	["Okayga"] = {
 		0, -- [1]
 		0, -- [2]
+		1, -- [3]
+	},
+	["ResidentSleeper"] = {
+		2, -- [1]
+		2, -- [2]
 		1, -- [3]
 	},
 	["HomieR"] = {
@@ -508,27 +563,27 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		3, -- [3]
 	},
-	["Starege"] = {
+	["CringeW"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
-	},
-	["CatChest"] = {
-		0, -- [1]
-		0, -- [2]
-		4, -- [3]
+		1, -- [3]
 	},
 	["FLOPPERS"] = {
 		0, -- [1]
 		0, -- [2]
-		38, -- [3]
+		41, -- [3]
+	},
+	["ICANT"] = {
+		0, -- [1]
+		0, -- [2]
+		3, -- [3]
 	},
 	["lovehug"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	[":wave:"] = {
+	["peepoHmm"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -536,17 +591,17 @@ TwitchEmoteStatistics = {
 	["KEKSad"] = {
 		0, -- [1]
 		3, -- [2]
-		16, -- [3]
+		18, -- [3]
 	},
-	["CringeW"] = {
+	["DICKS"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		6, -- [3]
 	},
 	["FeelsGoodMan"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 	["bidenBlast"] = {
 		0, -- [1]
@@ -558,17 +613,17 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	["02Uwu"] = {
+	["Nerdge"] = {
+		1, -- [1]
+		1, -- [2]
+		2, -- [3]
+	},
+	["CatChest"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		4, -- [3]
 	},
-	["PepeSuspect"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["moWait"] = {
+	[":poop:"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -576,14 +631,14 @@ TwitchEmoteStatistics = {
 	["Sadge"] = {
 		0, -- [1]
 		1, -- [2]
-		16, -- [3]
-	},
-	["Nerdge"] = {
-		1, -- [1]
-		1, -- [2]
-		2, -- [3]
+		17, -- [3]
 	},
 	["Madge"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["Gladge"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -598,7 +653,7 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	["ICANT"] = {
+	["Stonks"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -618,7 +673,7 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	[":poop:"] = {
+	["PepeSmile"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -628,25 +683,25 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		18, -- [3]
 	},
-	["BearDab"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["KKomrade"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["Pog"] = {
-		0, -- [1]
-		0, -- [2]
-		34, -- [3]
-	},
 	["DansGame"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
+	},
+	["cmon"] = {
+		0, -- [1]
+		0, -- [2]
+		2, -- [3]
+	},
+	[":kiss:"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["BroKiss"] = {
+		0, -- [1]
+		0, -- [2]
+		13, -- [3]
 	},
 	["POGGERS"] = {
 		0, -- [1]
@@ -661,14 +716,14 @@ TwitchEmoteStatistics = {
 	["Susge"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
-	["monkaHmm"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
+	["SMOrc"] = {
+		0, -- [1]
+		0, -- [2]
+		3, -- [3]
 	},
-	["cmonEyes"] = {
+	["forsenCD"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -676,37 +731,37 @@ TwitchEmoteStatistics = {
 	["goinginsane"] = {
 		0, -- [1]
 		0, -- [2]
-		20, -- [3]
+		22, -- [3]
 	},
-	["Gladge"] = {
+	["FeelsDankMan"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["Kappa"] = {
+	["HeyGuys"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["Sussy"] = {
+	["PepeLa"] = {
 		0, -- [1]
 		0, -- [2]
-		13, -- [3]
+		1, -- [3]
 	},
-	["billyReady"] = {
+	["WIDEHYPERBRUG"] = {
 		0, -- [1]
 		0, -- [2]
-		45, -- [3]
+		1, -- [3]
 	},
 	["catJAM"] = {
 		0, -- [1]
 		0, -- [2]
-		7, -- [3]
-	},
-	["PauseChamp"] = {
-		19, -- [1]
-		16, -- [2]
 		8, -- [3]
+	},
+	["monkaHmm"] = {
+		1, -- [1]
+		1, -- [2]
+		2, -- [3]
 	},
 	["FeelsTankMan"] = {
 		0, -- [1]
@@ -723,15 +778,15 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		10, -- [3]
 	},
-	["Hmmge"] = {
-		0, -- [1]
-		0, -- [2]
-		2, -- [3]
+	["EZ"] = {
+		2, -- [1]
+		1, -- [2]
+		24, -- [3]
 	},
-	["Chatting"] = {
+	["Kappa"] = {
 		0, -- [1]
 		0, -- [2]
-		15, -- [3]
+		1, -- [3]
 	},
 	["Weirdge"] = {
 		0, -- [1]
@@ -743,45 +798,45 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		6, -- [3]
 	},
-	["gachiSLAPW"] = {
+	[":eggplant:"] = {
 		0, -- [1]
 		0, -- [2]
-		3, -- [3]
+		1, -- [3]
 	},
 	["PepeCatGun"] = {
 		0, -- [1]
 		0, -- [2]
-		4, -- [3]
+		5, -- [3]
 	},
 	["om"] = {
 		0, -- [1]
 		0, -- [2]
 		3, -- [3]
 	},
-	["D:"] = {
+	["dots"] = {
 		0, -- [1]
 		0, -- [2]
-		4, -- [3]
+		5, -- [3]
 	},
 	["drxKEK"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["GigaChad"] = {
-		3, -- [1]
-		2, -- [2]
-		16, -- [3]
+	["FeelsStrongMan"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
 	},
 	["YOGGERS"] = {
 		0, -- [1]
 		0, -- [2]
 		4, -- [3]
 	},
-	["dots"] = {
-		0, -- [1]
-		0, -- [2]
-		5, -- [3]
+	["GigaChad"] = {
+		3, -- [1]
+		2, -- [2]
+		19, -- [3]
 	},
 	["AngelThump"] = {
 		0, -- [1]
@@ -793,7 +848,7 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	["HeyGuys"] = {
+	["quinRat"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -803,72 +858,72 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		3, -- [3]
 	},
-	["quinRat"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
+	["PauseChamp"] = {
+		22, -- [1]
+		19, -- [2]
+		8, -- [3]
 	},
 	["atpToiler"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["FeelsStrongMan"] = {
+	["Sussy"] = {
+		0, -- [1]
+		0, -- [2]
+		13, -- [3]
+	},
+	["D:"] = {
+		0, -- [1]
+		0, -- [2]
+		4, -- [3]
+	},
+	["gachiSLAPW"] = {
+		0, -- [1]
+		0, -- [2]
+		5, -- [3]
+	},
+	["Chatting"] = {
+		0, -- [1]
+		0, -- [2]
+		17, -- [3]
+	},
+	["Hmmge"] = {
+		0, -- [1]
+		0, -- [2]
+		2, -- [3]
+	},
+	["billyReady"] = {
+		0, -- [1]
+		0, -- [2]
+		51, -- [3]
+	},
+	["BearDab"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
-	},
-	["EZ"] = {
-		1, -- [1]
-		1, -- [2]
-		20, -- [3]
-	},
-	["WIDEHYPERBRUG"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["PepeLa"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["FeelsDankMan"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["forsenCD"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["SMOrc"] = {
-		0, -- [1]
-		0, -- [2]
-		3, -- [3]
 	},
 	["Okayge"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	[":kiss:"] = {
+	["cmonEyes"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["cmon"] = {
+	["Pog"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
+		39, -- [3]
 	},
-	["BroKiss"] = {
+	["KKomrade"] = {
 		0, -- [1]
 		0, -- [2]
-		13, -- [3]
+		1, -- [3]
 	},
-	["Stonks"] = {
+	["PagMan"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -886,27 +941,27 @@ TwitchEmoteStatistics = {
 	["xqcL"] = {
 		0, -- [1]
 		0, -- [2]
-		8, -- [3]
+		9, -- [3]
 	},
-	["PepeSmile"] = {
+	["Pepege"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["ResidentSleeper"] = {
-		2, -- [1]
-		2, -- [2]
+	["moWait"] = {
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 	},
-	["DICKS"] = {
+	["PepeSuspect"] = {
 		0, -- [1]
 		0, -- [2]
-		6, -- [3]
+		1, -- [3]
 	},
-	["KEKE"] = {
+	["02Uwu"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
+		1, -- [3]
 	},
 	["CatDance"] = {
 		0, -- [1]
@@ -918,22 +973,22 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		1, -- [3]
 	},
-	["PagMan"] = {
+	[":wave:"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["peepoHmm"] = {
+	["FeelsGermanMan"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 	[":rolling_eyes:"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["PogeyU"] = {
+	["peepoSad"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -943,29 +998,29 @@ TwitchEmoteStatistics = {
 		0, -- [2]
 		4, -- [3]
 	},
-	["peepoParty"] = {
-		0, -- [1]
-		0, -- [2]
-		2, -- [3]
-	},
-	[":aware:"] = {
+	["Kappap"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["gachiBASS"] = {
+	["pokeSMOKE"] = {
 		0, -- [1]
 		0, -- [2]
-		2, -- [3]
+		1, -- [3]
+	},
+	["spit1"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
 	},
 	["peepoLove"] = {
 		0, -- [1]
 		0, -- [2]
 		2, -- [3]
 	},
-	["HappyJammies"] = {
+	["Weirdga"] = {
 		0, -- [1]
 		0, -- [2]
-		1, -- [3]
+		2, -- [3]
 	},
 }

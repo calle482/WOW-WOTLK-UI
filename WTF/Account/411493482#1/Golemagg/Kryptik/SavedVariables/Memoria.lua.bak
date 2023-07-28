@@ -22,13 +22,14 @@ Memoria_CharBossKillDB = {
 	[176] = {
 		[754] = true,
 		[749] = true,
-		[756] = true,
-		[755] = true,
 		[750] = true,
-		[752] = true,
+		[755] = true,
+		[748] = true,
 		[757] = true,
+		[752] = true,
+		[756] = true,
 	},
 }
 Memoria_CharLevelTimes = {
-	[80] = 50580.37069490133,
+	[80] = 73191.58348088476,
 }

@@ -8,6 +8,7 @@ SET flaggedTutorials "v11##J##9##A##B##4##-##I##=##D##N##?##@##G##0##O##F##<##H#
 SET profanityFilter "0"
 SET talentFrameShown "1"
 SET instantQuestText "1"
+SET guildShowOffline "0"
 SET cameraPitchMoveSpeed "65"
 SET cameraYawMoveSpeed "130"
 SET addFriendInfoShown "1"

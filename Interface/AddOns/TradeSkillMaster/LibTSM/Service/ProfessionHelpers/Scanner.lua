@@ -156,7 +156,8 @@ end
 
 function Scanner.GetItemStringByCraftString(craftString)
 	assert(private.dbPopulated)
-	return private.db:GetUniqueRowField("craftString", craftString, "itemString")
+	local itemString = private.db:GetUniqueRowField("craftString", craftString, "itemString")
+	return itemString ~= "" and itemString or nil
 end
 
 function Scanner.GetIndexByCraftString(craftString)
@@ -271,13 +272,15 @@ function Scanner.GetRecipeQualityInfo(craftString)
 			if INSPIRATION_DESC_PATTERN then
 				inspirationChance, inspirationAmount = strmatch(statInfo.ratingDescription, INSPIRATION_DESC_PATTERN)
 			end
-			if not inspirationChance then
+			if not inspirationChance or inspirationChance == 0 then
 				-- Try another way to parse the chance / amount
 				inspirationChance = strmatch(statInfo.ratingDescription, "([0-9%.]+)%%")
 				inspirationAmount = strmatch(statInfo.ratingDescription, "([0-9]+)[^%%%.,]")
 			end
 			inspirationChance = tonumber(inspirationChance) / 100
 			inspirationAmount = tonumber(inspirationAmount)
+			assert(inspirationChance and inspirationAmount)
+			break
 		end
 	end
 	local hasQualityMats = false
@@ -785,7 +788,6 @@ function private.ScanProfession()
 	private.db:NewQuery()
 		:Select("craftString")
 		:NotEqual("itemString", "")
-		:NotEqual("craftString", "")
 		:AsTable(craftStrings)
 		:Release()
 	local categorySkillLevelLookup = TempTable.Acquire()

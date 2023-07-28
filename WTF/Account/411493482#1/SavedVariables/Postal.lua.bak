@@ -1,5 +1,21 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
+		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
+		["Emomage - Golemagg"] = "Emomage - Golemagg",
+		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
+		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
+		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
+		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
+		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
+		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
+		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
+		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
+		["Manameister - Golemagg"] = "Manameister - Golemagg",
+		["Flintn - Golemagg"] = "Flintn - Golemagg",
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -20,28 +36,12 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
-		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
-		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
-		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
-		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
-		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
-		["Flintn - Golemagg"] = "Flintn - Golemagg",
-		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
-		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
-		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
-		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
-		["Manameister - Golemagg"] = "Manameister - Golemagg",
-		["Emomage - Golemagg"] = "Emomage - Golemagg",
-		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
-	},
 	["profiles"] = {
 		["Doktormabuse - Golemagg"] = {
 		},
 		["Frusendolme - Golemagg"] = {
 		},
-		["Tjurn - Golemagg"] = {
+		["Emomage - Golemagg"] = {
 		},
 		["Kryptok - Golemagg"] = {
 		},
@@ -54,7 +54,7 @@ Postal3DB = {
 		},
 		["Kryptokk - Golemagg"] = {
 		},
-		["Flintn - Golemagg"] = {
+		["Jägerskytt - Golemagg"] = {
 		},
 		["Krypadin - Golemagg"] = {
 			["BlackBook"] = {
@@ -71,9 +71,9 @@ Postal3DB = {
 		},
 		["Manameister - Golemagg"] = {
 		},
-		["Emomage - Golemagg"] = {
+		["Flintn - Golemagg"] = {
 		},
-		["Jägerskytt - Golemagg"] = {
+		["Tjurn - Golemagg"] = {
 		},
 	},
 }

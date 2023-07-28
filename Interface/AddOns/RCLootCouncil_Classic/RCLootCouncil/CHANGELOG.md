@@ -1,8 +1,16 @@
 # RCLootCouncil
 
-## [2.19.3-64-g0f2ba59](https://github.com/evil-morfar/RCLootCouncil2/tree/0f2ba591cc419cd3a5b8d54bd39c772c9934238e) (2023-05-05)
-[Full Changelog](https://github.com/evil-morfar/RCLootCouncil2/compare/2.19.3...0f2ba591cc419cd3a5b8d54bd39c772c9934238e) [Previous Releases](https://github.com/evil-morfar/RCLootCouncil2/releases)
+## [2.19.3-69-g454ddc3](https://github.com/evil-morfar/RCLootCouncil2/tree/454ddc311b79f656b44d86798428df53c93afb9a) (2023-07-23)
+[Full Changelog](https://github.com/evil-morfar/RCLootCouncil2/compare/2.19.3...454ddc311b79f656b44d86798428df53c93afb9a) [Previous Releases](https://github.com/evil-morfar/RCLootCouncil2/releases)
 
+- VF: Update current session only  
+    Updating everything every time we receive data could lead to rows jumping around. Now we only update visuals if there's updates to the session we're looking at.  
+- VF Session buttons checkmark update.  
+    Selecting an awarded item now shows a yellow checkmark instead of nothing.  
+- Updated token data  
+- Updated random roll system  
+- Fixed history issue when awarding multiple copies.  
+    History would record "Awarded" when a awarding an item multiple times to the same player  
 - Updated Ace3  
 - Created "GlobalUpdates" file.  
     For handling certain functions that isn't interchanceable between WoW versions.  
