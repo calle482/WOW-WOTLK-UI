@@ -1,0 +1,49 @@
+
+LevelTimingsGoldDB = {
+	["players"] = {
+		["Player-4465-0304AED9"] = {
+			["ts"] = 1692204066,
+			["name"] = "Kryptik",
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+			["timings"] = {
+				{
+					["initial"] = true,
+					["played"] = 14765329,
+					["subzone"] = "",
+					["playedThis"] = 1576643,
+					["gold"] = 23047745,
+					["tocVersion"] = 30402,
+					["level"] = 80,
+					["gameVersion"] = "3.4.2",
+					["timestamp"] = 1692204066,
+				}, -- [1]
+				{
+					["tocVersion"] = 30402,
+					["played"] = 14765350,
+					["zone"] = "Dalaran",
+					["subzone"] = "",
+					["playedThis"] = 1576664,
+					["gold"] = 23047745,
+					["level"] = 0,
+					["gameVersion"] = "3.4.2",
+					["timestamp"] = 1692204091,
+				}, -- [2]
+			},
+			["realm"] = "Golemagg",
+		},
+	},
+	["profileKeys"] = {
+		["Kryptik - Golemagg"] = "Default",
+	},
+	["CacheAHouse"] = {
+		["Kryptik-Golemagg"] = {
+			["tme"] = 1692204066,
+			["session"] = false,
+			["data"] = {
+			},
+		},
+	},
+	["version"] = 2,
+}
+LevelTimingsDB = nil

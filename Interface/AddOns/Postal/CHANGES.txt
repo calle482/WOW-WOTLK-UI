@@ -1,34 +1,13 @@
 ------------------------------------------------------------------------
-r585 | Zimzarina | 2023-07-22 12:23:59 +0000 (Sat, 22 Jul 2023) | 1 line
+r589 | Zimzarina | 2023-08-25 15:12:50 +0000 (Fri, 25 Aug 2023) | 1 line
 Changed paths:
+   M /trunk/Modules/Express.lua
+   M /trunk/Modules/Forward.lua
    M /trunk/Modules/OpenAll.lua
+   M /trunk/Modules/QuickAttach.lua
    M /trunk/Modules/Select.lua
+   M /trunk/Postal_Vanilla.toc
 
-Removed Select and Open all crafting order delete code.
-------------------------------------------------------------------------
-r584 | Zimzarina | 2023-07-18 04:31:35 +0000 (Tue, 18 Jul 2023) | 1 line
-Changed paths:
-   M /trunk/Postal.toc
-
-Force a rebuild for localization updates.
-------------------------------------------------------------------------
-r583 | Zimzarina | 2023-07-17 19:13:35 +0000 (Mon, 17 Jul 2023) | 1 line
-Changed paths:
-   M /trunk/Postal.toc
-
-Force a rebuild for localization updates.
-------------------------------------------------------------------------
-r582 | Zimzarina | 2023-07-17 18:33:37 +0000 (Mon, 17 Jul 2023) | 1 line
-Changed paths:
-   M /trunk/Modules/OpenAll.lua
-   M /trunk/Modules/Select.lua
-
-Select will now delete successful crafting order mails once all items are taken.  Crafting order mails that are declined are intentionality not deleted so users can read messages on why the order was declined.
-------------------------------------------------------------------------
-r581 | Zimzarina | 2023-07-17 17:39:59 +0000 (Mon, 17 Jul 2023) | 1 line
-Changed paths:
-   M /trunk/Modules/OpenAll.lua
-
-Open all will now delete successful crafting order mails once all items are taken.  Crafting order mails that are declined are intentionality not deleted so users can read messages on why the order was declined.
+Blizzard WoW Classic patch 1.14.4 changed the API names of several API's which broke Postal for WoW Classic.  This update fixes Postal for those changes.  There is also a WoW Classic TOC update included.
 ------------------------------------------------------------------------
 

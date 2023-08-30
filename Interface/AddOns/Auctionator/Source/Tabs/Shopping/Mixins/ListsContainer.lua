@@ -147,7 +147,7 @@ function AuctionatorShoppingTabListsContainerMixin:OnShow()
 end
 
 function AuctionatorShoppingTabListsContainerMixin:OnHide()
-  Auctionator.EventBus:Register(self, {
+  Auctionator.EventBus:Unregister(self, {
     Auctionator.Shopping.Events.ListMetaChange,
     Auctionator.Shopping.Events.ListItemChange,
   })
@@ -385,7 +385,7 @@ function AuctionatorShoppingTabListsContainerMixin:SetupContent()
 
   local view = CreateScrollBoxListLinearView(0, 0, 0, 0)
   view:SetElementExtent(buttonHeight)
-  if Auctionator.Constants.IsVanilla then
+  if Auctionator.Constants.ElementInitializerCompatibility then
     view:SetElementInitializer("Button", nil, OnButtonAcquire)
   else
     view:SetElementInitializer("Button", OnButtonAcquire)

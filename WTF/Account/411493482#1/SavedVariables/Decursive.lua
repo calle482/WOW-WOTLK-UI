@@ -4,10 +4,11 @@ DecursiveDB = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Kryptik - Golemagg"] = "Default",
-		["Kryptokk - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Kryptokk - Golemagg"] = "Default",
+		["Kryptik - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
@@ -131,7 +132,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1690536849,
+		["LastVersionAnnounce"] = 1693256104,
 	},
 	["profiles"] = {
 		["Default"] = {

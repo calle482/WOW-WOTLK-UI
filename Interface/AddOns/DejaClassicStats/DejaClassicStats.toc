@@ -1,19 +1,9 @@
-## Interface: 30401
-## Version: 30401r1
+## Interface: 30402
+## Version: 30402r1
 ## Author: Dejablue, Kakjens, loudsoul
-## Title-deDE: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-enUS: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-esES: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-esMX: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-frFR: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-itIT: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-koKR: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-ptBR: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-ruRU: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-zhCN: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
-## Title-zhTW: |TInterface\Addons\DejaClassicStats\DCSArt\DejoLogo:26:26|t|cff00c0ffDCS|r
+## Title: |TInterface\Addons\DejaClassicStats\DCSArt\DejaLogo:26:26|t|cff00c0ff DCS|r
 ## Notes-deDE: DejaClassicStats: Dejablues verbesserte Ansicht der Charakterwerte.
-## Notes-enUS: DejaClassicStats: Dejablue's improved character stats panel view.
+## Notes-enUS: DejaClassicStats: Dejablue's improved character stats panel.
 ## Notes-esES: DejaClassicStats: Vista mejorada del panel de atributos del personaje por Dejablue.
 ## Notes-esMX: DejaClassicStats: Vista mejorada del panel de atributos del personaje por Dejablue.
 ## Notes-frFR: DejaClassicStats: Panneau des statistiques de personnage amélioré, par Dejablue

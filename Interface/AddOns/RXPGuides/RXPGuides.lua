@@ -739,6 +739,7 @@ function addon:OnEnable()
     self:RegisterEvent("PLAYER_LEAVING_WORLD")
 
     self:RegisterEvent("CALENDAR_UPDATE_EVENT_LIST")
+    self:RegisterEvent("ZONE_CHANGED")
 
     if addon.gameVersion > 90000 then
         self:RegisterEvent("COMPANION_LEARNED")
@@ -841,6 +842,8 @@ function addon:GET_ITEM_INFO_RECEIVED(_, itemNumber, success)
         addon.updateStepText = true
     end
 end
+
+function addon:ZONE_CHANGED() addon.UpdateMap() end
 
 function addon:BAG_UPDATE_DELAYED(...) addon.UpdateItemFrame() end
 
@@ -1293,6 +1296,8 @@ end
 
 function addon.stepLogic.HardcoreCheck(step)
     local hc = addon.settings.profile.hardcore
+    local hcserver = C_GameRules and C_GameRules.IsHardcoreActive()
+    if step.softcoreserver and hcserver or step.hardcoreserver and not hcserver then return false end
     if step.softcore and hc or step.hardcore and not hc then return false end
     return true
 end

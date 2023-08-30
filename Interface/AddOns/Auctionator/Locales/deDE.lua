@@ -178,11 +178,23 @@ L["CONFIG_SELLING_MISSING_FAVOURITES_TOOLTIP_HEADER"] = "Fehlende Favoriten anze
 L["CONFIG_SELLING_MISSING_FAVOURITES_TOOLTIP_TEXT"] = "Zeige favorisierte Gegenstände, auch wenn Sie sich nicht den Taschen befinden."
 L["CONFIG_SELLING_NOT_LIFO_HEADER"] = "Ausrüstung/Haustiere verkaufen"
 L["CONFIG_SELLING_NOT_LIFO_TEXT"] = "Optionen zum Einstellen der Dauer und des prozentualen oder fixen unterbietens von Ausrüstung und Haustierkäfigen. Diese Kategorie wird individuell gelistet und der Käufer kann entscheiden, welchen er kaufen möchte. Unterbieten könnte nützlich sein."
+--[[Translation missing --]]
+L["CONFIG_SELLING_POSSESSED_FAVOURITES_FIRST"] = "In favourites item list place favourites you have in your bag first"
+--[[Translation missing --]]
+L["CONFIG_SELLING_POSSESSED_FAVOURITES_FIRST_TOOLTIP_HEADER"] = "Possessed favourites first"
+--[[Translation missing --]]
+L["CONFIG_SELLING_POSSESSED_FAVOURITES_FIRST_TOOLTIP_TEXT"] = "Set the favourites ordering to force any items in your bag to be at the start of the list."
 L["CONFIG_SELLING_POST_SHORTCUT"] = [=[Eine Tastatur-/Mauskürzel zum Erstellen des aktuellen Gegenstands ist
 ]=]
 L["CONFIG_SELLING_POST_SHORTCUT_TOOLTIP_TEXT"] = "Klicke und drücke dann die Taste, die du als Kürzel verwenden möchtest. Dieses Kürzel ist nur auf dem Verkaufenreiter aktiv und wirkt sich nicht auf andere Kürzel aus, die an der Taste gebunden sind."
 --[[Translation missing --]]
 L["CONFIG_SELLING_PREV_SHORTCUT"] = "A shortcut to go back to the previously selected item"
+--[[Translation missing --]]
+L["CONFIG_SELLING_RESELECT_ITEM"] = "Select the last item selected for posting when opening the Selling tab"
+--[[Translation missing --]]
+L["CONFIG_SELLING_RESELECT_ITEM_TOOLTIP_HEADER"] = "Reselect previous item"
+--[[Translation missing --]]
+L["CONFIG_SELLING_RESELECT_ITEM_TOOLTIP_TEXT"] = "After closing the Selling tab and reopening it either during the current session or a later one (including logging out and back in) restore the item selected for posting."
 L["CONFIG_SELLING_SHORTCUTS_CATEGORY"] = "Verkaufen: Tastenkombination"
 L["CONFIG_SELLING_SHORTCUTS_TEXT"] = "Optionen für Tastenkombinationen im Verkaufenreiter"
 L["CONFIG_SELLING_SHOW_BID_PRICE"] = "Gebotspreisoption beim Auflisten eines Gegenstands anzeigen (neuladen erforderlich)"
@@ -411,6 +423,8 @@ L["RENAME"] = "Umbenennen"
 L["RENAME_LIST_CONFIRM"] = "Gebe den neuen Namen für '%s' ein:"
 L["RENAME_LIST_DIALOG"] = "Neuen Name der Einkaufsliste eingeben:"
 L["RESET_ALL"] = "Alles zurücksetzen"
+--[[Translation missing --]]
+L["RESET_COLOR"] = "Reset color"
 L["RESTORE_ALL"] = "Alle wiederherstellen"
 L["RESULTS_AVAILABLE_COLUMN"] = "Verfügbar"
 L["RESULTS_NAME_COLUMN"] = "Name"
@@ -440,6 +454,8 @@ L["SELLERS_OVERFLOW_TEXT"] = "%s, und %s mehr"
 L["SELLING_TAB"] = "Verkaufen"
 L["SELLING_TAB_HEADER"] = "Auctionator - Verkaufen"
 L["SERVER_TOOK_TOO_LONG"] = "Der Server dauerte zu lange, um zu antworten. Dein Handel hat möglicherweise keinen Effekt."
+--[[Translation missing --]]
+L["SET_BAG_ITEM_SELECTION_COLOR"] = "Set bag item selection color"
 L["SET_VALUE"] = "Fixer Betrag"
 L["SET_VALUE_SUFFIX"] = "unterbieten"
 L["SHIFT_LEFT_CLICK"] = "Shift Linksklick"

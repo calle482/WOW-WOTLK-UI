@@ -1,8 +1,6 @@
 # Prat 3.0
 
-## [3.9.32](https://github.com/Legacy-of-Sylvanaar/prat-3-0/tree/3.9.32) (2023-07-12)
-[Full Changelog](https://github.com/Legacy-of-Sylvanaar/prat-3-0/compare/3.9.31...3.9.32) [Previous Releases](https://github.com/Legacy-of-Sylvanaar/prat-3-0/releases)
+## [3.9.35](https://github.com/Legacy-of-Sylvanaar/prat-3-0/tree/3.9.35) (2023-08-23)
+[Full Changelog](https://github.com/Legacy-of-Sylvanaar/prat-3-0/compare/3.9.34...3.9.35) [Previous Releases](https://github.com/Legacy-of-Sylvanaar/prat-3-0/releases)
 
-- Update toc for 10.1.5  
-- Add icon texture to Prat-3.0\_Libraries addon  
-- [Fixes #119] LinkInfoIcons: Errors when player data not available  
+- Vanilla: Update toc for 14.4.4  

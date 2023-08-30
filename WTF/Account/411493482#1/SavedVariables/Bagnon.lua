@@ -55,11 +55,13 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["y"] = 107.1112213134766,
-			["x"] = -76.0736083984375,
+			["x"] = -76.073486328125,
+			["currency"] = true,
 			["borderColor"] = {
 			},
-			["showBags"] = true,
 			["spacing"] = 2,
+			["showBags"] = true,
+			["bagToggle"] = true,
 			["point"] = "BOTTOMRIGHT",
 		},
 		["vault"] = {
@@ -132,6 +134,7 @@ Bagnon_Sets = {
 			["x"] = 478.5184936523438,
 		},
 		["bank"] = {
+			["enabled"] = true,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -156,17 +159,20 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPLEFT",
+			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 0,
-			["x"] = 95.00000762939453,
+			["y"] = -53.7283935546875,
+			["x"] = -444.8519287109375,
 			["borderColor"] = {
 			},
+			["money"] = true,
+			["options"] = true,
+			["bagToggle"] = true,
 			["showBags"] = true,
 		},
 	},
@@ -178,7 +184,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.2",
+	["version"] = "10.1.4",
 	["display"] = {
 	},
 	["fridgeColor"] = {

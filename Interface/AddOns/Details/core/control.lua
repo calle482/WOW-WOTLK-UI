@@ -406,7 +406,9 @@
 
 		Details:Destroy(Details.cache_damage_group)
 		Details:Destroy(Details.cache_healing_group)
-		Details:UpdateParserGears()
+
+		local bFromCombatStart = true
+		Details:UpdateParserGears(bFromCombatStart)
 
 		--get all buff already applied before the combat start
 		Details:CatchRaidBuffUptime("BUFF_UPTIME_IN")
@@ -1064,6 +1066,13 @@
 		Details.tabela_vigente.is_arena = {name = Details.zone_name, zone = Details.zone_name, mapid = Details.zone_id}
 
 		Details:SendEvent("COMBAT_ARENA_START")
+
+		local bOrderDpsByRealTime = Details.CurrentDps.CanSortByRealTimeDps()
+		if (bOrderDpsByRealTime) then
+			local bNoSave = true
+			local nTimeIntervalBetweenUpdates = 0.1
+			Details:SetWindowUpdateSpeed(nTimeIntervalBetweenUpdates, bNoSave)
+		end
 	end
 
 	--return the GetTime() of the current or latest arena match
@@ -1120,6 +1129,9 @@
 		Details:TimeDataUnregister ("Enemy Team Healing")
 
 		Details:SendEvent("COMBAT_ARENA_END")
+
+		--reset the update speed, as it could have changed when the arena started.
+		Details:SetWindowUpdateSpeed(Details.update_speed)
 	end
 
 	local validSpells = {
@@ -1795,10 +1807,10 @@
 	end
 
 	function Details:EndRefresh (instancia, total, combatTable, showing)
-		Details:EsconderBarrasNaoUsadas (instancia, showing)
+		Details:HideBarsNotInUse(instancia, showing)
 	end
 
-	function Details:EsconderBarrasNaoUsadas (instancia, showing)
+	function Details:HideBarsNotInUse(instancia, showing)
 		--primeira atualiza��o ap�s uma mudan�a de segmento -- verifica se h� mais barras sendo mostradas do que o necess�rio
 		--------------------
 			if (instancia.v_barras) then

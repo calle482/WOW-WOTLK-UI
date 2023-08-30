@@ -44543,6 +44543,9 @@ WeakAurasOptionsSaved = {
 		["Teleport to Enemy Ship"] = {
 			["spells"] = "70104=136129",
 		},
+		["Summon Flurky"] = {
+			["spells"] = "359755=294473",
+		},
 		["Throw Bomb by Proxy"] = {
 			["spells"] = "48701=132532",
 		},
@@ -51985,15 +51988,15 @@ WeakAurasOptionsSaved = {
 	["locale"] = "enUS",
 	["needsRebuild"] = false,
 	["version"] = "5.6.0",
-	["savedSnippets"] = {
-	},
+	["spellCacheAchivements"] = true,
+	["spellCacheStrings"] = true,
 	["frame"] = {
 		["xOffset"] = 772.7451171875,
-		["width"] = 830.000244140625,
-		["height"] = 665.0001220703125,
 		["yOffset"] = 821.4454956054688,
+		["height"] = 665.0001220703125,
+		["width"] = 830.000244140625,
 	},
-	["spellCacheStrings"] = true,
-	["spellCacheAchivements"] = true,
-	["build"] = "50375",
+	["savedSnippets"] = {
+	},
+	["build"] = "50664",
 }

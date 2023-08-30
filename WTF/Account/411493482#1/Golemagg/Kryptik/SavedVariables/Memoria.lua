@@ -1,12 +1,5 @@
 
 Memoria_CharBossKillDB = {
-	[5] = {
-		[637] = true,
-		[641] = true,
-		[629] = true,
-		[645] = true,
-		[633] = true,
-	},
 	[6] = {
 		[637] = true,
 		[641] = true,
@@ -14,10 +7,34 @@ Memoria_CharBossKillDB = {
 		[645] = true,
 		[633] = true,
 	},
-	[4] = {
-		[776] = true,
-		[1084] = true,
-		[645] = true,
+	[2] = {
+		[293] = true,
+		[524] = true,
+		[371] = true,
+		[387] = true,
+		[526] = true,
+		[295] = true,
+		[334] = true,
+		[575] = true,
+		[296] = true,
+		[373] = true,
+		[294] = true,
+		[545] = true,
+		[390] = true,
+		[563] = true,
+		[375] = true,
+		[383] = true,
+		[215] = true,
+		[567] = true,
+		[581] = true,
+		[369] = true,
+		[520] = true,
+		[338] = true,
+		[583] = true,
+		[385] = true,
+		[522] = true,
+		[569] = true,
+		[340] = true,
 	},
 	[176] = {
 		[754] = true,
@@ -29,7 +46,19 @@ Memoria_CharBossKillDB = {
 		[752] = true,
 		[748] = true,
 	},
+	[4] = {
+		[776] = true,
+		[1084] = true,
+		[645] = true,
+	},
+	[5] = {
+		[637] = true,
+		[641] = true,
+		[629] = true,
+		[645] = true,
+		[633] = true,
+	},
 }
 Memoria_CharLevelTimes = {
-	[80] = 73955.02350892345,
+	[80] = 197042.3315755069,
 }

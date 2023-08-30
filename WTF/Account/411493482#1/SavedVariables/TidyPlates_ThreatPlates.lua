@@ -10,16 +10,19 @@ ThreatPlatesDB = {
 		["Tjurn - Golemagg"] = {
 			["welcome"] = true,
 		},
+		["Flintn - Golemagg"] = {
+			["welcome"] = true,
+		},
 		["Kryptok - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Kryptik - Golemagg"] = {
+		["Hctest - Giantstalker"] = {
 			["welcome"] = true,
 		},
 		["Kryptokk - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Flintn - Golemagg"] = {
+		["Kryptik - Golemagg"] = {
 			["welcome"] = true,
 		},
 		["Krypadin - Golemagg"] = {
@@ -48,10 +51,11 @@ ThreatPlatesDB = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Kryptik - Golemagg"] = "Default",
-		["Kryptokk - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Kryptokk - Golemagg"] = "Default",
+		["Kryptik - Golemagg"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
 		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
@@ -69,6 +73,15 @@ ThreatPlatesDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["AuraWidget"] = {
+				["Debuffs"] = {
+					["ModeIcon"] = {
+						["IconWidth"] = 32,
+						["Style"] = "custom",
+						["IconHeight"] = 32,
+					},
+				},
+			},
 			["settings"] = {
 				["frame"] = {
 					["height"] = 52.875,

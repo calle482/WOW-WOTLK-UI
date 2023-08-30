@@ -9,14 +9,16 @@ Postal3DB = {
 				"Emoshrek|Golemagg|Horde|39|WARLOCK", -- [4]
 				"Flintn|Golemagg|Horde|58|MAGE", -- [5]
 				"Frusendolme|Golemagg|Horde|68|DEATHKNIGHT", -- [6]
-				"Jägerskytt|Golemagg|Horde|35|HUNTER", -- [7]
-				"Krypadin|Golemagg|Horde|80|PALADIN", -- [8]
-				"Kryptik|Golemagg|Horde|80|MAGE", -- [9]
-				"Kryptokk|Golemagg|Alliance|60|WARRIOR", -- [10]
-				"Kryptok|Golemagg|Horde|60|WARRIOR", -- [11]
-				"Manameister|Golemagg|Horde|46|PRIEST", -- [12]
-				"Smygmeister|Golemagg|Horde|70|ROGUE", -- [13]
-				"Tjurn|Golemagg|Horde|70|SHAMAN", -- [14]
+				"Hctest|Giantstalker|Alliance|1|ROGUE", -- [7]
+				"Hctest|Giantstalker|Horde|1|WARRIOR", -- [8]
+				"Jägerskytt|Golemagg|Horde|35|HUNTER", -- [9]
+				"Krypadin|Golemagg|Horde|80|PALADIN", -- [10]
+				"Kryptik|Golemagg|Horde|80|MAGE", -- [11]
+				"Kryptokk|Golemagg|Alliance|60|WARRIOR", -- [12]
+				"Kryptok|Golemagg|Horde|60|WARRIOR", -- [13]
+				"Manameister|Golemagg|Horde|46|PRIEST", -- [14]
+				"Smygmeister|Golemagg|Horde|70|ROGUE", -- [15]
+				"Tjurn|Golemagg|Horde|70|SHAMAN", -- [16]
 			},
 		},
 	},
@@ -24,10 +26,11 @@ Postal3DB = {
 		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
 		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
 		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
-		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
-		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
-		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
 		["Flintn - Golemagg"] = "Flintn - Golemagg",
+		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
+		["Hctest - Giantstalker"] = "Hctest - Giantstalker",
+		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
+		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
 		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
 		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
 		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
@@ -43,7 +46,13 @@ Postal3DB = {
 		},
 		["Tjurn - Golemagg"] = {
 		},
+		["Flintn - Golemagg"] = {
+		},
 		["Kryptok - Golemagg"] = {
+		},
+		["Hctest - Giantstalker"] = {
+		},
+		["Kryptokk - Golemagg"] = {
 		},
 		["Kryptik - Golemagg"] = {
 			["BlackBook"] = {
@@ -51,10 +60,6 @@ Postal3DB = {
 					"Smygmeister|Golemagg|Horde", -- [1]
 				},
 			},
-		},
-		["Kryptokk - Golemagg"] = {
-		},
-		["Flintn - Golemagg"] = {
 		},
 		["Krypadin - Golemagg"] = {
 			["BlackBook"] = {

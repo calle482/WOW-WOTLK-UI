@@ -1019,15 +1019,15 @@ local function RangedCrit()
 end
 -- Bonus Melee Hit Chance Modifier
 local function HitModifier()
-	local hitRating = GetCombatRatingBonus(CR_HIT_MELEE)
+	local ratingBonus = GetCombatRatingBonus(CR_HIT_MELEE)
 	local hit = GetCombatRating(CR_HIT_MELEE)
 
-	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", hitRating)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", hitRating) ).." Hit)"
-	local TooltipLine2 = "\n"..( format(CR_HIT_MELEE_TOOLTIP, UnitLevel("player"), hitRating, hit, GetArmorPenetration()) );
-	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", hitRating) )
+	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", ratingBonus)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", ratingBonus) ).." Hit)"
+	local TooltipLine2 = "\n"..( format(CR_HIT_MELEE_TOOLTIP, UnitLevel("player"), ratingBonus, GetCombatRating(CR_ARMOR_PENETRATION), GetArmorPenetration()) );
+	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", ratingBonus) )
 	local total = ""
 
-	return "", "("..hit..") "..(format( "%.2f%%", hitRating) ), TooltipLine1, TooltipLine2, TooltipLine3, total
+	return "", "("..hit..") "..(format( "%.2f%%", ratingBonus) ), TooltipLine1, TooltipLine2, TooltipLine3, total
 end
 local function MeleeHaste()
 	local hasteRating = GetCombatRatingBonus(CR_HASTE_MELEE)
@@ -1045,19 +1045,19 @@ end
 -- Bonus Ranged Hit Chance Modifier
 local function RangedHitModifier()
 	hasBiznicks = addon.hasBiznicks
-	local hitRating = GetCombatRatingBonus(CR_HIT_RANGED)
+	local ratingBonus = GetCombatRatingBonus(CR_HIT_RANGED)
 	local hit = GetCombatRating(CR_HIT_RANGED)
 	if hit == nil then hit = 0 end
 	if hasBiznicks then 
 		hit = hit + 3
 	end
 
-	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", hitRating)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", hitRating) ).." Hit)"
-	local TooltipLine2 = "\n"..( format(CR_HIT_RANGED_TOOLTIP, UnitLevel("player"), hitRating, hit, GetArmorPenetration()) );
-	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", hitRating) )
+	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", ratingBonus)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", ratingBonus) ).." Hit)"
+	local TooltipLine2 = "\n"..( format(CR_HIT_RANGED_TOOLTIP, UnitLevel("player"), ratingBonus, GetCombatRating(CR_ARMOR_PENETRATION), GetArmorPenetration()) );
+	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", ratingBonus) )
 	local total = ""
 
-	return "", "("..hit..") "..(format( "%.2f%%", hitRating) ), TooltipLine1, TooltipLine2, TooltipLine3, total
+	return "", "("..hit..") "..(format( "%.2f%%", ratingBonus) ), TooltipLine1, TooltipLine2, TooltipLine3, total
 end
 local function RangedHaste()
 	local hasteRating = GetCombatRatingBonus(CR_HASTE_RANGED)
@@ -1320,15 +1320,16 @@ local function SpellCrit()
 end
 -- Bonus Spell Hit Chance Modifier
 local function SpellHitModifier()
-	local hitRating = GetCombatRatingBonus(CR_HIT_SPELL)
+	local ratingBonus = GetCombatRatingBonus(CR_HIT_SPELL)
 	local hit = GetCombatRating(CR_HIT_SPELL)
+	local spellPenetration = GetSpellPenetration();
 
-	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", hitRating)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", hitRating) ).." Hit)"
-	local TooltipLine2 = "\n"..( format(CR_HIT_SPELL_TOOLTIP, UnitLevel("player"), hitRating, GetArmorPenetration()) );
-	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", hitRating) )
+	local TooltipLine1 = L["Hit Chance: "]..(format( "%.2f%%", ratingBonus)).."\n ("..hit.." Rating adds "..(format( "%.2f%%", ratingBonus) ).." Hit)"
+	local TooltipLine2 = "\n"..( format(CR_HIT_SPELL_TOOLTIP, UnitLevel("player"), ratingBonus, spellPenetration, spellPenetration) );
+	-- local TooltipLine3 = L["Total Hit: "]..(format( "%.2f%%", ratingBonus) )
 	local total = ""
 
-	return "", "("..hit..") "..(format( "%.2f%%", hitRating) ), TooltipLine1, TooltipLine2, TooltipLine3, total
+	return "", "("..hit..") "..(format( "%.2f%%", ratingBonus) ), TooltipLine1, TooltipLine2, TooltipLine3, total
 end
 -- SpellPenetration Modifier
 -- local function SpellPenetration()

@@ -10,10 +10,15 @@ GoldSave = {
 		["name"] = "Emoshrek",
 		["gold"] = 243,
 	},
+	["Kryptok_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Kryptok",
+		["gold"] = 968614,
+	},
 	["Kryptik_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Kryptik",
-		["gold"] = 802790,
+		["gold"] = 20637898,
 	},
 	["Krypadin_Golemagg::Horde"] = {
 		["show"] = true,
@@ -25,10 +30,15 @@ GoldSave = {
 		["name"] = "Frusendolme",
 		["gold"] = 8852322,
 	},
-	["Kryptok_Golemagg::Horde"] = {
+	["Hctest_Giantstalker::Alliance"] = {
 		["show"] = true,
-		["name"] = "Kryptok",
-		["gold"] = 968614,
+		["name"] = "Hctest",
+		["gold"] = 0,
+	},
+	["Jägerskytt_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Jägerskytt",
+		["gold"] = 7918,
 	},
 	["Smygmeister_Golemagg::Horde"] = {
 		["show"] = true,
@@ -45,15 +55,15 @@ GoldSave = {
 		["name"] = "Emomage",
 		["gold"] = 11000545,
 	},
+	["Hctest_Giantstalker::Horde"] = {
+		["show"] = true,
+		["name"] = "Hctest",
+		["gold"] = 0,
+	},
 	["Dunderguld_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Dunderguld",
 		["gold"] = 14179,
-	},
-	["Jägerskytt_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Jägerskytt",
-		["gold"] = 7918,
 	},
 	["Doktormabuse_Golemagg::Horde"] = {
 		["show"] = true,

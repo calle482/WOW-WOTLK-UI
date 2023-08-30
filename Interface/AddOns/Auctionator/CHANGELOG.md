@@ -1,8 +1,7 @@
 # Auctionator
 
-## [10.1.14](https://github.com/Auctionator/Auctionator/tree/10.1.14) (2023-07-22)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/1.1.13...10.1.14) 
+## [10.1.18](https://github.com/Auctionator/Auctionator/tree/10.1.18) (2023-08-23)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.17...10.1.18) 
 
-- CraftingInfo: Mainline: Dialog on right-click search to set search quantity  
-- Selling: Hidden option to revert favourites sort algorithm change  
-- [Fixes #1414] Tooltip: Error in crafting orders placing UI for some reagents  
+- Vanilla: Update for 14.4.4  
+- Selling: Scroll selected item into view in bag display when doing next/previous  

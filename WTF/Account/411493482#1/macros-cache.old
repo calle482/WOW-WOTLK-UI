@@ -176,6 +176,13 @@ VER 3 000000000000004B " " "132278"
 END
 VER 3 000000000000004C " " "134400"
 END
+VER 3 000000000000004D " " "134400"
+#showtooltip item:36892
+/stopcasting
+/use item:36894
+/use item:36893
+/use item:36892
+END
 VER 3 0000000000000033 " ap+iv" "INV_MISC_QUESTIONMARK"
 #showtooltip Arcane Power
 /use 10
@@ -301,10 +308,10 @@ END
 VER 3 0000000000000042 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
-VER 3 0000000000000024 "spit" "132092"
+VER 3 0000000000000009 "spit" "132092"
 /spit
 END
-VER 3 0000000000000009 "spit" "132092"
+VER 3 0000000000000024 "spit" "132092"
 /spit
 END
 VER 3 000000000000002E "spriest" "136013"

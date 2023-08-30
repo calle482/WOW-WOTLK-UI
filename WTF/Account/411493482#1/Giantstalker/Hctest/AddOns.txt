@@ -1,0 +1,5 @@
+Blizzard_CompactRaidFrames: enabled
+OPie_Classic: disabled
+Blizzard_CombatText: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

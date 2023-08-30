@@ -149,6 +149,7 @@
 ---@field _ActorTable table array of actors
 ---@field _NameIndexTable table<string, number> [actorName] = actorIndex in the _ActorTable, actorcontainer:Remap() refreshes the _NameIndexTable
 ---@field GetActor fun(container: actorcontainer, actorName: string) get an actor by its name
+---@field GetOrCreateActor fun(container: actorcontainer, actorSerial: guid, actorName: actorname, actorFlags: controlflags, bShouldCreateActor: boolean) get an actor by its name, if the actor doesn't exist it will be created
 ---@field GetSpellSource fun(container: actorcontainer, spellId: number) get the first actor found which casted the spell
 ---@field GetAmount fun(container: actorcontainer, actorName: string, key: string) get the amount of actor[key]
 ---@field GetTotal fun(container: actorcontainer, key: string) get the total amount of actor[key] for all actors
@@ -244,6 +245,7 @@
 ---@field total_without_pet number
 ---@field total number
 ---@field total_extra number
+---@field last_dps_realtime number
 ---@field targets targettable
 ---@field GetSpell fun(actor: actor, spellId: number) : spelltable
 ---@field BuildSpellTargetFromBreakdownSpellData fun(actor: actor, bkSpellData: spelltableadv) : table
@@ -267,6 +269,7 @@
 ---@field damage_taken number amount of damage the actor took during the segment
 ---@field damage_from table<string, boolean> store the name of the actors which damaged the actor, format: [actorName] = true
 ---@field totalabsorbed number amount of damage dealt by the actor by got absorbed by the target, this is a "ABSORB" type of miss but still counts as damage done
+---@field augmentedSpellsContainer spellcontainer
 
 ---@class actorheal : actor
 ---@field healing_taken number amount of healing the actor took during the segment
