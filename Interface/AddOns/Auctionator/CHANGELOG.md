@@ -1,7 +1,8 @@
 # Auctionator
 
-## [10.1.18](https://github.com/Auctionator/Auctionator/tree/10.1.18) (2023-08-23)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.17...10.1.18) 
+## [10.1.21](https://github.com/Auctionator/Auctionator/tree/10.1.21) (2023-09-10)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.20...10.1.21) 
 
-- Vanilla: Update for 14.4.4  
-- Selling: Scroll selected item into view in bag display when doing next/previous  
+- Mainline: Shopping Buying: Refresh commodities listing after a purchase  
+- Classic: Remove compatibility code for API calls without C\_Container  
+- Remove auto-opening Basic Options from main options as it doesn't work  

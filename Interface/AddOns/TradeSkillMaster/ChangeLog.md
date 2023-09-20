@@ -1,6 +1,7 @@
-## v4.13.12 Changes
+## v4.13.14 Changes
 
-* [All] Various performance improvements
-* [Classic] Fixed issue loading HC region AuctionDB data
+* [All] Fixed account syncing error while in combat
+* [Retail] Support for 10.1.7
+* [Classic] Fixed error with Enchanting UI
 
 [Known Issues](https://support.tradeskillmaster.com/en_US/known_issues)

@@ -2,7 +2,10 @@
 WSEDB = {
 	["profileKeys"] = {
 		["Kryptik - Golemagg"] = "Default",
+		["Kryptikk - Mograine"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 		["Hctest - Giantstalker"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
 	},

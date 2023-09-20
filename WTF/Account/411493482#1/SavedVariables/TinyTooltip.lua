@@ -208,16 +208,6 @@ BigTipDB = {
 					["wildcard"] = "(%s)",
 					["filter"] = "none",
 				},
-				["factionBig"] = {
-					["enable"] = true,
-					["filter"] = "none",
-				},
-				["guildName"] = {
-					["enable"] = true,
-					["color"] = "ff00ff",
-					["wildcard"] = "<%s>",
-					["filter"] = "none",
-				},
 				["name"] = {
 					["enable"] = true,
 					["color"] = "class",
@@ -228,6 +218,16 @@ BigTipDB = {
 					["enable"] = true,
 					["color"] = "ffffff",
 					["wildcard"] = "%s",
+					["filter"] = "none",
+				},
+				["factionBig"] = {
+					["enable"] = true,
+					["filter"] = "none",
+				},
+				["guildName"] = {
+					["enable"] = true,
+					["color"] = "ff00ff",
+					["wildcard"] = "<%s>",
 					["filter"] = "none",
 				},
 				["title"] = {

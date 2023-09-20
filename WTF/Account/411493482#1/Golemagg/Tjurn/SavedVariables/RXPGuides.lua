@@ -1,14 +1,45 @@
 
 RXPCData = {
 	["completedWaypoints"] = {
-		[3] = {
-		},
-		[4] = {
+		[12] = {
 		},
 	},
-	["currentStep"] = 4,
+	["currentStep"] = 12,
 	["questObjectivesCache"] = {
-		[0] = 3,
+		[747] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Plainstrider Meat: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+			{
+				["type"] = "item",
+				["numRequired"] = 7,
+				["text"] = "Plainstrider Feather: 0/7",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [2]
+		},
+		[753] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 1,
+				["text"] = "Water Pitcher: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[750] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 10,
+				["text"] = "Mountain Cougar Pelt: 0/10",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
 		[766] = {
 			{
 				["type"] = "item",
@@ -39,48 +70,26 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [4]
 		},
-		[747] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 7,
-				["text"] = "Plainstrider Meat: 0/7",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-			{
-				["type"] = "item",
-				["numRequired"] = 7,
-				["text"] = "Plainstrider Feather: 0/7",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
-		},
-		[753] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 1,
-				["text"] = "Water Pitcher: 0/1",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
+		[0] = 4,
 	},
 	["currentGuideGroup"] = "RestedXP TBC Guide",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
 		[747] = "The Hunt Begins",
-		[757] = "Rite of Strength",
+		[780] = "The Battleboars",
 		[753] = "A Humble Task",
 		[748] = "Poison Water",
-		[750] = "The Hunt Continues",
+		[757] = "Rite of Strength",
 		[766] = "Mazzranache",
-		[780] = "The Battleboars",
+		[750] = "The Hunt Continues",
 	},
 	["currentGuideName"] = "01-10 Mulgore",
 	["stepSkip"] = {
+		[3] = true,
+		[6] = true,
 	},
-	["currentStepId"] = 3212644585,
+	["currentStepId"] = 3212644638,
 }
 RXPCTrackingData = {
 	["profileKeys"] = {
@@ -95,7 +104,7 @@ RXPCTrackingData = {
 					["mobs"] = {
 					},
 					["timestamp"] = {
-						["started"] = 1687994888,
+						["started"] = 1693860215,
 					},
 					["quests"] = {
 					},
@@ -110,6 +119,16 @@ RXPCComms = {
 	},
 	["profiles"] = {
 		["Tjurn - Golemagg"] = {
+			["players"] = {
+				["Trøndrfurry"] = {
+					["isRxp"] = true,
+					["lastSeen"] = 52706.273,
+					["xpPercentage"] = 6,
+					["level"] = 70,
+					["timePlayed"] = 0,
+					["class"] = "WARRIOR",
+				},
+			},
 		},
 	},
 }

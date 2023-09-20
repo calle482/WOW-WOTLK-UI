@@ -1,5 +1,3 @@
-# 11.1.26 (2023-08-27)
+# 11.1.28 (2023-09-15)
 
-* Fixed a bug where status text did not show the NPC's role when colorblind accessibility features were enabled [GH-473].
-* Fixed a bug where aura tooltips were not shown correctly for all aura types in WoW (Wrath) Classic [GH-470].
-* Updated TOC version for Classic Patch 1.4.4.
+* Fixed a Lua error in Wrath Classic that occurred when entering battlegrounds as an API function was used that is not available in Wrath Classic [GH-474].

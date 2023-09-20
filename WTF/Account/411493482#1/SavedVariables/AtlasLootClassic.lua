@@ -196,7 +196,7 @@ AtlasLootClassicDB = {
 			[46080] = "cpvpWintergrasp:15",
 			[46096] = "SiderealEssence:15",
 			[46041] = "SiderealEssence:24",
-			[36930] = "EmblemOfHeroism:10",
+			[48683] = "EmblemOfHeroism:40",
 			[46038] = "SiderealEssence:24",
 			[46044] = "SiderealEssence:24",
 			[47709] = "EmblemOfTriumph:45",
@@ -220,15 +220,15 @@ AtlasLootClassicDB = {
 			[45888] = "SiderealEssence:15",
 			[45297] = "SiderealEssence:15",
 			[44710] = "EmblemOfTriumph:1",
-			[41945] = "EmblemOfConquest:58",
-			[42951] = "EmblemOfHeroism:40",
 			[46033] = "SiderealEssence:38",
+			[42951] = "EmblemOfHeroism:40",
+			[41945] = "EmblemOfConquest:58",
 			[46049] = "SiderealEssence:32",
 			[46065] = "cpvpWintergrasp:40",
 			[46081] = "cpvpWintergrasp:25",
 			[46097] = "SiderealEssence:25",
 			[45447] = "SiderealEssence:15",
-			[36931] = "EmblemOfHeroism:10",
+			[47662] = "EmblemOfTriumph:25",
 			[45634] = "EmblemOfConquest:58",
 			[48716] = "EmblemOfHeroism:40",
 			[47710] = "EmblemOfTriumph:45",
@@ -241,7 +241,7 @@ AtlasLootClassicDB = {
 			[36933] = "EmblemOfHeroism:10",
 			[40684] = "EmblemOfHeroism:40",
 			[40700] = "EmblemOfHeroism:35",
-			[40716] = "EmblemOfHeroism:15",
+			[45826] = "EmblemOfConquest:28",
 			[45842] = "EmblemOfConquest:39",
 			[40748] = "EmblemOfValor:40",
 			[40720] = "EmblemOfValor:25",
@@ -251,11 +251,11 @@ AtlasLootClassicDB = {
 			[41963] = "EmblemOfValor:30",
 			[42985] = "EmblemOfHeroism:40",
 			[40736] = "EmblemOfValor:60",
-			[46034] = "SiderealEssence:25",
-			[41962] = "EmblemOfHeroism:30",
-			[42952] = "EmblemOfHeroism:40",
 			[41946] = "EmblemOfTriumph:75",
 			[46050] = "SiderealEssence:24",
+			[42952] = "EmblemOfHeroism:40",
+			[46034] = "SiderealEssence:25",
+			[41962] = "EmblemOfHeroism:30",
 			[46066] = "cpvpWintergrasp:40",
 			[46082] = "cpvpWintergrasp:25",
 			[47661] = "EmblemOfTriumph:25",
@@ -272,11 +272,11 @@ AtlasLootClassicDB = {
 			[40717] = "EmblemOfValor:25",
 			[40733] = "EmblemOfValor:60",
 			[40685] = "EmblemOfHeroism:40",
-			[40701] = "EmblemOfHeroism:35",
+			[45300] = "SiderealEssence:19",
 			[45827] = "EmblemOfConquest:28",
 			[45843] = "EmblemOfConquest:39",
 			[40749] = "EmblemOfValor:40",
-			[45300] = "SiderealEssence:19",
+			[40701] = "EmblemOfHeroism:35",
 			[45931] = "SiderealEssence:19",
 			[40737] = "EmblemOfValor:60",
 			[40745] = "EmblemOfValor:40",
@@ -293,11 +293,11 @@ AtlasLootClassicDB = {
 			[29469] = "honor:16650",
 			[36927] = "EmblemOfHeroism:10",
 			[47664] = "EmblemOfTriumph:25",
-			[45826] = "EmblemOfConquest:28",
+			[40716] = "EmblemOfHeroism:15",
 			[48718] = "EmblemOfHeroism:65",
 			[48691] = "EmblemOfHeroism:40",
 			[41970] = "EmblemOfConquest:46",
-			[47662] = "EmblemOfTriumph:25",
+			[36931] = "EmblemOfHeroism:10",
 			[40738] = "EmblemOfValor:60",
 			[47776] = "EmblemOfTriumph:50",
 			[40723] = "EmblemOfValor:25",
@@ -313,7 +313,7 @@ AtlasLootClassicDB = {
 			[46045] = "SiderealEssence:24",
 			[45829] = "EmblemOfConquest:28",
 			[40721] = "EmblemOfValor:25",
-			[48683] = "EmblemOfHeroism:40",
+			[36930] = "EmblemOfHeroism:10",
 			[40724] = "EmblemOfValor:25",
 			[45988] = "SiderealEssence:19",
 			[47665] = "EmblemOfTriumph:25",
@@ -324,23 +324,35 @@ AtlasLootClassicDB = {
 	},
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
-		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
-		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
-		["Flintn - Golemagg"] = "Flintn - Golemagg",
-		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
-		["Hctest - Giantstalker"] = "Hctest - Giantstalker",
-		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
-		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
+		["Kryptikk - Mograine"] = "Kryptikk - Mograine",
 		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
-		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
 		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
 		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
+		["Flintn - Golemagg"] = "Flintn - Golemagg",
+		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
+		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
+		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
+		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
+		["Nohablobank - Mograine"] = "Nohablobank - Mograine",
+		["Hctest - Giantstalker"] = "Hctest - Giantstalker",
 		["Manameister - Golemagg"] = "Manameister - Golemagg",
 		["Emomage - Golemagg"] = "Emomage - Golemagg",
 		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
 	},
 	["profiles"] = {
 		["Doktormabuse - Golemagg"] = {
+		},
+		["Kryptikk - Mograine"] = {
+		},
+		["Krypadin - Golemagg"] = {
+		},
+		["Emoshrek - Golemagg"] = {
+		},
+		["Dunderguld - Golemagg"] = {
+		},
+		["Flintn - Golemagg"] = {
 		},
 		["Frusendolme - Golemagg"] = {
 		},
@@ -353,14 +365,6 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Flintn - Golemagg"] = {
-		},
-		["Kryptok - Golemagg"] = {
-		},
-		["Hctest - Giantstalker"] = {
-		},
-		["Kryptokk - Golemagg"] = {
-		},
 		["Kryptik - Golemagg"] = {
 			["minimap"] = {
 				["minimapPos"] = 155.4673976617472,
@@ -370,28 +374,30 @@ AtlasLootClassicDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-34.00004959106445, -- [4]
-					55.99998092651367, -- [5]
+					-31.6297664642334, -- [4]
+					56.79000854492188, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
 					"TrialoftheCrusader", -- [2]
-					6, -- [3]
-					8, -- [4]
+					nil, -- [3]
+					10, -- [4]
 					0, -- [5]
 				},
 			},
 		},
-		["Krypadin - Golemagg"] = {
+		["Kryptokk - Golemagg"] = {
+		},
+		["Kryptok - Golemagg"] = {
 		},
 		["Smygmeister - Golemagg"] = {
 			["minimap"] = {
 				["minimapPos"] = 242.8931290706896,
 			},
 		},
-		["Emoshrek - Golemagg"] = {
+		["Nohablobank - Mograine"] = {
 		},
-		["Dunderguld - Golemagg"] = {
+		["Hctest - Giantstalker"] = {
 		},
 		["Manameister - Golemagg"] = {
 		},

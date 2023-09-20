@@ -8,10 +8,10 @@ Memoria_Options = {
 	["battlegroundEndingOnlyWins"] = false,
 	["achievements"] = true,
 	["bosskillsFirstkill"] = false,
-	["version"] = 1,
+	["bosskills"] = true,
 	["battlegroundEnding"] = false,
 	["levelUpShowPlayed"] = false,
-	["bosskills"] = true,
+	["version"] = 1,
 	["resizeChat"] = false,
 	["levelUp"] = true,
 }

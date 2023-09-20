@@ -70,7 +70,7 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.requiredSkill] = {393,1},
         },
         [836] = {
-            [questKeys.triggerEnd] = {"Escort OOX-09/HL to safety", {[zoneIDs.THE_HINTERLANDS]={{49.8,43.8}}}},
+            [questKeys.triggerEnd] = {"Escort OOX-09/HL to safety", {[zoneIDs.THE_HINTERLANDS]={{57.81,50.2}}}},
         },
         [910] = {
             [questKeys.questLevel] = -1,
@@ -148,8 +148,17 @@ function QuestieWotlkQuestFixes:Load()
         [2279] = {
             [questKeys.preQuestSingle] = {2278},
         },
+        [2701] = {
+            [questKeys.finishedBy] = {nil,{141980}},
+        },
         [2767] = {
             [questKeys.triggerEnd] = {"Escort OOX-22/FE to safety", {[zoneIDs.FERALAS]={{55.63,51.35}}}},
+        },
+        [2879] = {
+            [questKeys.requiredSourceItems] = {9255,9256,9257,9258},
+        },
+        [3602] = {
+            [questKeys.requiredSourceItems] = {},
         },
         [3763] = {
             [questKeys.startedBy] = {{6735}},
@@ -166,8 +175,14 @@ function QuestieWotlkQuestFixes:Load()
         [4127] = {
             [questKeys.startedBy] = {nil,{164909,186419}},
         },
+        [4144] = {
+            [questKeys.specialFlags] = nil,
+        },
         [4362] = {
             [questKeys.preQuestSingle] = {4361},
+        },
+        [4363] = {
+            [questKeys.preQuestSingle] = {4362},
         },
         [4485] = {
             [questKeys.startedBy] = {{6179}},
@@ -186,11 +201,24 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.parentQuest] = 0,
             [questKeys.zoneOrSort] = sortKeys.SPECIAL,
         },
+        [5057] = {
+            [questKeys.requiredRaces] = raceIDs.NONE,
+        },
         [5502] = {
             [questKeys.questLevel] = -1,
             [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
             [questKeys.zoneOrSort] = sortKeys.SPECIAL,
             [questKeys.preQuestGroup] = {915,925},
+        },
+        [5505] = {
+            [questKeys.startedBy] = {{11056}},
+            [questKeys.finishedBy] = {{11056}},
+        },
+        [5721] = {
+            [questKeys.extraObjectives] = {{{[zoneIDs.EASTERN_PLAGUELANDS]={{35.01,84.05}}}, Questie.ICON_TYPE_EVENT, l10n("Place the Relic Bundle in the Town Square."),}},
+        },
+        [6185] = {
+            [questKeys.triggerEnd] = {"The Blightcaller Uncovered", {[zoneIDs.EASTERN_PLAGUELANDS]={{23.4,67.8}}}},
         },
         [6961] = {
             [questKeys.exclusiveTo] = {6962},
@@ -203,6 +231,13 @@ function QuestieWotlkQuestFixes:Load()
         },
         [7024] = {
             [questKeys.exclusiveTo] = {6962},
+        },
+        [7641] = {
+            [questKeys.preQuestSingle] = {7638,7670},
+        },
+        [7643] = {
+            [questKeys.preQuestSingle] = {},
+            [questKeys.preQuestGroup] = {7642,7648},
         },
         [7800] = {
             [questKeys.preQuestSingle] = {},
@@ -1728,6 +1763,12 @@ function QuestieWotlkQuestFixes:Load()
         [12741] = {
             [questKeys.requiredMinRep] = {1104,9000},
         },
+        [12752] = {
+            [questKeys.startedBy] = {{19169,19175,19176,19177,19178,20102}},
+        },
+        [12753] = {
+            [questKeys.startedBy] = {{18927,19148,19171,19172,19173,20102}},
+        },
         [12754] = {
             [questKeys.extraObjectives] = {{{[zoneIDs.PLAGUELANDS_THE_SCARLET_ENCLAVE]={{60.9,75.5}}}, Questie.ICON_TYPE_EVENT, l10n("Use the Makeshift Cover"),}},
         },
@@ -1749,8 +1790,26 @@ function QuestieWotlkQuestFixes:Load()
             ---[questKeys.objectives] = {nil,nil,{{39748}},nil,{{{28079,28078},28078,"Frenzyheart Attacker"}}},
             [questKeys.extraObjectives] = {{{[zoneIDs.SHOLAZAR_BASIN]={{65.60,59.48}}}, Questie.ICON_TYPE_EVENT, l10n("Charge the Dormant Polished Crystal at the exposed Lifeblood Pillar"),}},
         },
+        [12772] = {
+            [questKeys.startedBy] = {{18927,19148,19171,19172,19173,20102}},
+        },
+        [12775] = {
+            [questKeys.startedBy] = {{18927,19148,19171,19172,19173,20102}},
+        },
+        [12777] = {
+            [questKeys.startedBy] = {{18927,19148,19171,19172,19173,20102}},
+        },
         [12779] = {
             [questKeys.extraObjectives] = {{{[zoneIDs.PLAGUELANDS_THE_SCARLET_ENCLAVE]={{53.5,36.7}}}, Questie.ICON_TYPE_EVENT, l10n("Use the Horn of the Frostbrood"),}},
+        },
+        [12782] = {
+            [questKeys.startedBy] = {{19169,19175,19176,19177,19178,20102}},
+        },
+        [12783] = {
+            [questKeys.startedBy] = {{19169,19175,19176,19177,19178,20102}},
+        },
+        [12784] = {
+            [questKeys.startedBy] = {{19169,19175,19176,19177,19178,20102}},
         },
         [12797] = {
             [questKeys.extraObjectives] = {{{[zoneIDs.UN_GORO_CRATER]={{50.54,7.74,}}}, Questie.ICON_TYPE_EVENT, l10n("Travel through the Waygate"),}},
@@ -1773,8 +1832,14 @@ function QuestieWotlkQuestFixes:Load()
         [12807] = {
             [questKeys.objectives] = {{{29344,}}},
         },
+        [12808] = {
+            [questKeys.startedBy] = {{18927,19148,19171,19172,19173,20102}},
+        },
         [12810] = {
             [questKeys.objectives] = {{{29392,}}},
+        },
+        [12811] = {
+            [questKeys.startedBy] = {{19169,19175,19176,19177,19178,20102}},
         },
         [12813] = {
             [questKeys.objectives] = {nil,nil,nil,nil,{{{29329,29330,29333,29338},29398}}},
@@ -1914,6 +1979,9 @@ function QuestieWotlkQuestFixes:Load()
         },
         [12927] = {
             [questKeys.objectives] = {{{29746}}},
+        },
+        [12930] = {
+            [questKeys.exclusiveTo] = {12929},
         },
         [12932] = {
             [questKeys.objectives] = {{{30014}}},
@@ -3361,7 +3429,7 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
         },
         [13625] = {
-            [questKeys.objectives] = {{{33973,"Use Thrust on Melee Target"},{33974,"Use Shield-Breaker on vulnerable Ranged Target"},{33972,"Use Charge on vulnerable Charge Target"}}},
+            [questKeys.objectives] = {{{33229,"Use Thrust on Melee Target"},{33243,"Use Shield-Breaker on vulnerable Ranged Target"},{33272,"Use Charge on vulnerable Charge Target"}}},
             [questKeys.preQuestGroup] = {13828,13835,13837},
             [questKeys.exclusiveTo] = {13679},
             [questKeys.parentQuest] = 0,
@@ -3374,7 +3442,7 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.startedBy] = {{32871},nil,{46052}},
         },
         [13633] = {
-            [questKeys.preQuestSingle] = {13668},
+            [questKeys.preQuestSingle] = {13667},
         },
         [13634] = {
             [questKeys.preQuestSingle] = {13668},
@@ -3384,6 +3452,9 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.requiredMinRep] = {59,3000},
             [questKeys.requiredMaxRep] = {59,9000},
         },
+        [13663] = {
+            [questKeys.objectives] = {{{33513,"Black Knight's Gryphon taken"}},nil,{{45121},{45122}}},
+        },
         [13664] = {
             [questKeys.preQuestSingle] = {13700,13701},
             [questKeys.extraObjectives] = {
@@ -3391,20 +3462,23 @@ function QuestieWotlkQuestFixes:Load()
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Cavin"), 0, {{"monster", 33522}}},
             },
         },
+        [13665] = {
+            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33800}}}},
+        },
         [13666] = {
             [questKeys.preQuestGroup] = {13828,13835,13837},
-            [questKeys.exclusiveTo] = {13679},
+            [questKeys.exclusiveTo] = {13679,13669,13670},
             [questKeys.parentQuest] = 0,
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Use Warts-B-Gone Lip Balm and /kiss a Lake Frog"), 0, {{"monster", 33224}}}},
         },
         [13669] = {
             [questKeys.preQuestGroup] = {13828,13835,13837},
-            [questKeys.exclusiveTo] = {13679},
+            [questKeys.exclusiveTo] = {13679,13666,13670},
             [questKeys.parentQuest] = 0,
         },
         [13670] = {
             [questKeys.preQuestGroup] = {13828,13835,13837},
-            [questKeys.exclusiveTo] = {13679},
+            [questKeys.exclusiveTo] = {13679,13666,13669},
             [questKeys.parentQuest] = 0,
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
         },
@@ -3463,70 +3537,70 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.preQuestSingle] = {13664},
         },
         [13699] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33800}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13713] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33795}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13723] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33793}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13724] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33790}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13725] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33794}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13726] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33799}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13727] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33796}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13728] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33792}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13729] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33798}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
             },
         },
         [13731] = {
-            [questKeys.objectives] = {{{30675,"Argent Champion defeated"}}},
+            [questKeys.objectives] = {{{33707,"Argent Champion defeated"}}},
             [questKeys.extraObjectives] = {
                 {nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33791}}},
                 {nil, Questie.ICON_TYPE_TALK, l10n("Speak to Squire Danny"), 0, {{"monster", 33518}}},
@@ -3543,6 +3617,9 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.exclusiveTo] = {13741,13742},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
         },
+        [13745] = {
+            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33795}}}},
+        },
         [13746] = {
             [questKeys.exclusiveTo] = {13747,13748},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Use Warts-B-Gone Lip Balm and /kiss a Lake Frog"), 0, {{"monster", 33224}}}},
@@ -3553,6 +3630,9 @@ function QuestieWotlkQuestFixes:Load()
         [13748] = {
             [questKeys.exclusiveTo] = {13746,13747},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
+        },
+        [13750] = {
+            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33793}}}},
         },
         [13752] = {
             [questKeys.exclusiveTo] = {13753,13754},
@@ -3565,6 +3645,9 @@ function QuestieWotlkQuestFixes:Load()
             [questKeys.exclusiveTo] = {13752,13753},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
         },
+        [13756] = {
+            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33790}}}},
+        },
         [13757] = {
             [questKeys.exclusiveTo] = {13758,13759},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Use Warts-B-Gone Lip Balm and /kiss a Lake Frog"), 0, {{"monster", 33224}}}},
@@ -3575,6 +3658,9 @@ function QuestieWotlkQuestFixes:Load()
         [13759] = {
             [questKeys.exclusiveTo] = {13757,13758},
             [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_EVENT, l10n("Use Everburning Ember"), 0, {{"monster", 33303}}}},
+        },
+        [13761] = {
+            [questKeys.extraObjectives] = {{nil, Questie.ICON_TYPE_TALK, l10n("Mount up"), 0, {{"monster", 33794}}}},
         },
         [13762] = {
             [questKeys.exclusiveTo] = {13763,13764},
@@ -4151,6 +4237,9 @@ function QuestieWotlkQuestFixes:Load()
         },
         [14352] = {
             [questKeys.requiredRaces] = raceIDs.ALL_HORDE,
+        },
+        [14349] = {
+            [questKeys.preQuestGroup] = {6022,6042,6133,6135,6136},
         },
         [14418] = {
             [questKeys.requiredRaces] = raceIDs.UNDEAD,

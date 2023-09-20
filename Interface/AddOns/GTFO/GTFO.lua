@@ -26,9 +26,9 @@ GTFO = {
 		SoundOverrides = { "", "", "", "" }; -- Override table for GTFO sounds
 		IgnoreSpellList = { };
 	};
-	Version = "5.4"; -- Version number (text format)
+	Version = "5.5.2"; -- Version number (text format)
 	VersionNumber = 0; -- Numeric version number for checking out-of-date clients (placeholder until client is detected)
-	RetailVersionNumber = 50400; -- Numeric version number for checking out-of-date clients (retail)
+	RetailVersionNumber = 50502; -- Numeric version number for checking out-of-date clients (retail)
 	ClassicVersionNumber = 50005; -- Numeric version number for checking out-of-date clients (Vanilla classic)
 	BurningCrusadeVersionNumber = 50000; -- Numeric version number for checking out-of-date clients (TBC classic)
 	WrathVersionNumber = 50400; -- Numeric version number for checking out-of-date clients (Wrath classic)
@@ -2148,10 +2148,12 @@ function GTFO_SaveSettings()
 	end
 	GTFOData.SoundOverrides = { "", "", "", "" };
 	GTFOData.IgnoreSpellList = { };
-	getglobal("GTFO_HighResetButton"):Hide();
-	getglobal("GTFO_LowResetButton"):Hide();
-	getglobal("GTFO_FailResetButton"):Hide();
-	getglobal("GTFO_FriendlyFireResetButton"):Hide();
+	if (GTFO.UIRendered) then
+		getglobal("GTFO_HighResetButton"):Hide();
+		getglobal("GTFO_LowResetButton"):Hide();
+		getglobal("GTFO_FailResetButton"):Hide();
+		getglobal("GTFO_FriendlyFireResetButton"):Hide();
+	end
 
 	if (GTFO.Settings.SoundOverrides) then
 		for key, option in pairs(GTFO.Settings.SoundOverrides) do

@@ -22,18 +22,10 @@ local function GetAmountWithUndercut(amount)
   return math.max(0, amount - undercutAmount)
 end
 
-local function GetNumSlots(bag)
-  if C_Container and C_Container.GetContainerNumSlots then
-    return C_Container.GetContainerNumSlots(bag)
-  else
-    return GetContainerNumSlots(bag)
-  end
-end
-
 local function FindItemAgain(itemLink)
   local cleanItemLink = Auctionator.Search.GetCleanItemLink(itemLink)
   for _, bagID in ipairs(Auctionator.Constants.BagIDs) do
-    for slot = 1, GetNumSlots(bagID) do
+    for slot = 1, C_Container.GetContainerNumSlots(bagID) do
       local location = ItemLocation:CreateFromBagAndSlot(bagID, slot)
       if C_Item.DoesItemExist(location) then
         local itemInfo = Auctionator.Utilities.ItemInfoFromLocation(location)
@@ -44,19 +36,6 @@ local function FindItemAgain(itemLink)
     end
   end
 end
-
-local function RegenerateCount(itemInfo)
-  local location = FindItemAgain(itemInfo.itemLink)
-  local count = 0
-  if location then
-    count = Auctionator.Selling.GetItemCount(location)
-  end
-  local newItemInfo = CopyTable(itemInfo, true)
-  newItemInfo.count = count
-  newItemInfo.location = location
-  return newItemInfo
-end
-
 
 AuctionatorSaleItemMixin = {}
 
@@ -88,6 +67,7 @@ function AuctionatorSaleItemMixin:OnShow()
     Auctionator.Selling.Events.BagItemClicked,
     Auctionator.Selling.Events.ClearBagItem,
     Auctionator.Selling.Events.RequestPost,
+    Auctionator.Selling.Events.SkipItem,
     Auctionator.Selling.Events.ConfirmPost,
     Auctionator.Selling.Events.PostSuccessful,
     Auctionator.Selling.Events.PostFailed,
@@ -123,6 +103,7 @@ function AuctionatorSaleItemMixin:OnHide()
     Auctionator.Selling.Events.ClearBagItem,
     Auctionator.Selling.Events.RequestPost,
     Auctionator.Selling.Events.ConfirmPost,
+    Auctionator.Selling.Events.SkipItem,
     Auctionator.Selling.Events.PostSuccessful,
     Auctionator.Selling.Events.PostFailed,
     Auctionator.Buying.Events.ViewSetup,
@@ -363,6 +344,9 @@ function AuctionatorSaleItemMixin:ReceiveEvent(event, ...)
 
   elseif event == Auctionator.Selling.Events.ConfirmPost then
     self:PostItem(true)
+
+  elseif event == Auctionator.Selling.Events.SkipItem then
+    self:SkipItem()
 
   elseif event == Auctionator.Components.Events.EnterPressed then
     self:PostItem()
@@ -697,8 +681,13 @@ function AuctionatorSaleItemMixin:PostItem(confirmed)
     Auctionator.Debug.Message("Trying to post when we can't. Returning")
     return
   elseif not confirmed and self:RequiresConfirmationState() then
-    StaticPopupDialogs[Auctionator.Constants.DialogNames.SellingConfirmPost].text = self:GetConfirmationMessage()
-    StaticPopup_Show(Auctionator.Constants.DialogNames.SellingConfirmPost)
+    if self.SkipButton:IsEnabled() then
+      StaticPopupDialogs[Auctionator.Constants.DialogNames.SellingConfirmPostSkip].text = self:GetConfirmationMessage()
+      StaticPopup_Show(Auctionator.Constants.DialogNames.SellingConfirmPostSkip)
+    else
+      StaticPopupDialogs[Auctionator.Constants.DialogNames.SellingConfirmPost].text = self:GetConfirmationMessage()
+      StaticPopup_Show(Auctionator.Constants.DialogNames.SellingConfirmPost)
+    end
     return
   end
 

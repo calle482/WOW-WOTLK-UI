@@ -717,6 +717,15 @@ function addon.settings:CreateAceOptionsPanel()
                 width = "normal",
                 func = addon.comms.OpenBugReport
             },
+            splashUI = {
+                order = 1.1,
+                name = L("Run Guide Configurator"),
+                type = "execute",
+                width = 1.2,
+                func = addon.startHardcoreIntroUI,
+                hidden = addon.game ~= "CLASSIC"
+            },
+
             generalSettings = {
                 type = "group",
                 name = _G.GENERAL,
@@ -2671,6 +2680,11 @@ function addon.settings:CreateAceOptionsPanel()
             hidden = function() return not incompatibleAddons[title] end
         }
         helpBatch = helpBatch + 1
+    end
+
+    addon.settings.routingOptions = {}
+    for entry in pairs(optionsTable.args.guideRoutingSettings.args) do
+        table.insert(addon.settings.routingOptions,entry)
     end
 
     AceConfig:RegisterOptionsTable(addon.title, optionsTable)

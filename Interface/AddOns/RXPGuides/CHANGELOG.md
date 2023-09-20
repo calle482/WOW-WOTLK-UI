@@ -1,14 +1,16 @@
 # RestedXP Guides
 
-## [v4.5.18](https://github.com/RestedXP/RXPGuides/tree/v4.5.18) (2023-08-19)
-[Full Changelog](https://github.com/RestedXP/RXPGuides/compare/v4.5.17...v4.5.18) [Previous Releases](https://github.com/RestedXP/RXPGuides/releases)
+## [v4.5.20](https://github.com/RestedXP/RXPGuides/tree/v4.5.20) (2023-09-13)
+[Full Changelog](https://github.com/RestedXP/RXPGuides/compare/v4.5.19...v4.5.20) [Previous Releases](https://github.com/RestedXP/RXPGuides/releases)
 
-- Improved coordinate display  
-- Fixed an issue with stonetalon waypoints  
-- Improved feedback for itemcount steps  
+- Optional step flag fixes  
+- XP Grind level fix  
+- Added missing #softcore tag  
+- .addquestitem added  
+- Added a command that adds items to tooltips  
+- Removed duplicated tooltip entries for items  
+- Typo fixes  
+- ADV Mage fixes  
+- ADV AoE small fixes  
 - Merge branch 'main' of https://github.com/RestedXP/RXPGuides  
-- added #map Stonetalon  
-- Mage AA - Small fixes  
-- 1-12 Mage AA - Polish and improvements  
-- Merge branch 'main' of https://github.com/RestedXP/RXPGuides  
-- Small fix  
+- added #optional to a lot of starterzone steps  

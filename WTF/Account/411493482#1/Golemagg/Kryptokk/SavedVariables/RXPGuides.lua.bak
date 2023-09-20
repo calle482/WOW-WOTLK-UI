@@ -54,6 +54,7 @@ RXPCSettings = {
 			["hardcore"] = false,
 			["xprate"] = 1.5,
 			["frameHeight"] = 125.0000076293945,
+			["migrated"] = true,
 		},
 	},
 }

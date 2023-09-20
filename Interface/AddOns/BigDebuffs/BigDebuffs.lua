@@ -168,6 +168,8 @@ local defaults = {
 
 BigDebuffs.WarningDebuffs = addon.WarningDebuffs or {}
 BigDebuffs.Spells = addon.Spells
+BigDebuffs.HiddenDebuffs = addon.HiddenDebuffs or {}
+local tContains = tContains
 
 -- create a lookup table since CombatLogGetCurrentEventInfo() returns 0 for spellId
 local spellIdByName
@@ -283,6 +285,11 @@ if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
         },
         [1468] = { -- Preservation Evoker
             Magic = true,
+            Poison = true,
+            Disease = function() return IsUsableSpell(GetSpellInfo(374251)) end,
+            Curse = function() return IsUsableSpell(GetSpellInfo(374251)) end,
+        },
+        [1473] = { -- Augmentation Evoker
             Poison = true,
             Disease = function() return IsUsableSpell(GetSpellInfo(374251)) end,
             Curse = function() return IsUsableSpell(GetSpellInfo(374251)) end,
@@ -1829,6 +1836,7 @@ if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
         local function addDebuffs(aura)
             -- aura struct https://wowpedia.fandom.com/wiki/Struct_UnitAuraInfo
             if (not aura) then return end
+            if tContains(self.HiddenDebuffs, aura.spellId) then return end
             local reaction = aura.sourceUnit and UnitReaction("player", aura.sourceUnit) or 0
             local friendlySmokeBomb = aura.spellId == 212183 and reaction > 4
             local isDispellable = self:IsDispellable(unitId, aura.dispelName);
@@ -2053,7 +2061,7 @@ function BigDebuffs:UNIT_AURA(unit)
         -- Check debuffs
         local _, n, _, _, d, e, caster, _, _, id = UnitDebuff(unit, i)
         if id then
-            if self.Spells[id] then
+            if self.Spells[id] and (not tContains(self.HiddenDebuffs, id)) then
                 if LibClassicDurations then
                     local durationNew, expirationTimeNew = LibClassicDurations:GetAuraDurationByUnit(unit, id, caster)
                     if d == 0 and durationNew then
@@ -2184,7 +2192,7 @@ function BigDebuffs:UNIT_AURA_NAMEPLATE(unit)
         -- Check debuffs
         local _, n, _, _, d, e, caster, _, _, id = UnitDebuff(unit, i)
         if id then
-            if self.Spells[id] then
+            if self.Spells[id] and (not tContains(self.HiddenDebuffs, id)) then
                 if LibClassicDurations then
                     local durationNew, expirationTimeNew = LibClassicDurations:GetAuraDurationByUnit(unit, id, caster)
                     if d == 0 and durationNew then

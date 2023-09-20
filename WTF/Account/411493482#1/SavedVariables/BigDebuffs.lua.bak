@@ -1,9 +1,13 @@
 
 BigDebuffsDB = {
 	["profileKeys"] = {
-		["Tjurn - Golemagg"] = "Default",
-		["Kryptik - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kryptikk - Mograine"] = "Default",
 		["Hctest - Giantstalker"] = "Default",
+		["Tjurn - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Kryptik - Golemagg"] = "Default",
+		["Kryptokk - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

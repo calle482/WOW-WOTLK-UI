@@ -1,24 +1,9 @@
 
 GoldSave = {
-	["Tjurn_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Tjurn",
-		["gold"] = 960623,
-	},
 	["Emoshrek_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Emoshrek",
 		["gold"] = 243,
-	},
-	["Kryptok_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Kryptok",
-		["gold"] = 968614,
-	},
-	["Kryptik_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Kryptik",
-		["gold"] = 20637898,
 	},
 	["Krypadin_Golemagg::Horde"] = {
 		["show"] = true,
@@ -30,25 +15,45 @@ GoldSave = {
 		["name"] = "Frusendolme",
 		["gold"] = 8852322,
 	},
+	["Kryptokk_Golemagg::Alliance"] = {
+		["show"] = true,
+		["name"] = "Kryptokk",
+		["gold"] = 231892,
+	},
+	["Kryptikk_Mograine::Horde"] = {
+		["show"] = true,
+		["name"] = "Kryptikk",
+		["gold"] = 0,
+	},
+	["Nohablobank_Mograine::Alliance"] = {
+		["show"] = true,
+		["name"] = "Nohablobank",
+		["gold"] = 0,
+	},
+	["Kryptok_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Kryptok",
+		["gold"] = 968614,
+	},
+	["Tjurn_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Tjurn",
+		["gold"] = 960623,
+	},
+	["Kryptik_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Kryptik",
+		["gold"] = 12082050,
+	},
 	["Hctest_Giantstalker::Alliance"] = {
 		["show"] = true,
 		["name"] = "Hctest",
 		["gold"] = 0,
 	},
-	["Jägerskytt_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Jägerskytt",
-		["gold"] = 7918,
-	},
 	["Smygmeister_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Smygmeister",
 		["gold"] = 10745681,
-	},
-	["Kryptokk_Golemagg::Alliance"] = {
-		["show"] = true,
-		["name"] = "Kryptokk",
-		["gold"] = 231892,
 	},
 	["Emomage_Golemagg::Horde"] = {
 		["show"] = true,
@@ -64,6 +69,11 @@ GoldSave = {
 		["show"] = true,
 		["name"] = "Dunderguld",
 		["gold"] = 14179,
+	},
+	["Jägerskytt_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Jägerskytt",
+		["gold"] = 7918,
 	},
 	["Doktormabuse_Golemagg::Horde"] = {
 		["show"] = true,

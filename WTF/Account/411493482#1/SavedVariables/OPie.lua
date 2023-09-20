@@ -4,7 +4,7 @@ OPie_SavedData = {
 	["CharProfiles"] = {
 	},
 	["_GameVersion"] = "3.4.2",
-	["_OPieVersion"] = "Yuzu 9+3.33 (4.116)",
+	["_OPieVersion"] = "Zeta 1 (4.116)",
 	["ProfileStorage"] = {
 		["default"] = {
 		},

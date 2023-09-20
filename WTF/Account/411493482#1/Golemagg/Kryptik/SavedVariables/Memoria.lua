@@ -60,5 +60,5 @@ Memoria_CharBossKillDB = {
 	},
 }
 Memoria_CharLevelTimes = {
-	[80] = 197042.3315755069,
+	[80] = 237120.202974772,
 }

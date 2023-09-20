@@ -2,20 +2,22 @@
 DecursiveDB = {
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
-		["Frusendolme - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Hctest - Giantstalker"] = "Default",
-		["Kryptokk - Golemagg"] = "Default",
-		["Manameister - Golemagg"] = "Default",
+		["Kryptikk - Mograine"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
-		["Smygmeister - Golemagg"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
-		["Kryptik - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
+		["Frusendolme - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
+		["Kryptik - Golemagg"] = "Default",
+		["Kryptokk - Golemagg"] = "Default",
+		["Emomage - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
+		["Manameister - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -42,6 +44,7 @@ DecursiveDB = {
 				[8] = -13,
 				[16] = -14,
 				[32] = -16,
+				[64] = 7,
 			},
 		},
 		["ROGUE"] = {
@@ -64,6 +67,7 @@ DecursiveDB = {
 				[8] = -14,
 				[16] = -15,
 				[32] = 2,
+				[64] = 7,
 			},
 			["CureOrder-2"] = {
 				-13, -- [1]
@@ -122,7 +126,7 @@ DecursiveDB = {
 		["SHAMAN"] = {
 			["CureOrder-1"] = {
 				-14, -- [1]
-				-13, -- [2]
+				3, -- [2]
 				nil, -- [3]
 				-15, -- [4]
 				[8] = 1,
@@ -132,7 +136,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1692902342,
+		["LastVersionAnnounce"] = 1695229821,
 	},
 	["profiles"] = {
 		["Default"] = {

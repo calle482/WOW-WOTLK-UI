@@ -6,12 +6,35 @@ RXPCData = {
 	},
 	["currentStep"] = 3,
 	["questObjectivesCache"] = {
-		[0] = 0,
+		[0] = 2,
+		[11129] = {
+			{
+				["type"] = "monster",
+				["numRequired"] = 1,
+				["text"] = "Kyle Fed: 0/1",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[870] = {
+			{
+				["type"] = "event",
+				["numRequired"] = 1,
+				["text"] = "Explore the waters of the Forgotten Pools",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
 	},
 	["currentGuideGroup"] = "RestedXP TBC Guide",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
+		[11129] = "Kyle's Gone Missing!",
+		[870] = "The Forgotten Pools",
+		[806] = "Dark Storms",
+		[1498] = "Path of Defense",
+		[834] = "Winds in the Desert",
 		[848] = "Fungal Spores",
 	},
 	["currentGuideName"] = "10-13 Durotar",
@@ -55,8 +78,9 @@ RXPCSettings = {
 	},
 	["profiles"] = {
 		["Kryptok - Golemagg"] = {
-			["hardcore"] = false,
 			["xprate"] = 1.5,
+			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }
