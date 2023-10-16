@@ -1,16 +1,10 @@
 # RestedXP Guides
 
-## [v4.5.20](https://github.com/RestedXP/RXPGuides/tree/v4.5.20) (2023-09-13)
-[Full Changelog](https://github.com/RestedXP/RXPGuides/compare/v4.5.19...v4.5.20) [Previous Releases](https://github.com/RestedXP/RXPGuides/releases)
+## [v4.5.24](https://github.com/RestedXP/RXPGuides/tree/v4.5.24) (2023-10-13)
+[Full Changelog](https://github.com/RestedXP/RXPGuides/compare/v4.5.23...v4.5.24) [Previous Releases](https://github.com/RestedXP/RXPGuides/releases)
 
-- Optional step flag fixes  
-- XP Grind level fix  
-- Added missing #softcore tag  
-- .addquestitem added  
-- Added a command that adds items to tooltips  
-- Removed duplicated tooltip entries for items  
-- Typo fixes  
-- ADV Mage fixes  
-- ADV AoE small fixes  
+- Delay /played clearing on login  
+    fixes #153  
+- Ensure spelldamage stat exists before calculation  
 - Merge branch 'main' of https://github.com/RestedXP/RXPGuides  
-- added #optional to a lot of starterzone steps  
+- Safety coords/unitscan after Ashenvale logoutskip  

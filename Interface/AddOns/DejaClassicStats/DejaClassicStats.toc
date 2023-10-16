@@ -1,5 +1,5 @@
-## Interface: 30402
-## Version: 30402r1
+## Interface: 30403
+## Version: 30403r1
 ## Author: Dejablue, Kakjens, loudsoul
 ## Title: |TInterface\Addons\DejaClassicStats\DCSArt\DejaLogo:26:26|t|cff00c0ff DCS|r
 ## Notes-deDE: DejaClassicStats: Dejablues verbesserte Ansicht der Charakterwerte.

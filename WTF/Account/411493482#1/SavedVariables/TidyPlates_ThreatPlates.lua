@@ -10,6 +10,9 @@ ThreatPlatesDB = {
 		["Krypadin - Golemagg"] = {
 			["welcome"] = true,
 		},
+		["Nohablotank - Mograine"] = {
+			["welcome"] = true,
+		},
 		["Emoshrek - Golemagg"] = {
 			["welcome"] = true,
 		},
@@ -22,6 +25,9 @@ ThreatPlatesDB = {
 		["Frusendolme - Golemagg"] = {
 			["welcome"] = true,
 		},
+		["Jägerskytt - Golemagg"] = {
+			["welcome"] = true,
+		},
 		["Tjurn - Golemagg"] = {
 			["welcome"] = true,
 		},
@@ -31,25 +37,28 @@ ThreatPlatesDB = {
 		["Kryptokk - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Kryptok - Golemagg"] = {
+		["Emomage - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Mjölkmannen - Golemagg"] = {
 			["welcome"] = true,
 		},
 		["Smygmeister - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Nohablobank - Mograine"] = {
+		["Manameister - Golemagg"] = {
 			["welcome"] = true,
 		},
 		["Hctest - Giantstalker"] = {
 			["welcome"] = true,
 		},
-		["Manameister - Golemagg"] = {
+		["Kryptok - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Emomage - Golemagg"] = {
+		["Nohablobank - Mograine"] = {
 			["welcome"] = true,
 		},
-		["Jägerskytt - Golemagg"] = {
+		["Kojävelk - Golemagg"] = {
 			["welcome"] = true,
 		},
 	},
@@ -57,30 +66,34 @@ ThreatPlatesDB = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Kryptikk - Mograine"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
+		["Nohablotank - Mograine"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Smygmeister - Golemagg"] = "Default",
-		["Nohablobank - Mograine"] = "Default",
-		["Hctest - Giantstalker"] = "Default",
-		["Manameister - Golemagg"] = "Default",
 		["Emomage - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
+		["Mjölkmannen - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
+		["Manameister - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kojävelk - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
 	["global"] = {
-		["version"] = "11.1.28",
+		["version"] = "11.1.29",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["CheckForIncompatibleAddons"] = false,
 			["AuraWidget"] = {
 				["Debuffs"] = {
 					["ModeIcon"] = {

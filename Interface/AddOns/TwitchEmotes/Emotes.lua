@@ -820,13 +820,14 @@ TwitchEmotes_defaultpack = {
     ["Kiss"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\Kiss.tga:28:28",
     ["bidenBlast"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\bidenBlast.tga:28:28",
     [":om:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\om.tga:28:28",
-    ["Classic"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\Classic.tga:28:28",
+    [":Classic:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\Classic.tga:28:28",
     [":yo:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\yo.tga:28:28",
     ["bange"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\bange.tga:28:28",
     [":kms:"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\kms.tga:28:28",
     ["headBang"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\headBang.tga:28:28",
     ["fentL"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\fentL.tga:28:28",
     ["jinL"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\jinL.tga:28:28",
+    ["arnoldHalt"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\arnoldHalt.tga:28:28",
     -- DansGaming -- Outdated
     ["dan7"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\DansGaming\\dan7.tga:28:28",
     ["dan10"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\DansGaming\\dan10.tga:28:28",
@@ -2355,6 +2356,8 @@ TwitchEmotes_defaultpack = {
     ["Plotge"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\Plotge.tga:28:28",
     ["LMAO"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\LMAO.tga:28:28",
     ["WickedDrip"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\WickedDrip.tga:28:28",
+    ["peepoDab"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\peepoDab.tga:28:28",
+    ["shadowChatting"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\shadowChatting.tga:28:28",
     -- PsheroTV
     ["heroBT"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\PsheroTV\\heroBT.tga:28:28",
     ["heroFEELS"] = "Interface\\AddOns\\TwitchEmotes\\Emotes\\PsheroTV\\heroFEELS.tga:28:28",
@@ -3674,6 +3677,7 @@ TwitchEmotes_animation_metadata = {
     ["Interface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\headBang.tga"] = {["nFrames"] = 6, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 25},
     ["Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\BLUBBERS.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=64, ["framerate"] = 12},
     ["Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\Plotge.tga"] = {["nFrames"] = 10, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=512, ["framerate"] = 18},
+    ["Interface\\AddOns\\TwitchEmotes\\Emotes\\Pepes\\shadowChatting.tga"] = {["nFrames"] = 8, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"]=32, ["imageHeight"]=256, ["framerate"] = 15},
 }
 
 TwitchEmotes_emoticons = {
@@ -4532,13 +4536,14 @@ TwitchEmotes_emoticons = {
     ["Kiss"] = "Kiss",
     ["bidenBlast"] = "bidenBlast",
     [":om:"] = ":om:",
-    ["Classic"] = "Classic",
+    [":Classic:"] = ":Classic:",
     [":yo:"] = ":yo:",
     ["bange"] = "bange",
     [":kms:"] = ":kms:",
     ["headBang"] = "headBang",
     ["fentL"] = "fentL",
     ["jinL"] = "jinL",
+    ["arnoldHalt"] = "arnoldHalt",
     -- DansGaming
     ["dan7"] = "dan7",
     ["dan10"] = "dan10",
@@ -6183,6 +6188,8 @@ TwitchEmotes_emoticons = {
     ["Plotge"] = "Plotge",
     ["LMAO"] = "LMAO",
     ["WickedDrip"] = "WickedDrip",
+    ["peepoDab"] = "peepoDab",
+    ["shadowChatting"] = "shadowChatting",
     -- PsheroTV
     ["heroBT"] = "heroBT",
     ["heroFEELS"] = "heroFEELS",

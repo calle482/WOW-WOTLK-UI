@@ -3,3 +3,13 @@ OPie_Classic: disabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+Blizzard_CompactRaidFrames: enabled
+LevelTimingsGold: disabled
+RXPGuides: disabled
+Questie: disabled
+Decursive: disabled
+TitanClassic: disabled
+TidyPlates_ThreatPlates: disabled
+MRT: disabled
+ClassicCastbars: disabled
+ClassicHealPrediction: enabled

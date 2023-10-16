@@ -1,0 +1,97 @@
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip taunt
+/startattack
+/cast defensive stance
+/cast taunt
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip rend
+/startattack
+/cast rend
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip disarm
+/startattack
+/cast defensive stance
+/cast disarm
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip sunder armor
+/startattack
+/cast sunder armor
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip cleave
+/startattack
+/cast cleave
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip charge
+/startattack
+/cast battle stance
+/cast charge
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip hamstring
+/startattack
+/cast hamstring
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip heroic strike
+/startattack
+/cast heroic strike
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip mocking blow
+/startattack
+/cast battle stance
+/cast mocking blow
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip execute
+/startattack
+/cast execute
+END
+VER 3 000000000100000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip intercept
+/cast berserker stance
+/cast intercept
+END
+VER 3 000000000100000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip berserker rage
+/cast berserker stance
+/cast berserker rage
+END
+VER 3 000000000100000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip whirlwind
+/startattack
+/cast berserker stance
+/cast whirlwind
+END
+VER 3 000000000100000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip sweeping strikes
+/startattack
+/cast battle stance
+/cast sweeping strikes
+END
+VER 3 0000000001000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip pummel
+/startattack
+/cast berserker stance
+/cast pummel
+END
+VER 3 0000000001000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip overpower
+/startattack
+/cast battle stance
+/cast overpower
+END
+VER 3 0000000001000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip mortal strike
+/startattack
+/cast mortal strike
+END
+VER 3 000000000100000F "armory lfm" "132089"
+/4 LFM SM Cath need 2X DPS and Healer
+/6 LFM SM Cath need 2X DPS and Healer
+END

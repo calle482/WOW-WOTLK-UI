@@ -16,11 +16,11 @@ Prat3CharDB = {
 			},
 			["ChatFrame9EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
 			["ChatFrame2EditBox"] = {
 			},
 			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -28,6 +28,183 @@ Prat3CharDB = {
 Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[19:25:18]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["serverTime"] = 1695499974,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 39114.836,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 39114.836,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 39114.836,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r Guild Message of the Day: Guild bank 3rd tab is FFA. Take and use/sell. Clear it out!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39114.748,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1695499974,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 39114.836,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 39114.836,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 39114.836,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39099.042,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -73,9 +250,9 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
-		["ChatFrame3"] = {
+		["ChatFrame9"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 1,
+			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -88,17 +265,6 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 36645.045,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [1]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -109,7 +275,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 19,
+			["headIndex"] = 42,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -123,92 +289,198 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff33ff99Dominos|r: Created new profile \"Warlock\"",
-					["timestamp"] = 36645.045,
+					["message"] = "|cff979797|Hpratcopy|h[19:25:18]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["serverTime"] = 1695499974,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 39114.836,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
-					["timestamp"] = 36645.045,
+					["message"] = "|cff979797|Hpratcopy|h[19:25:18]|h|r Unknown macro option: Ground",
+					["serverTime"] = 1695499974,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 39114.836,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:29]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
-					["timestamp"] = 36645.045,
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 39114.836,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |cff33ff99Decursive|r: Decursive 2.7.9.1 by John Wellesz",
-					["timestamp"] = 36649.924,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 39114.836,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
-					["timestamp"] = 36649.924,
+					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
+					["timestamp"] = 39099.042,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |c00FFAA00ThreatClassic2 v2.47 - Type /tc2 for options.|r",
-					["timestamp"] = 36649.924,
-					["serverTime"] = 1684858472,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:41]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 39099.042,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.7.30401|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
-					["timestamp"] = 36649.924,
-					["serverTime"] = 1684858472,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:44]|h|r |cff33ff99WowSimsExporter|r: WowSimsExporter v2.5 Initialized. use /wse For Window.",
+					["timestamp"] = 39099.042,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
-					["timestamp"] = 36649.924,
-					["serverTime"] = 1684858472,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r Guild Message of the Day: Guild bank 3rd tab is FFA. Take and use/sell. Clear it out!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39114.748,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:33]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 27|r",
-					["timestamp"] = 36649.924,
-					["serverTime"] = 1684858472,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r Unknown macro option: Ground",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39114.836,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r |cff59f0dcTacoTip v0.4.0 by kebabstorm loaded. Safe travels!",
-					["timestamp"] = 36649.924,
-					["serverTime"] = 1684858473,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r |cff33ff99Decursive|r: Decursive 2.7.10 by John Wellesz",
+					["timestamp"] = 39114.836,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r Total time played: 2 |4day:days;, 1 |4hour:hours;, 43 |4minute:minutes;, 17 |4second:seconds;",
-					["serverTime"] = 1684858473,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 36651.175,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
+					["timestamp"] = 39114.836,
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 8 |4minute:minutes;, 48 |4second:seconds;",
-					["serverTime"] = 1684858473,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r |cff33ff99LevelTimingsGold|r: |cFF33FF99(2.1.31)|r: enter /ltg for interface",
+					["timestamp"] = 39114.836,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:55]|h|r |cff33ff99LevelTimingsGold|r: Creating initial data for this char.",
+					["timestamp"] = 39114.836,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |c00FFAA00ThreatClassic2 v2.48 - Type /tc2 for options.|r",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499975,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499975,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.10.30402|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499975,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499975,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:56]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 31|r",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499975,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r |cff59f0dcTacoTip v0.4.3 by kebabstorm loaded. Safe travels!",
+					["timestamp"] = 39114.836,
+					["serverTime"] = 1695499976,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r Total time played: 2 |4day:days;, 1 |4hour:hours;, 43 |4minute:minutes;, 26 |4second:seconds;",
+					["serverTime"] = 1695499976,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 36651.175,
+					["timestamp"] = 39116.734,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [12]
+				}, -- [20]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r |cffffff00Time played this class (Wrath of the Lich King): 0 days 0 hours 0 minutes (/details playedclass)",
-					["timestamp"] = 36651.646,
-					["serverTime"] = 1684858473,
-				}, -- [13]
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 8 |4minute:minutes;, 57 |4second:seconds;",
+					["serverTime"] = 1695499976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39116.734,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r |cff33ff99Questie|r: [Migration] Migrating Questie for v6.0.0",
-					["timestamp"] = 36651.662,
-					["serverTime"] = 1684858473,
-				}, -- [14]
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r Total time played: 2 |4day:days;, 1 |4hour:hours;, 43 |4minute:minutes;, 26 |4second:seconds;",
+					["serverTime"] = 1695499976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39116.734,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:34]|h|r |cff33ff99Questie|r: [Migration] Migrated Questie to v6.0.0 and removed 0 party entries from the Journey",
-					["timestamp"] = 36651.662,
-					["serverTime"] = 1684858473,
-				}, -- [15]
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r Time played this level: 0 |4day:days;, 1 |4hour:hours;, 8 |4minute:minutes;, 57 |4second:seconds;",
+					["serverTime"] = 1695499976,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 39116.734,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Uhnibouchni-Golemagg:833:CHANNEL:4|h|cff0070ddUhnibouchni|r|h|cffd8d8d8]|r: LFM OS25 SR>MS>OS, ILLU HR, enjoy",
-					["serverTime"] = 1684858474,
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r |cffffff00Time played this class (Wrath of the Lich King): 0 days 0 hours 0 minutes (/details playedclass)",
+					["timestamp"] = 39117.063,
+					["serverTime"] = 1695499976,
+				}, -- [24]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r |cffffff00Time played this class (Wrath of the Lich King): 0 days 0 hours 0 minutes (/details playedclass)",
+					["timestamp"] = 39117.063,
+					["serverTime"] = 1695499976,
+				}, -- [25]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:57]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 39117.089,
+					["serverTime"] = 1695499976,
+				}, -- [26]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:58]|h|r |cFFffff00[Questie]|r The 'Brewfest' world event is active!",
+					["timestamp"] = 39118.108,
+					["serverTime"] = 1695499977,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:12:59]|h|r RestedXP Guides: Experience rate change detected, reloading guide for 1.70x",
+					["timestamp"] = 39118.841,
+					["serverTime"] = 1695499978,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:04]|h|r Error parsing guide 10-20 Eversong Woods / Ghostlands: Invalid syntax\n.hs Hearth to Falconwing and run if its up",
+					["timestamp"] = 39124.187,
+					["serverTime"] = 1695499983,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:05]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Kabeldk:159:CHANNEL:4|h|cffc41e3aKabeldk|r|h|cffd8d8d8]|r: lfm voa 25 need  ele, resto, enha shaman + resto and  feral druid and disci /w me",
+					["serverTime"] = 1695499984,
 					["r"] = 1,
 					["extraData"] = {
 						71, -- [1]
@@ -217,13 +489,18 @@ Prat3HighCPUPerCharDB = {
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 36652.098,
+					["timestamp"] = 39124.625,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
-				}, -- [16]
+				}, -- [30]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Daddyo-Golemagg:834:CHANNEL:4|h|cff0070ddDaddyo|r|h|cffd8d8d8]|r: LFM Naxx25 full fast run! need 2x tank , rest dps! 3x SR -> MS ->OS",
-					["serverTime"] = 1684858474,
+					["message"] = "|cff979797|Hpratcopy|h[22:13:09]|h|r RestedXP Guides: Experience rate change detected, reloading guide for 1.50x",
+					["timestamp"] = 39128.554,
+					["serverTime"] = 1695499988,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:09]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Pødliak-Golemagg:160:CHANNEL:4|h|cffc41e3aPødliak|r|h|cffd8d8d8]|r: LFM ony 25 tank ring HR, 1SR need dps and heals",
+					["serverTime"] = 1695499988,
 					["r"] = 1,
 					["extraData"] = {
 						71, -- [1]
@@ -232,28 +509,13 @@ Prat3HighCPUPerCharDB = {
 						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 36652.569,
+					["timestamp"] = 39129.027,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
-				}, -- [17]
+				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:35]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Uhnibouchni-Golemagg:835:CHANNEL:4|h|cff0070ddUhnibouchni|r|h|cffd8d8d8]|r: LFM OS25 SR>MS>OS, ILLU HR, enjoy",
-					["serverTime"] = 1684858474,
-					["r"] = 1,
-					["extraData"] = {
-						71, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 36652.569,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:36]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Scubaba-Golemagg:836:CHANNEL:4|h|cffc69b6dScubaba|r|h|cffd8d8d8]|r: Lfm normal ulduar 25 gdkp 80/20 split item start 1k need all budget 10k+ /w",
-					["serverTime"] = 1684858475,
+					["message"] = "|cff979797|Hpratcopy|h[22:13:09]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Bikdig:161:CHANNEL:4|h|cffc41e3aBikdig|r|h|cffd8d8d8]|r: LF TANK HOL HC++ LAST SPOT",
+					["serverTime"] = 1695499988,
 					["r"] = 1,
 					["extraData"] = {
 						71, -- [1]
@@ -262,10 +524,145 @@ Prat3HighCPUPerCharDB = {
 						6, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 36653.053,
+					["timestamp"] = 39129.33,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
-				}, -- [19]
+				}, -- [33]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:09]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Bikdig-Golemagg:162:CHANNEL:4|h|cffc41e3aBikdig|r|h|cffd8d8d8]|r: LF TANK HOL HC++ LAST SPOT",
+					["serverTime"] = 1695499988,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39129.33,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lightrunner-Golemagg:163:CHANNEL:4|h|cfff48cbaLightrunner|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tToc 25m NM / NEED 3xHealer/ DPS/ 3SR>MS>OS / Boe HR+Trophy Gbid|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["serverTime"] = 1695499989,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39129.997,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:10]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Predacious-Golemagg:164:CHANNEL:4|h|cffaad372Predacious|r|h|cffd8d8d8]|r: Crimson Fury Clan - Casual Raiding guild. Ulduar/TOGC/VoA/Ony 25mans - Chill Environment since |Htel:Classic|h|TInterface\\AddOns\\TwitchEmotes\\Emotes\\Custom\\Classic.tga:28:28:0:0:32:1024:0:32:192:224|t|h MC. Looking for more DPS. Raiding Wed/Sun 19:00 to 22:00 ST /w for more info - socials welcome too",
+					["serverTime"] = 1695499989,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39130.25,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:14]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Bagota:165:CHANNEL:4|h|cfff48cbaBagota|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tToc 25m NM / NEED 3xHealer/ DPS/ 3SR>MS>OS / Boe HR+Trophy Gbid|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["serverTime"] = 1695499993,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39134.249,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:15]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Babzpriest:166:CHANNEL:4|h|cffffffffBabzpriest|r|h|cffd8d8d8]|r: Mage LFG daily hc or any other hc (not CoS or HoL´) or Voa 25",
+					["serverTime"] = 1695499994,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39134.841,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:15]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Eltraherka-Golemagg:167:CHANNEL:4|h|cffff7c0aEltraherka|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t PENGUIN CLUB (GDKP) |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t TOGC 25 50/50  5/5 TODAY  22:45 NEED |Htel:ELE|h|TInterface\\AddOns\\TwitchEmotes\\Emotes\\GuildEmotes\\ELE.tga:28:28|t|h SHAM   |cffffffff|Hurl:https://discord.gg/ejubYvCc7w|h[https://discord.gg/ejubYvCc7w]|h|r |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|t",
+					["serverTime"] = 1695499994,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39135.375,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:16]|h|r |Hchannel:channel:4|h[4] |h|cffd8d8d8[|r|Hplayer:Lightrunner-Golemagg:168:CHANNEL:4|h|cfff48cbaLightrunner|r|h|cffd8d8d8]|r: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|tToc 25m NM / NEED 3xHealer/ DPS/ 3SR>MS>OS / Boe HR+Trophy Gbid|TInterface\\TargetingFrame\\UI-RaidTargetingIcon_3:0|t",
+					["serverTime"] = 1695499995,
+					["r"] = 1,
+					["extraData"] = {
+						71, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39135.609,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:25]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Howling Fjord]|h",
+					["serverTime"] = 1695500004,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39144.718,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:13:25]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Howling Fjord]|h",
+					["serverTime"] = 1695500004,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						21, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39144.718,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

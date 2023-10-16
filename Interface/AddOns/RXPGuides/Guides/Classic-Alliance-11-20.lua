@@ -872,7 +872,7 @@ step
     .goto Darkshore,54.99,32.04,30,0
     .goto Winterspring,5.49,36.64,35 >> Travel to the Cliffspring River Cave
 step << Druid
-    >>|cFFFCDC00Use the|r |T134776:0|t[Empty Cliffspring Falls Sampler] |cFFFCDC00in the water at the enterance of the Cliffspring River Cave|r
+    >>|cFFFCDC00Use the|r |T134776:0|t[Empty Cliffspring Falls Sampler] |cFFFCDC00in the water at the entrance of the Cliffspring River Cave|r
     .goto Darkshore,54.80,33.16
     .complete 6122,1 --Filled Cliffspring Falls Sampler (1)
 step
@@ -1134,6 +1134,8 @@ step
     .complete 12,1 -- Defias Trapper slain (15)
     .complete 12,2 -- Defias Smuggler slain (15)
     .complete 153,1 -- Red Leather Bandana (15)
+    .mob Defias Trapper
+    .mob Defias Smuggler
 step
 	#label bennytime
     .goto Westfall,49.34,19.27
@@ -2802,6 +2804,11 @@ step
     .use 14338 >>|cFFFCDC00Use the|r |T134865:0|t[Empty Water Tube] |cFFFCDC00at the|r |cFFDB2EEFAuberdine Moonwell|r
     .complete 4812,1
 step
+    .goto Darkshore,37.78,44.06
+    .use 12346 >>|cFFFCDC00Use the|r |T133748:0|t[Empty Cleansing Bowl] |cFFFCDC00at the|r |cFFDB2EEFAuberdine Moonwell|r
+    .collect 12347,1,4763,1 -- Filled Cleansing Bowl (1)
+    .isOnQuest 4763
+step
 #map Darkshore
 	>>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25Tharnariun Treetender|r
 	.target Tharnariun Treetender
@@ -4235,7 +4242,7 @@ step << Warrior
 step
 	>>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cFF00FF25General Marcus Jonathan|r
 	.target General Marcus Jonathan
-    .goto StormwindClassic,36.97,75.32
+    .goto StormwindClassic,63.982,75.338
     .turnin 120 >> Turn in Messenger to Stormwind
     .accept 121 >> Accept Messenger to Stormwind
 step

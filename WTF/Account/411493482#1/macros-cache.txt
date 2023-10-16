@@ -183,6 +183,17 @@ VER 3 000000000000004D " " "134400"
 /use item:36893
 /use item:36892
 END
+VER 3 000000000000004E " " "134400"
+/use [@cursor] Goblin Rocket Pack
+END
+VER 3 000000000000004F " " "134400"
+#showtooltip ice lance
+/cast ice lance
+/cast vampiric bite
+END
+VER 3 0000000000000050 " " "132199"
+/w worthzz dispell
+END
 VER 3 0000000000000033 " ap+iv" "INV_MISC_QUESTIONMARK"
 #showtooltip Arcane Power
 /use 10

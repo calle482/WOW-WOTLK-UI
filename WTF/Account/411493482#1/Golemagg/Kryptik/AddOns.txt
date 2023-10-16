@@ -3,8 +3,11 @@ OPie_Classic: disabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
-Questie: enabled
+Questie: disabled
 RXPGuides: disabled
 Blizzard_CompactRaidFrames: enabled
 LevelTimingsGold: disabled
 BigDebuffs: disabled
+RingMenu: disabled
+Grid2: disabled
+Plater: disabled

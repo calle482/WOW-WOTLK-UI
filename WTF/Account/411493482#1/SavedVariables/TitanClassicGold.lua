@@ -8,7 +8,12 @@ GoldSave = {
 	["Krypadin_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Krypadin",
-		["gold"] = 6715254,
+		["gold"] = 16457389,
+	},
+	["Nohablotank_Mograine::Alliance"] = {
+		["show"] = true,
+		["name"] = "Nohablotank",
+		["gold"] = 2194368,
 	},
 	["Frusendolme_Golemagg::Horde"] = {
 		["show"] = true,
@@ -43,22 +48,37 @@ GoldSave = {
 	["Kryptik_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Kryptik",
-		["gold"] = 12082050,
+		["gold"] = 30320386,
+	},
+	["Emomage_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Emomage",
+		["gold"] = 1000455,
 	},
 	["Hctest_Giantstalker::Alliance"] = {
 		["show"] = true,
 		["name"] = "Hctest",
 		["gold"] = 0,
 	},
+	["Kojävelk_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Kojävelk",
+		["gold"] = 8025,
+	},
 	["Smygmeister_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Smygmeister",
-		["gold"] = 10745681,
+		["gold"] = 10745621,
 	},
-	["Emomage_Golemagg::Horde"] = {
+	["Mjölkmannen_Golemagg::Horde"] = {
 		["show"] = true,
-		["name"] = "Emomage",
-		["gold"] = 11000545,
+		["name"] = "Mjölkmannen",
+		["gold"] = 9704568,
+	},
+	["Doktormabuse_Golemagg::Horde"] = {
+		["show"] = true,
+		["name"] = "Doktormabuse",
+		["gold"] = 4624891,
 	},
 	["Dunderguld_Golemagg::Horde"] = {
 		["show"] = true,
@@ -69,11 +89,6 @@ GoldSave = {
 		["show"] = true,
 		["name"] = "Hctest",
 		["gold"] = 0,
-	},
-	["Doktormabuse_Golemagg::Horde"] = {
-		["show"] = true,
-		["name"] = "Doktormabuse",
-		["gold"] = 4624921,
 	},
 	["Jägerskytt_Golemagg::Horde"] = {
 		["show"] = true,

@@ -109,8 +109,9 @@ RXPCSettings = {
 	},
 	["profiles"] = {
 		["Manameister - Golemagg"] = {
-			["hardcore"] = false,
 			["xprate"] = 1.5,
+			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

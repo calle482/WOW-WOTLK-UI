@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame3EditBox"] = {
-			},
-			["ChatFrame1EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -28,6 +28,60 @@ Prat3CharDB = {
 Prat3HighCPUPerCharDB = {
 	["scrollback"] = {
 		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[09:32:39]|h|r Guild Message of the Day: Phase 4 release date - 12 Oct. Sign ups already posted for ICC 25m! Hyeeeeeeeeeeeepe!",
+					["serverTime"] = 1697382868,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 20908.712,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 20908.712,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 20908.712,
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r Guild Message of the Day: IT'S HERE!! GIGA, PANTS BURSTING, HYPE!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 20908.506,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [4]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -67,10 +121,10 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1684858482,
+					["serverTime"] = 1697382868,
 					["r"] = 1,
 					["b"] = 0,
-					["timestamp"] = 36660.259,
+					["timestamp"] = 20908.712,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
@@ -79,11 +133,11 @@ Prat3HighCPUPerCharDB = {
 				}, -- [1]
 				{
 					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 36660.259,
+					["timestamp"] = 20908.712,
 				}, -- [2]
 				{
 					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 36660.259,
+					["timestamp"] = 20908.712,
 				}, -- [3]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
@@ -92,7 +146,7 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 36656.115,
+					["timestamp"] = 20900.808,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [4]
@@ -104,9 +158,9 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
-		["ChatFrame6"] = {
+		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 1,
+			["headIndex"] = 0,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -119,21 +173,52 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
-				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:47]|h|r [Y] |cffd8d8d8[|r|Hplayer:Jhonn-Golemagg:842:YELL|h|cfffff468Jhonn|r|h|cffd8d8d8]|r: LF ENCHANTER",
-					["serverTime"] = 1684858486,
-					["r"] = 1,
-					["extraData"] = {
-						7, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 36664.28,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [1]
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -165,9 +250,32 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 18,
+			["headIndex"] = 23,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -181,137 +289,154 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:40:13]|h|r Total time played: 4 |4day:days;, 8 |4hour:hours;, 57 |4minute:minutes;, 44 |4second:seconds;",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684824013,
+					["message"] = "|cff979797|Hpratcopy|h[09:32:39]|h|r Guild Message of the Day: Phase 4 release date - 12 Oct. Sign ups already posted for ICC 25m! Hyeeeeeeeeeeeepe!",
+					["serverTime"] = 1697382868,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 20908.712,
 					["extraData"] = {
-						1, -- [1]
+						5, -- [1]
 						["n"] = 1,
 					},
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:40:13]|h|r Time played this level: 1 |4day:days;, 11 |4hour:hours;, 17 |4minute:minutes;, 6 |4second:seconds;",
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[09:32:39]|h|r Unknown macro option: Ground",
+					["serverTime"] = 1697382868,
 					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684824013,
+					["b"] = 0,
+					["timestamp"] = 20908.712,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["g"] = 1,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:40:14]|h|r Unknown macro option: Ground",
-					["b"] = 0,
-					["r"] = 1,
-					["g"] = 1,
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684824014,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 20908.712,
 				}, -- [3]
 				{
-					["message"] = "0 |4day:days;, 9 |4hour:hours;, 34 |4minute:minutes;, 28 |4second:seconds;",
-					["timestamp"] = 36660.259,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 20908.712,
 				}, -- [4]
 				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 36660.259,
+					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
+					["timestamp"] = 20900.808,
 				}, -- [5]
 				{
-					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
-					["timestamp"] = 36656.115,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:24]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 20900.808,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:40]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
-					["timestamp"] = 36656.115,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:26]|h|r Error parsing guide 10-20 Eversong Woods / Ghostlands: Invalid syntax\n.hs Hearth to Falconwing and run if its up",
+					["timestamp"] = 20900.808,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:43]|h|r |cff33ff99Decursive|r: Decursive 2.7.9.1 by John Wellesz",
-					["timestamp"] = 36660.259,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:26]|h|r Error parsing guide 6-10 Eversong Woods: Invalid function call (.spell)\n.spell 1243 >>Use Power Word: Fortitude (Stam buff) on the Eversong Rangers",
+					["timestamp"] = 20900.808,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:43]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
-					["timestamp"] = 36660.259,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:28]|h|r |cff33ff99WowSimsExporter|r: WowSimsExporter v2.5 Initialized. use /wse For Window.",
+					["timestamp"] = 20900.808,
 				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r |c00FFAA00ThreatClassic2 v2.47 - Type /tc2 for options.|r",
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684858483,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r Guild Message of the Day: IT'S HERE!! GIGA, PANTS BURSTING, HYPE!",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 20908.506,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
 				}, -- [10]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.7.30401|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684858483,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r Unknown macro option: Ground",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 20908.712,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [11]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684858483,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r |cff33ff99Decursive|r: Decursive 2.7.10 by John Wellesz",
+					["timestamp"] = 20908.712,
 				}, -- [12]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 27|r",
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684858483,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
+					["timestamp"] = 20908.712,
 				}, -- [13]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r |cff59f0dcTacoTip v0.4.0 by kebabstorm loaded. Safe travels!",
-					["timestamp"] = 36660.259,
-					["serverTime"] = 1684858483,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:29]|h|r |cff33ff99LevelTimingsGold|r: |cFF33FF99(2.1.31)|r: enter /ltg for interface",
+					["timestamp"] = 20908.712,
 				}, -- [14]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r Total time played: 4 |4day:days;, 8 |4hour:hours;, 57 |4minute:minutes;, 50 |4second:seconds;",
-					["serverTime"] = 1684858483,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 36661.505,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:31]|h|r |c00FFAA00ThreatClassic2 v2.48 - Type /tc2 for options.|r",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382870,
 				}, -- [15]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r Time played this level: 1 |4day:days;, 11 |4hour:hours;, 17 |4minute:minutes;, 12 |4second:seconds;",
-					["serverTime"] = 1684858483,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 36661.505,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:31]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382870,
 				}, -- [16]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:45]|h|r |cffffff00Time played this class (Wrath of the Lich King): 0 days 0 hours 0 minutes (/details playedclass)",
-					["timestamp"] = 36662.13,
-					["serverTime"] = 1684858484,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:31]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.11.30403|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382870,
 				}, -- [17]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:47]|h|r [Y] |cffd8d8d8[|r|Hplayer:Jhonn-Golemagg:842:YELL|h|cfffff468Jhonn|r|h|cffd8d8d8]|r: LF ENCHANTER",
-					["serverTime"] = 1684858486,
+					["message"] = "|cff979797|Hpratcopy|h[17:14:31]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382870,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:31]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 37|r",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382870,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:32]|h|r |cff59f0dcTacoTip v0.4.3 by kebabstorm loaded. Safe travels!",
+					["timestamp"] = 20908.712,
+					["serverTime"] = 1697382871,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:33]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 20912.439,
+					["serverTime"] = 1697382872,
+				}, -- [21]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:38]|h|r You receive item: |cffffffff|Hitem:40211::::::::70:::::::::|h[Potion of Speed]|h|rx10.",
+					["serverTime"] = 1697382877,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						1, -- [2]
+						2, -- [3]
+						["n"] = 3,
+					},
+					["timestamp"] = 20917.708,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [22]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:14:41]|h|r |cffd8d8d8[|r|Hplayer:Arroyito-Golemagg:93:ACHIEVEMENT|h|cff3fc6eaArroyito|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:1017:Player-4465-02F9427D:1:10:15:23:4294967295:4294967295:4294967295:4294967295|h[Can I Keep Him?]|h|r!",
+					["serverTime"] = 1697382880,
 					["r"] = 1,
 					["extraData"] = {
-						7, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						47, -- [1]
+						3, -- [2]
+						4, -- [3]
+						["n"] = 3,
 					},
-					["timestamp"] = 36664.28,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [18]
+					["timestamp"] = 20920.867,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

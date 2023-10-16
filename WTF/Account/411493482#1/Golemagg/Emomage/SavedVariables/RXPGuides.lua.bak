@@ -117,6 +117,7 @@ RXPCSettings = {
 	["profiles"] = {
 		["Emomage - Golemagg"] = {
 			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

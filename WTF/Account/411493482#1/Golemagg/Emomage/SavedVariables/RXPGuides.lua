@@ -6,7 +6,7 @@ RXPCData = {
 	},
 	["currentStep"] = 6,
 	["questObjectivesCache"] = {
-		[0] = 4,
+		[0] = 3,
 		[8330] = {
 			{
 				["type"] = "item",
@@ -46,15 +46,6 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [2]
 		},
-		[8325] = {
-			{
-				["type"] = "monster",
-				["numRequired"] = 8,
-				["text"] = "Mana Wyrm slain: 0/8",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
 		[8346] = {
 			{
 				["type"] = "monster",
@@ -70,9 +61,11 @@ RXPCData = {
 	},
 	["questNameCache"] = {
 		[8325] = "Reclaiming Sunstrider Isle",
+		[8336] = "A Fistful of Slivers",
 		[8326] = "Unfortunate Measures",
 		[8330] = "Solanian's Belongings",
 		[8334] = "Aggression",
+		[8344] = "Windows to the Source",
 		[8346] = "Thirst Unending",
 	},
 	["currentGuideName"] = "01-06 Eversong Woods",
@@ -117,6 +110,7 @@ RXPCSettings = {
 	["profiles"] = {
 		["Emomage - Golemagg"] = {
 			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

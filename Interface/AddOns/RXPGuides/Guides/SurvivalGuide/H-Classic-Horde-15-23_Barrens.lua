@@ -603,7 +603,7 @@ step
     .mob Zhevra Runner
 step
     .group
-    .goto The Barrens,62.26,19.38
+    .goto The Barrens,62.34,20.07
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Ak'Zeloth|r
     .turnin 924 >>Turn in The Demon Seed
     .target Ak'Zeloth
@@ -1654,7 +1654,16 @@ step
     .mob Verog the Dervish
     .isOnQuest 851
 step
-    .loop 25,The Barrens,55.80,45.78,56.75,43.41,57.01,41.22,55.45,41.37,54.99,40.84,53.41,40.26,52.99,44.73,54.31,46.81,55.80,45.78
+    #loop
+    .goto The Barrens,55.80,45.78,50,0
+    .goto The Barrens,56.75,43.41,50,0
+    .goto The Barrens,57.01,41.22,50,0
+    .goto The Barrens,55.45,41.37,50,0
+    .goto The Barrens,54.99,40.84,50,0
+    .goto The Barrens,53.41,40.26,50,0
+    .goto The Barrens,52.99,44.73,50,0
+    .goto The Barrens,54.31,46.81,50,0
+    .goto The Barrens,55.80,45.78,50,0
     >>Grind |cRXP_ENEMY_Centaurs|r around the oasis. Loot them for their |cRXP_LOOT_Bracers|r
     .complete 855,1 --Centaur Bracers (15)
     .mob Kolkar Bloodcharger
@@ -1663,14 +1672,31 @@ step
     .isOnQuest 851
 step
     #label Verog
-    .goto The Barrens,52.95,41.75,0
-    .loop 25,The Barrens,55.80,45.78,56.75,43.41,57.01,41.22,55.45,41.37,54.99,40.84,53.41,40.26,52.99,44.73,54.31,46.81,55.80,45.78
+    #loop
+    .goto The Barrens,55.80,45.78,50,0
+    .goto The Barrens,56.75,43.41,50,0
+    .goto The Barrens,57.01,41.22,50,0
+    .goto The Barrens,55.45,41.37,50,0
+    .goto The Barrens,54.99,40.84,50,0
+    .goto The Barrens,53.41,40.26,50,0
+    .goto The Barrens,52.99,44.73,50,0
+    .goto The Barrens,54.31,46.81,50,0
+    .goto The Barrens,55.80,45.78,50,0
     >>Grind |cRXP_ENEMY_Centaurs|r around the oasis. Once |cRXP_ENEMY_Verog|r spawns, kill him and loot him for his |cFF00BCD4Head|r
     >>|cRXP_ENEMY_Verog|r |cFFFCDC00has a chance of spawning every time a|r |cRXP_ENEMY_Centaur|r |cFFFCDC00is killed|r
     .complete 851,1 --Verog's Head (1)
     .mob Verog the Dervish
 step
-    .loop 25,The Barrens,55.72,42.14,55.49,41.75,55.09,41.58,55.03,42.24,55.27,43.17,55.78,43.47,56.15,43.28,56.08,42.58,55.72,42.14
+    #loop
+    .goto The Barrens,55.72,42.14,30,0
+    .goto The Barrens,55.49,41.75,30,0
+    .goto The Barrens,55.09,41.58,30,0
+    .goto The Barrens,55.03,42.24,30,0
+    .goto The Barrens,55.27,43.17,30,0
+    .goto The Barrens,55.78,43.47,30,0
+    .goto The Barrens,56.15,43.28,30,0
+    .goto The Barrens,56.08,42.58,30,0
+    .goto The Barrens,55.72,42.14,30,0
     >>Collect |cRXP_PICK_Laden Mushrooms|r around The Stagnant Oasis
     .complete 848,1 --Collect Fungal Spores (x4)
 step
@@ -1788,7 +1814,7 @@ step
     .isQuestTurnedIn 851
 step
     #completewith next
-    .zone Stonetalon Mountains >> Travel to Stonetalon Mountains
+    .goto The Barrens,35.26,27.88,100 >> Travel to Stonetalon Mountains
     .zoneskip Stonetalon Mountains
 step
     #map Stonetalon Mountains
@@ -2426,7 +2452,7 @@ step << Mage
 step << Priest
     .goto Orgrimmar,35.59,87.80
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to|r |cRXP_FRIENDLY_Ur'kyo|r
-    .train 970/ >> Train your class spells
+    .train 970 >> Train your class spells
     .target Ur'kyo
     .xp <18,1
     .xp >20,1
@@ -2789,7 +2815,7 @@ step
 step
     .goto Stonetalon Mountains,60.16,90.92,30,0
     .goto Stonetalon Mountains,58.44,89.90
-    >>Atack the |cRXP_PICK_Resonite Crystals|r and walk far enough into the cave to investigate the area
+    >>Attack the |cRXP_PICK_Resonite Crystals|r and walk far enough into the cave to investigate the area
     >>|cRXP_WARN_Be careful! These mobs are tougher than they look and are easily double pulled.|r |cRXP_ENEMY_Gogger Rock Keepers|r |cRXP_WARN_cast|r |T136026:0|t[Earth Shock] |cRXP_WARN_which deals a high amount of damage!|r
     .complete 6421,1 --Investigate Cave in Boulderslide Ravine
     .complete 6421,2 --Resonity Crystal (x10)
@@ -3595,10 +3621,17 @@ step
     .zoneskip Ashenvale
 step
 	#completewith next
+    .goto Ashenvale,39.45,55.29,50,0
+    .goto Ashenvale,36.47,57.15,50,0
+    .goto Ashenvale,34.56,54.13,30,0
+    .goto Ashenvale,32.14,52.12,60,0
+    .goto Ashenvale,28.64,48.10,50,0
+    .goto Ashenvale,26.34,45.44,50,0
+    .goto Ashenvale,25.40,39.00,70,0
     .goto Ashenvale,11.96,34.28,80 >>Travel toward the Zoram'gar Outpost
-    >>|cRXP_WARN_Make sure to avoid Astranaar guards en route|r
+    >>|cRXP_WARN_Make sure to avoid Astranaar guards en route. Follow the waypoint for safety|r
+    .unitscan Astranaar Sentinel
 step
-     #completewith next
     .goto Ashenvale,12.20,33.80
     .fp Zoram'gar Outpost >> Get the Zoram'gar Outpost flight path
 step
@@ -3792,6 +3825,8 @@ step << Rogue
 step << Rogue
     .goto Orgrimmar,42.10,49.49
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|t|cRXP_BUY_Talk to|r |cRXP_FRIENDLY_Rekkul|r|cRXP_BUY_. Buy |r |T134387:0|t[Flash Powder] |cRXP_BUY_from him|r
+    .collect 2928,20,2479,1 --Collect Dust of Decay (20)
+    .collect 3371,20,2479,1 --Collect Empty Vial (20)
     .collect 5140,20,2479,1 --Collect Flash Powder (20)
     .target Rekkul
 step

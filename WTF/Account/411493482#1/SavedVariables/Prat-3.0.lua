@@ -53,11 +53,11 @@ Prat3DB = {
 		},
 		["Prat_Bubbles"] = {
 		},
-		["Prat_Timestamps"] = {
-		},
-		["Prat_Paragraph"] = {
+		["Prat_TellTarget"] = {
 		},
 		["Prat_Achievements"] = {
+		},
+		["Prat_Paragraph"] = {
 		},
 		["Prat_DebugModules"] = {
 		},
@@ -69,13 +69,13 @@ Prat3DB = {
 		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_ChannelNames"] = {
+		["Prat_ChannelSticky"] = {
 		},
 		["Prat_Invites"] = {
 		},
 		["Prat_LinkInfoIcons"] = {
 		},
-		["Prat_ChannelSticky"] = {
+		["Prat_ChannelNames"] = {
 		},
 		["Prat_ChatLog"] = {
 		},
@@ -83,7 +83,7 @@ Prat3DB = {
 		},
 		["Prat_Buttons"] = {
 		},
-		["Prat_TellTarget"] = {
+		["Prat_Timestamps"] = {
 		},
 		["Prat_HoverTips"] = {
 		},
@@ -92,25 +92,28 @@ Prat3DB = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Kryptikk - Mograine"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
+		["Nohablotank - Mograine"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Smygmeister - Golemagg"] = "Default",
-		["Nohablobank - Mograine"] = "Default",
-		["Hctest - Giantstalker"] = "Default",
-		["Manameister - Golemagg"] = "Default",
 		["Emomage - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
+		["Mjölkmannen - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
+		["Manameister - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kojävelk - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -120,7 +123,7 @@ Prat3DB = {
 				["LinkInfoIcons"] = 2,
 				["DebugModules"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

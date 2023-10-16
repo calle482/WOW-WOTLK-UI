@@ -330,6 +330,7 @@ else
             Magic = function() return IsUsableSpell(GetSpellInfo(19736)) or IsUsableSpell(GetSpellInfo(19476)) end,
         },
         EVOKER = {
+            Bleed = function() return IsUsableSpell(GetSpellInfo(374251)) end,
             Poison = true,
             Disease = function() return IsUsableSpell(GetSpellInfo(374251)) end,
             Curse = function() return IsUsableSpell(GetSpellInfo(374251)) end,
@@ -1519,7 +1520,9 @@ local CompactUnitFrame_UtilSetDebuff = CompactUnitFrame_UtilSetDebuff
 
 if WOW_PROJECT_ID == WOW_PROJECT_MAINLINE then
     hooksecurefunc("CompactUnitFrame_UpdateAuras", function(frame, unitAuraUpdateInfo)
-        if (not BigDebuffs.db.profile.raidFrames.enabled) then return end
+        if not BigDebuffs.db.profile then return end
+        if not BigDebuffs.db.profile.raidFrames then return end
+        if not BigDebuffs.db.profile.raidFrames.enabled then return end
         if (not frame) or frame:IsForbidden() then return end
         if (not UnitIsPlayer(frame.displayedUnit)) then return end
         BigDebuffs:ShowBigDebuffs(frame)

@@ -1,27 +1,30 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.1.1",
-	},
 	["profileKeys"] = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Kryptikk - Mograine"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
+		["Nohablotank - Mograine"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
-		["Smygmeister - Golemagg"] = "Default",
-		["Nohablobank - Mograine"] = "Default",
-		["Hctest - Giantstalker"] = "Default",
-		["Manameister - Golemagg"] = "Default",
 		["Emomage - Golemagg"] = "Default",
-		["Jägerskytt - Golemagg"] = "Default",
+		["Mjölkmannen - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
+		["Manameister - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kojävelk - Golemagg"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.1.2",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -52,9 +55,29 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 4,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [4]
 			},
 			["themes"] = {
 				["Default"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+				["Plater Nameplates Theme"] = {
 					["textStyles"] = {
 						["seconds"] = {
 						},

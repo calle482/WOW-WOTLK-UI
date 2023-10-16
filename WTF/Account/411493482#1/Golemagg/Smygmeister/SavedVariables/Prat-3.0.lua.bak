@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -75,7 +75,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 5,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -90,36 +90,24 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
+					["serverTime"] = 1696521077,
 					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 34911.786,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685601481,
-					["b"] = 0,
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1685605219,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 31614.785,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 34911.786,
 				}, -- [2]
 				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 31614.785,
-				}, -- [3]
-				{
 					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 31614.785,
-				}, -- [4]
+					["timestamp"] = 34911.786,
+				}, -- [3]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["r"] = 1,
@@ -127,10 +115,10 @@ Prat3HighCPUPerCharDB = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 31608.113,
+					["timestamp"] = 34905.844,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [5]
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -210,7 +198,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 10,
+			["headIndex"] = 4,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -224,123 +212,36 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[18:14:44]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
-					["g"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[22:14:25]|h|r Guild Message of the Day: Guild bank 3rd tab is FFA. Take and use/sell. Clear it out!",
+					["serverTime"] = 1696521077,
 					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 34911.786,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685601481,
-					["b"] = 0.250980406999588,
+					["g"] = 1,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:38:01]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
-					["serverTime"] = 1685605219,
-					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["timestamp"] = 31614.785,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 34911.786,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:52:21]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Kokosh-Golemagg:166:GUILD|h|cffd84e4e80|r:|cffaad372Kokosh|r|h|cffd8d8d8]|r: [NWB] Wintergrasp starts in 10 minutes.",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685602341,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 34911.786,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[08:59:37]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Turbotigra-Golemagg:253:GUILD|h|cffd84e4e80|r:|cffff7c0aTurbotigra|r|h|cffd8d8d8]|r: gc",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685602776,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						18, -- [3]
-						32, -- [4]
-						["n"] = 4,
-					},
-				}, -- [4]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[08:59:41]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Turbotigra-Golemagg:255:GUILD|h|cffd84e4e80|r:|cffff7c0aTurbotigra|r|h|cffd8d8d8]|r: gz even",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685602780,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						18, -- [3]
-						32, -- [4]
-						["n"] = 4,
-					},
-				}, -- [5]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[08:59:49]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Smygmeister-Golemagg:257:GUILD|h|cffd8d83f70|r:|cfffff468Smygmeister|r|h|cffd8d8d8]|r: ty :)",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685602788,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						18, -- [3]
-						34, -- [4]
-						["n"] = 4,
-					},
-				}, -- [6]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:06:13]|h|r |Hchannel:GUILD|h[G] |h|cffd8d8d8[|r|Hplayer:Turbotigra-Golemagg:345:GUILD|h|cffd84e4e80|r:|cffff7c0aTurbotigra|r|h|cffd8d8d8]|r: has earned the achievement |cffffff00|Hachievement:1165:Player-4465-0302ED5A:1:6:1:23:4294967295:4294967295:4294967295:4294967295|h[My Storage is \"Gigantique\"]|h|r!",
-					["b"] = 0.250980406999588,
-					["r"] = 0.250980406999588,
-					["g"] = 1,
-					["timestamp"] = 31614.785,
-					["serverTime"] = 1685603172,
-					["extraData"] = {
-						5, -- [1]
-						false, -- [2]
-						18, -- [3]
-						32, -- [4]
-						["n"] = 4,
-					},
-				}, -- [7]
-				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 34 |4minute:minutes;, 7 |4second:seconds;",
-					["timestamp"] = 31614.785,
-				}, -- [8]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 31614.785,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:40:18]|h|r Guild Message of the Day: P2 has landed! Try to run Ulduar 10 mans every week!",
+					["message"] = "|cff979797|Hpratcopy|h[17:51:17]|h|r Guild Message of the Day: Phase 4 release date - 12 Oct. Sign ups already posted for ICC 25m! Hyeeeeeeeeeeeepe!",
 					["r"] = 0.250980406999588,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 31614.685,
+					["timestamp"] = 34911.7,
 					["g"] = 1,
 					["b"] = 0.250980406999588,
-				}, -- [10]
+				}, -- [4]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -374,7 +275,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 19,
+			["headIndex"] = 33,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -388,1742 +289,254 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:50]|h|r You loot 5 Silver, 47 Copper",
-					["serverTime"] = 1685606749,
-					["r"] = 1,
+					["message"] = "|cff979797|Hpratcopy|h[22:14:25]|h|r Guild Message of the Day: Guild bank 3rd tab is FFA. Take and use/sell. Clear it out!",
+					["serverTime"] = 1696521077,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 34911.786,
 					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
+						5, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 33146.254,
 					["g"] = 1,
-					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:57]|h|r Winterskorn Woodsman says: My life for Ymiron!",
-					["serverTime"] = 1685606756,
+					["message"] = "|cff979797|Hpratcopy|h[22:14:25]|h|r Unknown macro option: Ground",
+					["serverTime"] = 1696521077,
 					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 34911.786,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 33153.861,
 					["g"] = 1,
-					["b"] = 0.6235294342041016,
 				}, -- [2]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:06:14]|h|r You loot 6 Silver, 46 Copper",
-					["serverTime"] = 1685606773,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33170.665,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 34911.786,
 				}, -- [3]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:06:15]|h|r Winterskorn Woodsman says: For Ymiron!",
-					["serverTime"] = 1685606774,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33171.636,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 34911.786,
 				}, -- [4]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:06:58]|h|r Winterskorn Tribesman says: I will break you!",
-					["serverTime"] = 1685606817,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33214.91,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["message"] = "|cff03C6FCGearSpecSwap|r - AddOn loaded successfully",
+					["timestamp"] = 34905.844,
 				}, -- [5]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:12]|h|r You loot 21 Silver, 30 Copper",
-					["serverTime"] = 1685606831,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33228.159,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:13]|h|r |cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.",
+					["timestamp"] = 34905.844,
 				}, -- [6]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:16]|h|r Winterskorn Warrior says: Your sparring is feeble!",
-					["serverTime"] = 1685606835,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33232.717,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:15]|h|r |cff33ff99WowSimsExporter|r: WowSimsExporter v2.5 Initialized. use /wse For Window.",
+					["timestamp"] = 34905.844,
 				}, -- [7]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:22]|h|r Reputation with The Taunka increased by 250.",
-					["serverTime"] = 1685606841,
-					["r"] = 0.501960813999176,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:17]|h|r Guild Message of the Day: Phase 4 release date - 12 Oct. Sign ups already posted for ICC 25m! Hyeeeeeeeeeeeepe!",
+					["r"] = 0.250980406999588,
 					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
+						5, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 33238.757,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
+					["timestamp"] = 34911.7,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
 				}, -- [8]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:22]|h|r Gruesome, But Necessary completed.",
-					["serverTime"] = 1685606841,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33238.757,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [9]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:22]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685606841,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33238.757,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [10]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:22]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685606841,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33238.757,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [11]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Reputation with The Taunka increased by 250.",
-					["serverTime"] = 1685606842,
-					["r"] = 0.501960813999176,
-					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.313,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [12]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Burn Skorn, Burn! completed.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.313,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [13]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.313,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [14]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.313,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [15]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Reputation with The Taunka increased by 250.",
-					["serverTime"] = 1685606842,
-					["r"] = 0.501960813999176,
-					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.91,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [16]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Towers of Certain Doom completed.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.937,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [17]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.937,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [18]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:07:23]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685606842,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33239.937,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [19]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:45:02]|h|r Blacksouled Keeper attempts to run away in fear!",
-					["serverTime"] = 1685605501,
-					["r"] = 1,
-					["extraData"] = {
-						17, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31898.745,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [20]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:45:05]|h|r You receive loot: |cffffffff|Hitem:33454::::::::70:::::::::|h[Salted Venison]|h|r.",
-					["serverTime"] = 1685605504,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31901.852,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [21]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:45:06]|h|r You loot 14 Silver, 54 Copper",
-					["serverTime"] = 1685605505,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31902.752,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [22]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:07]|h|r RestedXP Guides: Targeting macro updated with (Lurielle)",
-					["timestamp"] = 31963.52,
-					["serverTime"] = 1685605566,
-				}, -- [23]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:41]|h|r Spawn of the Twisted Glade completed.",
-					["serverTime"] = 1685605600,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31997.37,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [24]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:41]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685605600,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31997.37,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [25]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:41]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685605600,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 31997.37,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [26]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:45]|h|r Seeds of the Blacksouled Keepers completed.",
-					["serverTime"] = 1685605604,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32001.782,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [27]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:45]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685605604,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32001.782,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [28]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:45]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685605604,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32001.782,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [29]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:45]|h|r You receive item: |cff1eff00|Hitem:39073::::::::70:::::::::|h[Root of the Everlasting]|h|r.",
-					["serverTime"] = 1685605604,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32001.867,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [30]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:46]|h|r Quest accepted: Keeper Witherleaf",
-					["serverTime"] = 1685605605,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32002.254,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [31]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:46:56]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq11|k:12:577:BN_INLINE_TOAST_ALERT:0|h[|Kq11|k]|h has gone offline.",
-					["serverTime"] = 1685605615,
-					["r"] = 0.5098039507865906,
-					["extraData"] = {
-						54, -- [1]
-						false, -- [2]
-						9, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32012.571,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
-				}, -- [32]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:47:40]|h|r You receive loot: |cffffffff|Hitem:33348::::::::70:::::::::|h[Spotted Hippogryph Down]|h|r.",
-					["serverTime"] = 1685605659,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32056.588,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [33]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:47:43]|h|r A crack begins to open beneath your feet.",
-					["serverTime"] = 1685605662,
-					["r"] = 1,
-					["extraData"] = {
-						17, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32059.039,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [34]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:47:59]|h|r You receive loot: |cff9d9d9d|Hitem:33428::::::::70:::::::::|h[Dulled Shiv]|h|r.",
-					["serverTime"] = 1685605678,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32075.28,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [35]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:00]|h|r You loot 20 Silver, 26 Copper",
-					["serverTime"] = 1685605679,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32076.099,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [36]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:01]|h|r You receive loot: |cffffffff|Hitem:33794::::::::70:::::::::|h[Iron Rune Carving Tools]|h|r.",
-					["serverTime"] = 1685605680,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32077.789,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [37]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:02]|h|r RestedXP Guides: Targeting macro updated with (Sage Edan)",
-					["timestamp"] = 32078.029,
-					["serverTime"] = 1685605681,
-				}, -- [38]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:02]|h|r RestedXP Guides: Targeting macro updated with (Longrunner Pembe)",
-					["timestamp"] = 32078.167,
-					["serverTime"] = 1685605681,
-				}, -- [39]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:22]|h|r You feel rested.",
-					["serverTime"] = 1685605701,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32098.601,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [40]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:35]|h|r Reputation with The Taunka increased by 250.",
-					["serverTime"] = 1685605714,
-					["r"] = 0.501960813999176,
-					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32111.854,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [41]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:35]|h|r Mastering the Runes completed.",
-					["serverTime"] = 1685605714,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32111.864,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [42]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:35]|h|r Experience gained: 34170.",
-					["serverTime"] = 1685605714,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32111.864,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [43]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:35]|h|r Received 4 Gold, 70 Silver.",
-					["serverTime"] = 1685605714,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32111.864,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [44]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:36]|h|r You receive item: |cffffffff|Hitem:33796::::::::70:::::::::|h[Rune of Command]|h|r.",
-					["serverTime"] = 1685605715,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32112.187,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [45]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:36]|h|r Longrunner Pembe says: I'm only going to carve the runes I think will give you command over a giant.",
-					["serverTime"] = 1685605715,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32112.301,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [46]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:36]|h|r Quest accepted: The Rune of Command",
-					["serverTime"] = 1685605715,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32112.336,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [47]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:48:36]|h|r RestedXP Guides: Targeting macro updated with (Keeper Witherleaf)",
-					["timestamp"] = 32112.43,
-					["serverTime"] = 1685605715,
-				}, -- [48]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:00]|h|r You receive loot: |cffffffff|Hitem:33348::::::::70:::::::::|h[Spotted Hippogryph Down]|h|r.",
-					["serverTime"] = 1685605739,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32136.949,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [49]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:22]|h|r Your skill in Defense has increased to 345.",
-					["serverTime"] = 1685605761,
-					["r"] = 0.3333333432674408,
-					["extraData"] = {
-						27, -- [1]
-						false, -- [2]
-						15, -- [3]
-						16, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32158.464,
-					["g"] = 0.3333333432674408,
-					["b"] = 1,
-				}, -- [50]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:30]|h|r Keeper Witherleaf attempts to run away in fear!",
-					["serverTime"] = 1685605769,
-					["r"] = 1,
-					["extraData"] = {
-						17, -- [1]
-						false, -- [2]
-						5, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32166.267,
-					["g"] = 0.501960813999176,
-					["b"] = 0.250980406999588,
-				}, -- [51]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:33]|h|r You feel normal.",
-					["serverTime"] = 1685605772,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32168.977,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [52]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:33]|h|r You receive loot: |cffffffff|Hitem:37252::::::::70:::::::::|h[Frostberries]|h|r.",
-					["serverTime"] = 1685605772,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32169.818,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [53]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:49:34]|h|r You loot 4 Silver, 2 Copper",
-					["serverTime"] = 1685605773,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32170.821,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [54]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:15]|h|r You receive loot: |cffffffff|Hitem:33348::::::::70:::::::::|h[Spotted Hippogryph Down]|h|r.",
-					["serverTime"] = 1685605874,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32271.662,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [55]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r You receive item: |cffffffff|Hitem:199210::::::::70:::::::::|h[Northrend Adventuring Supplies]|h|r.",
-					["serverTime"] = 1685605882,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32279.225,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r Keeper Witherleaf completed.",
-					["serverTime"] = 1685605882,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32279.243,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [57]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r Experience gained: 42755.",
-					["serverTime"] = 1685605882,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32279.243,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [58]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r Received 9 Gold, 40 Silver.",
-					["serverTime"] = 1685605882,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32279.243,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [59]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r RestedXP Guides: Targeting macro updated with (Runed Stone Giant)",
-					["timestamp"] = 32279.277,
-					["serverTime"] = 1685605882,
-				}, -- [60]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r RestedXP Guides: Targeting macro updated with (Stone Giant)",
-					["timestamp"] = 32279.277,
-					["serverTime"] = 1685605882,
-				}, -- [61]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:51:23]|h|r RestedXP Guides: Targeting macro updated with (Binder Murdis)",
-					["timestamp"] = 32279.277,
-					["serverTime"] = 1685605882,
-				}, -- [62]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:52:48]|h|r You loot 12 Silver",
-					["serverTime"] = 1685605967,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32364.305,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [63]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:53:25]|h|r RestedXP Guides: Targeting macro updated with (Megalith)",
-					["timestamp"] = 32401.17,
-					["serverTime"] = 1685606004,
-				}, -- [64]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:53:25]|h|r RestedXP Guides: Targeting macro updated with (Winterhoof Brave)",
-					["timestamp"] = 32401.503,
-					["serverTime"] = 1685606004,
-				}, -- [65]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:02]|h|r Discovered Skorn: 1250 experience gained",
-					["serverTime"] = 1685606101,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32498.488,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [66]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:07]|h|r Reputation with The Taunka increased by 10.",
-					["serverTime"] = 1685606106,
-					["r"] = 0.501960813999176,
-					["extraData"] = {
-						36, -- [1]
-						false, -- [2]
-						11, -- [3]
-						12, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32503.951,
-					["g"] = 0.501960813999176,
-					["b"] = 1,
-				}, -- [67]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:07]|h|r Skorn Must Fall! completed.",
-					["serverTime"] = 1685606106,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32503.956,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [68]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:07]|h|r Experience gained: 3400.",
-					["serverTime"] = 1685606106,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32503.956,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [69]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:08]|h|r Quest accepted: Gruesome, But Necessary",
-					["serverTime"] = 1685606107,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32504.521,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [70]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:08]|h|r You receive item: |cffffffff|Hitem:33342::::::::70:::::::::|h[The Brave's Machete]|h|r.",
-					["serverTime"] = 1685606107,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32504.533,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [71]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:09]|h|r You receive item: |cffffffff|Hitem:33343::::::::70:::::::::|h[Brave's Torch]|h|r.",
-					["serverTime"] = 1685606108,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32505.651,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [72]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:09]|h|r Quest accepted: Burn Skorn, Burn!",
-					["serverTime"] = 1685606108,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32505.699,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [73]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r You receive item: |cffffffff|Hitem:33344::::::::70:::::::::|h[Brave's Flare]|h|r.",
-					["serverTime"] = 1685606109,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32506.388,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [74]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r Quest accepted: Towers of Certain Doom",
-					["serverTime"] = 1685606109,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32506.612,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [75]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Berserker)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [76]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Elder)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [77]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Raider)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [78]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Shield-Maiden)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [79]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Tribesman)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [80]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Warrior)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [81]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:10]|h|r RestedXP Guides: Targeting macro updated with (Winterskorn Woodsman)",
-					["timestamp"] = 32506.684,
-					["serverTime"] = 1685606109,
-				}, -- [82]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:57]|h|r You receive loot: |cffffffff|Hitem:33345::::::::70:::::::::|h[Vrykul Scroll of Ascension]|h|r.",
-					["serverTime"] = 1685606156,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32553.606,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:57]|h|r |cff33ff99Questie|r: You picked up |cffffffff|Hitem:33345::::::::70:::::::::|h[Vrykul Scroll of Ascension]|h|r which starts |Hquestie:11260:Player-4465-03077F30|h|cFFFFFF00[|r|cFFFFFF00[72] Stop the Ascension!|r|cFFFFFF00]|r|h!",
-					["timestamp"] = 32553.606,
-					["serverTime"] = 1685606156,
-				}, -- [84]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:55:58]|h|r You loot 12 Silver, 68 Copper",
-					["serverTime"] = 1685606157,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32554.611,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [85]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:56:21]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq16|k:6:647:BN_INLINE_TOAST_ALERT:0|h[|Kq16|k] (|A:UI-ChatIcon-App:14:14:0:0|acube)|h has come online.",
-					["serverTime"] = 1685606180,
-					["r"] = 0.5098039507865906,
-					["extraData"] = {
-						54, -- [1]
-						false, -- [2]
-						9, -- [3]
-						17, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32577.699,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
-				}, -- [86]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:01]|h|r Winterskorn Woodsman says: Die, maggot!",
-					["serverTime"] = 1685606220,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32617.637,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [87]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:01]|h|r Winterskorn Woodsman says: There will be no everlasting life for you!",
-					["serverTime"] = 1685606220,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32617.637,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [88]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:05]|h|r You receive item: |cffffffff|Hitem:33346::::::::70:::::::::|h[Vrykul Scroll of Ascension]|h|r.",
-					["serverTime"] = 1685606224,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32621.102,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [89]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:05]|h|r Quest accepted: Stop the Ascension!",
-					["serverTime"] = 1685606224,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32621.551,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [90]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:05]|h|r Interface action failed because of an AddOn",
-					["serverTime"] = 1685606224,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r Unknown macro option: Ground",
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 32621.551,
+					["timestamp"] = 34911.786,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [91]
+				}, -- [9]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:17]|h|r You loot 22 Silver, 34 Copper",
-					["serverTime"] = 1685606236,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r |cff33ff99Decursive|r: Decursive 2.7.10 by John Wellesz",
+					["timestamp"] = 34911.786,
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r |cff33ff99Decursive|r: |cff4c7fff |cff4c7fff Decursive is now initialized, remember to check the options (/decursive) |r",
+					["timestamp"] = 34911.786,
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r |cff33ff99LevelTimingsGold|r: |cFF33FF99(2.1.31)|r: enter /ltg for interface",
+					["timestamp"] = 34911.786,
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r RestedXP Guides: Targeting macro updated with (Sage Mistwalker)",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521077,
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r RestedXP Guides: Targeting macro updated with (Longrunner Skycloud)",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521077,
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r |c00FFAA00ThreatClassic2 v2.48 - Type /tc2 for options.|r",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521077,
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:18]|h|r |cffffd839TSM|r: TSM doesn't currently have any AuctionDB pricing data for your realm. We recommend you download the TSM Desktop Application from |cff79a2ffhttps://tradeskillmaster.com|r to automatically update your AuctionDB data (and auto-backup your TSM settings).",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521077,
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffd700Titan Panel Classic|r|cff19ff19 1.5.10.30402|r|cffffd700|cffffd700 by the |cffff8c00Titan Panel Development Team|r|cff19ff19|r",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521078,
+				}, -- [17]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffd700Titan: |r|r|cff19ff19Register Titan Panel Classic plugins...|r",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521078,
+				}, -- [18]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffd700Titan: |r|r|cff19ff19Registration process done. 31|r",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521078,
+				}, -- [19]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cff59f0dcTacoTip v0.4.3 by kebabstorm loaded. Safe travels!",
+					["timestamp"] = 34911.786,
+					["serverTime"] = 1696521078,
+				}, -- [20]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Total time played: 1 |4day:days;, 23 |4hour:hours;, 40 |4minute:minutes;, 15 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32633.865,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [92]
+				}, -- [21]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:57:46]|h|r Winterskorn Warrior says: I'll eat your heart!",
-					["serverTime"] = 1685606265,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 55 |4minute:minutes;, 58 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32662.856,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [93]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:58:10]|h|r RestedXP Guides: Targeting macro updated with (Halfdan the Ice-Hearted)",
-					["timestamp"] = 32686.721,
-					["serverTime"] = 1685606289,
-				}, -- [94]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:58:35]|h|r Winterskorn Shield-Maiden says: I will feed you to the dogs!",
-					["serverTime"] = 1685606314,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32711.969,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [95]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:58:49]|h|r You loot 14 Silver, 32 Copper",
-					["serverTime"] = 1685606328,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32725.161,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [96]
+				}, -- [22]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[09:58:56]|h|r Halfdan the Ice-Hearted yells: You think I do not know what you are trying to do? You think I haven't been watching you?",
-					["serverTime"] = 1685606335,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Total time played: 1 |4day:days;, 23 |4hour:hours;, 40 |4minute:minutes;, 16 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32732.811,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [97]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:58:57]|h|r Winterskorn Raider says: Practice or not, you're going to spit teeth!",
-					["serverTime"] = 1685606336,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32733.037,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [98]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:59:01]|h|r Halfdan the Ice-Hearted yells: You will not stop my ascension, tiny orc. Time to die!",
-					["serverTime"] = 1685606340,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32737.519,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [99]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:59:07]|h|r Winterskorn Warrior says: There will be no everlasting life for you!",
-					["serverTime"] = 1685606346,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32743.579,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [100]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:59:11]|h|r Halfdan the Ice-Hearted yells: No! You will not defeat me!",
-					["serverTime"] = 1685606350,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32747.218,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [101]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:59:15]|h|r Val'kyr Observer yells: How unfortunate, Halfdan.",
-					["serverTime"] = 1685606354,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32751.058,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [102]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[09:59:32]|h|r Val'kyr Observer yells: We find you unworthy of ascension, Halfdan. Let your soul know oblivion!",
-					["serverTime"] = 1685606371,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32768.908,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [103]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:00:15]|h|r Winterskorn Shield-Maiden says: I will take pleasure in gutting you!",
-					["serverTime"] = 1685606414,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32811.559,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [104]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:00:27]|h|r You loot 13 Silver, 90 Copper",
-					["serverTime"] = 1685606426,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32823.348,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [105]
+				}, -- [23]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:01:40]|h|r Winterskorn Warrior says: Sniveling pig!",
-					["serverTime"] = 1685606499,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 55 |4minute:minutes;, 59 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32896.892,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [106]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:01:44]|h|r Winterskorn Tribesman says: I will take pleasure in gutting you!",
-					["serverTime"] = 1685606503,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32900.181,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [107]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:09]|h|r You loot 22 Silver, 62 Copper",
-					["serverTime"] = 1685606528,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32925.362,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [108]
+				}, -- [24]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:13]|h|r Winterskorn Tribesman says: There will be no everlasting life for you!",
-					["serverTime"] = 1685606532,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Total time played: 1 |4day:days;, 23 |4hour:hours;, 40 |4minute:minutes;, 16 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32929.363,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [109]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:20]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq11|k:12:715:BN_INLINE_TOAST_ALERT:0|h[|Kq11|k] (|A:UI-ChatIcon-App:14:14:0:0|aMifree)|h has come online.",
-					["serverTime"] = 1685606539,
-					["r"] = 0.5098039507865906,
-					["extraData"] = {
-						54, -- [1]
-						false, -- [2]
-						9, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32936.065,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
-				}, -- [110]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:26]|h|r You loot 18 Silver, 79 Copper",
-					["serverTime"] = 1685606545,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32942.793,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [111]
+				}, -- [25]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:33]|h|r Winterskorn Warrior says: Your entrails will make a fine necklace.",
-					["serverTime"] = 1685606552,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r Time played this level: 0 |4day:days;, 0 |4hour:hours;, 55 |4minute:minutes;, 59 |4second:seconds;",
+					["serverTime"] = 1696521078,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 32949.631,
+					["timestamp"] = 34913.579,
 					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [112]
+					["b"] = 0,
+				}, -- [26]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:33]|h|r Winterskorn Warrior says: There will be no everlasting life for you!",
-					["serverTime"] = 1685606552,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffff00Time played this class (Wrath of the Lich King): 1 days 15 hours 35 minutes (/details playedclass)",
+					["timestamp"] = 34913.764,
+					["serverTime"] = 1696521078,
+				}, -- [27]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffff00Time played this class (Wrath of the Lich King): 1 days 15 hours 35 minutes (/details playedclass)",
+					["timestamp"] = 34913.764,
+					["serverTime"] = 1696521078,
+				}, -- [28]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cffffff00Time played this class (Wrath of the Lich King): 1 days 15 hours 35 minutes (/details playedclass)",
+					["timestamp"] = 34913.764,
+					["serverTime"] = 1696521078,
+				}, -- [29]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:19]|h|r |cff30fc96Questie|r: |cffff0000Please note:|r One of the next Questie releases will reset your settings. We advise you to backup your Questie related Saved Variables as a precaution. This can be done by creating a copy of the WTF folder of your WoW install.",
+					["timestamp"] = 34913.788,
+					["serverTime"] = 1696521078,
+				}, -- [30]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:21]|h|r |cFFffff00[Questie]|r The 'Brewfest' world event is active!",
+					["timestamp"] = 34914.925,
+					["serverTime"] = 1696521080,
+				}, -- [31]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[17:51:21]|h|r |Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Howling Fjord]|h",
+					["serverTime"] = 1696521080,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32949.631,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [113]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:37]|h|r Winterskorn Warrior says: Ugglin oo bjorr!",
-					["serverTime"] = 1685606556,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32953.48,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [114]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:38]|h|r Winterskorn Tribesman says: I spit on you!",
-					["serverTime"] = 1685606557,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32954.527,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [115]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:38]|h|r Winterskorn Tribesman says: For Ymiron!",
-					["serverTime"] = 1685606557,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32954.527,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [116]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:51]|h|r You receive loot: |cffffffff|Hitem:33454::::::::70:::::::::|h[Salted Venison]|h|r.",
-					["serverTime"] = 1685606570,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
+						68, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
-						["n"] = 4,
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
 					},
-					["timestamp"] = 32967.595,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [117]
+					["timestamp"] = 34915.529,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
 				{
-					["message"] = "|cff979797|Hpratcopy|h[10:02:52]|h|r You loot 10 Silver, 37 Copper",
-					["serverTime"] = 1685606571,
+					["message"] = "|cff979797|Hpratcopy|h[17:51:21]|h|r |Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Howling Fjord]|h",
+					["serverTime"] = 1696521080,
 					["r"] = 1,
 					["extraData"] = {
-						29, -- [1]
+						70, -- [1]
 						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
+						4, -- [3]
+						5, -- [4]
+						"CHAT_MSG_CHANNEL_NOTICE", -- [5]
+						[7] = nil --[[ skipped inline function ]],
+						["n"] = 7,
 					},
-					["timestamp"] = 32968.617,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [118]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:03:04]|h|r You loot 9 Silver, 65 Copper",
-					["serverTime"] = 1685606583,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 32980.713,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [119]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:03:46]|h|r Winterskorn Tribesman says: For Ymiron!",
-					["serverTime"] = 1685606625,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33022.19,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [120]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:03:52]|h|r Winterskorn Tribesman says: For Ymiron!",
-					["serverTime"] = 1685606631,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33028.274,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [121]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:03:52]|h|r Winterskorn Shield-Maiden says: You come to die!",
-					["serverTime"] = 1685606631,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33028.703,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [122]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:04:15]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq11|k:12:750:BN_INLINE_TOAST_ALERT:0|h[|Kq11|k]|h has gone offline.",
-					["serverTime"] = 1685606654,
-					["r"] = 0.5098039507865906,
-					["extraData"] = {
-						54, -- [1]
-						false, -- [2]
-						9, -- [3]
-						10, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33051.877,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
-				}, -- [123]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:04:32]|h|r Winterskorn Raider says: I will take pleasure in gutting you!",
-					["serverTime"] = 1685606671,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						13, -- [3]
-						14, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33068.79,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [124]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:01]|h|r You receive loot: |cffffffff|Hitem:33454::::::::70:::::::::|h[Salted Venison]|h|r.",
-					["serverTime"] = 1685606700,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33097.457,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [125]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:02]|h|r You loot 20 Silver, 8 Copper",
-					["serverTime"] = 1685606701,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						7, -- [3]
-						8, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33098.458,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [126]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:35]|h|r Your skill in Defense has increased to 346.",
-					["serverTime"] = 1685606734,
-					["r"] = 0.3333333432674408,
-					["extraData"] = {
-						27, -- [1]
-						false, -- [2]
-						15, -- [3]
-						16, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33131.636,
-					["g"] = 0.3333333432674408,
-					["b"] = 1,
-				}, -- [127]
-				{
-					["message"] = "|cff979797|Hpratcopy|h[10:05:49]|h|r You receive loot: |cff9d9d9d|Hitem:43851::::::::70:::::::::|h[Fur Clothing Scraps]|h|r.",
-					["serverTime"] = 1685606748,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 33145.376,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [128]
+					["timestamp"] = 34915.529,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],

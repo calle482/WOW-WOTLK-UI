@@ -614,8 +614,9 @@ step << Warrior/Rogue
 step << Warrior/Rogue
     .goto Durotar,52.05,40.73
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Dwukk|r
-    .train 2018 >> Train |T136241:0|t[Blacksmithing]
+    .train 2020 >> Train |T136241:0|t[Blacksmithing]
     .target Dwukk
+    .skill blacksmithing,1,1
 step
     #completewith next
     .hs >>Hearth to the Valley of Trials
@@ -681,14 +682,14 @@ step << Hunter
 step << Warrior
     .goto Durotar,42.89,69.4
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Frang|r
-    .train 3127 >>Train |T132269:0|t[Parry]
+    .train 3126 >>Train |T132269:0|t[Parry]
     .train 6343 >>Train |T136105:0|t[Thunder Clap]
     .target Frang
     .money <0.02
 step << Warrior
     .goto Durotar,42.89,69.4
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Frang|r
-    .train 3127 >>Train |T132269:0|t[Parry]
+    .train 3126 >>Train |T132269:0|t[Parry]
     .target Frang
 step << Rogue
     #completewith Rwag2
@@ -1031,18 +1032,33 @@ step
     .turnin 786 >>Turn in Thwarting Kolkar Aggression << !Shaman
     .target Lar Prowltusk
 step
+    #optional
     .goto Durotar,55.95,74.39
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Vornal|r
     .turnin 818 >>Turn in A Solvent Spirit
     .target Master Vornal
     .isQuestComplete 818
-step
+step << Warlock/Mage/Priest
+    .goto Durotar,56.29,73.41
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|t|cRXP_BUY_Talk to|r |cRXP_FRIENDLY_K'waii|r
+    >>|cRXP_BUY_Buy|r |T132794:0|t[Refreshing Spring Water] |cRXP_BUY_from her|r --Refreshing Spring Water (20)
+    .collect 159,20,784,1
+    .target K'waii
+    .money <0.010
+step << Warlock/Mage/Priest
+    .goto Durotar,56.29,73.41
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|t|cRXP_BUY_Talk to|r |cRXP_FRIENDLY_K'waii|r
+    >>|cRXP_BUY_Buy|r |T132794:0|t[Refreshing Spring Water] |cRXP_BUY_from her|r --Refreshing Spring Water (10)
+    .collect 159,10,784,1
+    .target K'waii
+    .money <0.0050
+step << Warrior/Rogue/Shaman
     .goto Durotar,55.62,73.61
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Hai'zan|r
-    >>|cRXP_BUY_Buy|r |T133974:0|t[Haunch of Meat] |cRXP_BUY_from him|r << Warrior/Rogue/Shaman
+    >>|cRXP_BUY_Buy|r |T133974:0|t[Haunch of Meat] |cRXP_BUY_from him|r
     .vendor >> Vendor trash
-    .collect 2287,10,823,1 --Haunch of Meat (10) << Warrior/Rogue/Shaman
-    .money <0.025 << Warrior/Rogue/Shaman
+    .collect 2287,10,823,1 --Haunch of Meat (10)
+    .money <0.025
     .target Hai'zan
 step << Shaman
     .goto Durotar,56.47,73.12
@@ -1227,7 +1243,7 @@ step
     .complete 791,1 --Canvas Scraps (8)
     .mob Kul Tiras Sailor
     .mob Kul Tiras Marine
-step << !Priest
+step << !Priest !Mage
     .goto Durotar,59.02,50.24,50,0
     .goto Durotar,57.93,47.71,50,0
     .goto Durotar,59.20,44.30,50,0
@@ -1313,8 +1329,9 @@ step << Warrior/Rogue
 step << Warrior/Rogue
     .goto Durotar,52.05,40.73
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Dwukk|r
-    .train 2018,1 >> Train |T136241:0|t[Blacksmithing]
+    .train 2020 >> Train |T136241:0|t[Blacksmithing]
     .target Dwukk
+    .skill blacksmithing,1,1
 step << Shaman
     .goto Durotar,52.02,40.46
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Uhgar|r
@@ -1433,6 +1450,30 @@ step << Hunter
     .collect 2512,1000,818,1 << Hunter --Rough Arrow (1000)
     .target Ghrawt
     .itemcount 2512,<600 << Hunter
+step
+    .goto Durotar,51.51,41.64
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Innkeeper Grosk|r
+    >>|cRXP_BUY_Buy|r |T132815:0|t[Ice Cold Milk] |cRXP_BUY_from him|r << Mage/Warlock/Priest/Shaman
+    >>|cRXP_BUY_Buy|r |T133974:0|t[Haunch of Meat] |cRXP_BUY_from him|r << Rogue/Warrior
+    .vendor >> Vendor Trash
+    .home >> Set your Hearthstone to Razor Hill
+    .turnin 2161 >>Turn in A Peon's Burden
+    .collect 1179,10,818,1 << Warlock/Priest/Shaman --Ice Cold Milk (10)
+    .collect 1179,20,818,1 << Mage --Ice Cold Milk (20)
+    .collect 2287,10,818,1 << Rogue/Warrior --Haunch of Meat (10)
+    .target Innkeeper Grosk
+    .money <0.065 << Rogue/Warrior/Shaman/Warlock --to ensure user still has 4 silver left for class spells
+    .money <0.045 << Priest --to ensure user still has 2 silver left for class spells
+    .money <0.050 << Mage --Mage not getting class training here
+step
+    #optional
+    .goto Durotar,51.51,41.64
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Innkeeper Grosk|r
+    .home >> Set your Hearthstone to Razor Hill
+    .turnin 2161 >>Turn in A Peon's Burden
+    .money >0.065 << Rogue/Warrior/Shaman/Warlock
+    .money >0.045 << Priest
+    .money >0.050 << Mage
 step << Warrior
     .goto Durotar,54.18,42.46
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Tarshaw|r
@@ -1494,18 +1535,6 @@ step
     .collect 4496,1,818,1 --Small Brown Pouch (1)
     .target Jark
     .money <0.05
-step
-    .goto Durotar,51.51,41.64
-    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Innkeeper Grosk|r
-    >>|cRXP_BUY_Buy|r |T132815:0|t[Ice Cold Milk] |cRXP_BUY_from him|r << Mage/Warlock/Priest/Shaman
-    >>|cRXP_BUY_Buy|r |T133974:0|t[Haunch of Meat] |cRXP_BUY_from him|r << Rogue/Warrior
-    .vendor >> Vendor Trash
-    .home >> Set your Hearthstone to Razor Hill
-    .turnin 2161 >>Turn in A Peon's Burden
-    .collect 1179,10,818,1 << Mage/Warlock/Priest/Shaman --Ice Cold Milk (10)
-    .collect 2287,10,818,1 << Rogue/Warrior --Haunch of Meat (10)
-    .target Innkeeper Grosk
-    .money <0.025
 step
     #completewith next
     >>Kill |cRXP_ENEMY_Crawlers|r and |cRXP_ENEMY_Makruras|r. Loot them for their |cRXP_LOOT_Mucus|r and |cRXP_LOOT_Eyes|r. This does not need to be finished now
@@ -3013,6 +3042,7 @@ step
     #label ZeptoUC1
     .goto Durotar,50.8,13.8,40 >>Go up the Zeppelin Tower
     .zone Tirisfal Glades >>Take the Zeppelin to Tirisfal Glades
+    +Conjure water while waiting << Mage
     .zoneskip Tirisfal Glades
 step << Orc Rogue/Troll Rogue
     #optional
@@ -3088,23 +3118,27 @@ step << Warrior
     .goto Tirisfal Glades,61.85,52.55
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Austil|r
     .accept 1818 >> Accept Speak with Dillinger
-    .target Austil de Mon << Warrior
+    .target Austil de Mon
+    .xp <10,1
 step << Warlock
     .goto Tirisfal Glades,61.62,52.66
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Ageron|r inside the inn
     .accept 1478 >> Accept Halgar's Summons
     .target Ageron Kargal
+    .xp <10,1
 step << Undead Rogue
     .goto Tirisfal Glades,61.75,52.01
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Marion|r inside the inn
     .accept 1885 >>Accept Mennet Carkad
     .target Marion Call
+    .xp <10,1
 step << Mage
     .goto Tirisfal Glades,61.96,52.47
-    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Coleman|r, |cRXP_FRIENDLY_Gretchen|r and |cRXP_FRIENDLY_Anastasia|r inside the inn
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Cain|r inside the inn
     .accept 1881 >> Accept Speak with Anatasia
-    .target Anastasia Hartwell
-step
+    .target Cain Firesong
+    .xp <10,1
+step << !Mage
     .goto Tirisfal Glades,61.71,52.06
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Innkeeper Renee|r
     >>|cRXP_BUY_Buy|r |T132815:0|t[Ice Cold Milk] |cRXP_BUY_from her|r << Mage/Priest/Shaman
@@ -3162,17 +3196,20 @@ step << Warrior
     .turnin 1818 >> Turn in Speak with Dillinger
     .accept 1819 >> Accept Ulag the Cleaver
     .target Deathguard Dillinger
+    .isOnQuest 1818
 step << Warrior
     .goto Tirisfal Glades,59.16,48.51
     >>|cRXP_WARN_Click the|r |cRXP_WARN_Mausoleum Trigger|r |cRXP_WARN_on the ground. This will summon|r |cRXP_ENEMY_Ulag.|r |cRXP_WARN_Kill him|r
     .complete 1819,1 --Ulag the Cleaver (1)
     .mob Ulag the Cleaver
+    .isQuestTurnedIn 1818
 step << Warrior
     .goto Tirisfal Glades,58.19,51.44
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Dillinger|r
     .turnin 1819 >> Turn in Ulag the Cleaver
     .accept 1820 >> Accept Speak with Coleman
     .target Deathguard Dillinger
+    .isQuestTurnedIn 1818
 step
     #completewith Pumpkins
     >>Kill any |cRXP_ENEMY_Darkhound|r you see. Loot them for their |cRXP_LOOT_Blood|r
@@ -3356,14 +3393,43 @@ step
     .turnin 367 >>Turn in A New Plague
     .accept 368 >>Accept A New Plague
     .target Apothecary Johaan
-step
-    #optional
-    .goto Tirisfal Glades,61.97,51.29
-    >>|cRXP_WARN_Enter the room behind the innkeeper, then go downstairs|r
-    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Captured Scarlet Zealot|r
-    .turnin 407 >>Turn in Fields of Grief
-    .target Captured Scarlet Zealot
-    .isOnQuest 407
+step << Warrior
+    .goto Tirisfal Glades,61.85,52.55
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Austil|r
+    .accept 1818 >> Accept Speak with Dillinger
+    .target Austil de Mon
+step << Warrior
+    .goto Tirisfal Glades,58.19,51.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Dillinger|r
+    .turnin 1818 >> Turn in Speak with Dillinger
+    .accept 1819 >> Accept Ulag the Cleaver
+    .target Deathguard Dillinger
+step << Warrior
+    .goto Tirisfal Glades,59.16,48.51
+    >>|cRXP_WARN_Click the|r |cRXP_WARN_Mausoleum Trigger|r |cRXP_WARN_on the ground. This will summon|r |cRXP_ENEMY_Ulag.|r |cRXP_WARN_Kill him|r
+    .complete 1819,1 --Ulag the Cleaver (1)
+    .mob Ulag the Cleaver
+step << Warrior
+    .goto Tirisfal Glades,58.19,51.44
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Dillinger|r
+    .turnin 1819 >> Turn in Ulag the Cleaver
+    .accept 1820 >> Accept Speak with Coleman
+    .target Deathguard Dillinger
+step << Warlock
+    .goto Tirisfal Glades,61.62,52.66
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Ageron|r inside the inn
+    .accept 1478 >> Accept Halgar's Summons
+    .target Ageron Kargal
+step << Undead Rogue
+    .goto Tirisfal Glades,61.75,52.01
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Marion|r inside the inn
+    .accept 1885 >>Accept Mennet Carkad
+    .target Marion Call
+step << Mage
+    .goto Tirisfal Glades,61.96,52.47
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Cain|r inside the inn
+    .accept 1881 >> Accept Speak with Anatasia
+    .target Cain Firesong
 step << Warlock/Mage
     #completewith UCflightpath1
     .goto Tirisfal Glades,61.80,65.06,20,0
@@ -3389,18 +3455,22 @@ step << Warlock
     .turnin 1478 >> Turn in Halgar's Summons
     .accept 1473 >> Accept Creature of the Void
 step << Mage
+    #optional
+    .abandon 1883 >> Abandon Speak with Un'thuwa, otherwise you won't be able to accept the upcoming quest
+    .isOnQuest 1883
+step << Mage
     .goto Undercity,85.12,10.07
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Anastasia|r in the Magic Quarter
     .turnin 1881 >> Turn in Speak with Anatasia
     .accept 1882 >> Accept The Balnir Farmstead
     .target Anastasia Hartwell
 step << Undead Priest
-    #completewith next
+    #completewith TouchofWeakness
     .goto Tirisfal Glades,61.80,65.06,20,0
     .zone Undercity >> Enter Undercity
     .zoneskip Undercity
 step << Undead Priest
-    #completewith next
+    #completewith TouchofWeakness
     .goto Undercity,66.09,20.06,35,0
     .goto Undercity,64.37,23.94,35,0
     .goto Undercity,65.93,26.71,10,0
@@ -3415,6 +3485,7 @@ step << Undead Priest
     .target Aelthalyste
     .isOnQuest 5660
 step << Undead Priest
+    #label TouchofWeakness
     .goto Undercity,48.98,18.33
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Aelthalyste|r
     .accept 5658 >> Accept Touch of Weakness
@@ -3485,7 +3556,6 @@ step << Rogue
     .itemStat 16,ITEM_MOD_DAMAGE_PER_SECOND_SHORT,<6.8
 step << Warlock/Mage/Rogue
     #optional
-    #completewith KillDevlin
     .goto Undercity,47.25,39.12,50,0
     .goto Undercity,46.35,43.86,10,0
     .goto Undercity,45.24,39.35,10,0
@@ -3499,7 +3569,6 @@ step << Warlock/Mage/Rogue
     .zoneskip Tirisfal Glades
 step << Undead Priest
     #optional
-    #completewith KillDevlin
     .goto Undercity,47.25,39.12,50,0
     .goto Undercity,46.35,43.86,10,0
     .goto Undercity,45.24,39.35,10,0
@@ -3720,13 +3789,11 @@ step
     .target Deathguard Dillinger
     .isQuestComplete 426
 step
-    #optional
     .goto Tirisfal Glades,59.45,52.40
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Johaan|r
     .turnin 368 >>Turn in A New Plague
     .accept 369 >>Accept A New Plague
     .target Apothecary Johaan
-    .isQuestComplete 368
 step
     #optional
     .goto Tirisfal Glades,59.45,52.40
@@ -3938,7 +4005,7 @@ step << Warlock
     .train 755 >> Train |T136168:0|t[Health Funnel]
     .target Rupert Boch
     .xp <12,1
-step
+step << !Mage
     .goto Tirisfal Glades,61.71,52.06
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Innkeeper Renee|r
     >>|cRXP_BUY_Buy|r |T132815:0|t[Ice Cold Milk] |cRXP_BUY_from her|r << Mage/Priest/Shaman
@@ -4074,7 +4141,19 @@ step
     .isOnQuest 375
 step
     #optional
-    .loop 25,Tirisfal Glades,83.50,55.56,85.03,54.72,86.56,54.51,88.06,54.99,88.94,53.56,89.70,51.88,90.92,50.56,90.87,48.33,89.87,46.65,85.04,46.68,84.52,49.29,83.46,52.09
+    #loop
+    .goto Tirisfal Glades,83.50,55.56,30,0
+    .goto Tirisfal Glades,85.03,54.72,30,0
+    .goto Tirisfal Glades,86.56,54.51,30,0
+    .goto Tirisfal Glades,88.06,54.99,30,0
+    .goto Tirisfal Glades,88.94,53.56,30,0
+    .goto Tirisfal Glades,89.70,51.88,30,0
+    .goto Tirisfal Glades,90.92,50.56,30,0
+    .goto Tirisfal Glades,90.87,48.33,30,0
+    .goto Tirisfal Glades,89.87,46.65,30,0
+    .goto Tirisfal Glades,85.04,46.68,30,0
+    .goto Tirisfal Glades,84.52,49.29,30,0
+    .goto Tirisfal Glades,83.46,52.09,30,0
     >>Kill |cRXP_ENEMY_Vicious Night Web Spiders|r. Loot them for their |cRXP_LOOT_Venom|r
     .complete 369,1 --Vicious Night Web Spider Venom (4)
     .mob Vicious Night Web Spider
@@ -4322,6 +4401,14 @@ step << Warrior
     .isQuestTurnedIn 1821
     .group
 step
+    #optional
+    .goto Tirisfal Glades,61.97,51.29
+    >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to |cRXP_FRIENDLY_Captured Scarlet Zealot|r downstairs in the back of the inn
+    .turnin 407 >>Turn in Fields of Grief
+    .target Captured Scarlet Zealot
+    .isOnQuest 407
+step
+    #optional
     .goto Tirisfal Glades,61.94,51.40
     >>|Tinterface/worldmap/chatbubble_64grey.blp:20|tTalk to the |cRXP_FRIENDLY_Captured Mountaineer|r downstairs in the back of the inn
     .turnin 492 >> Turn in A New Plague

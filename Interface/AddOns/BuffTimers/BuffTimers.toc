@@ -1,9 +1,9 @@
-## Interface: 30402
+## Interface: 30403
 ## IconTexture: Interface\AddOns\BuffTimers\Media\icon
 ## Title: BuffTimers
 ## Author: mdhippie
-## Notes: v1.11.4 -- Buff time options
-## Version: v1.11.4
+## Notes: v1.11.5 -- Buff time options
+## Version: v1.11.5
 ## DefaultState: enabled
 ## SavedVariables: BuffTimersOptions
 

@@ -1,0 +1,11 @@
+
+StatusSpellCastDB = {
+	["mode"] = "all",
+	["interval"] = 0.1,
+	["ignoredSpellList"] = {
+	},
+	["special_spells"] = {
+	},
+	["selectedSpellList"] = {
+	},
+}

@@ -12,8 +12,9 @@ VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
-/cast [flyable]Tawny wind rider
-/cast [Ground]Swift pink hawkstrider
+/cast [flyable]Black Proto-Drake
+/cast [Ground]Summon Charger
+/dismount
 END
 VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
 #showtooltip exorcism
@@ -70,6 +71,16 @@ VER 3 0000000001000010 " " "134400"
 #showtooltip righteous defense
 /cast [@targettarget,help,nodead] Righteous Defense
 END
-VER 3 0000000001000002 "target mnrtw" "INV_MISC_QUESTIONMARK"
-/Target Wounded Skirm
+VER 3 0000000001000011 " " "134400"
+#showtooltip Divine Plea
+/cast Divine Plea
+/cancelaura Divine Plea
+END
+VER 3 0000000001000012 " " "134400"
+#showtooltip hammer of justice
+END
+VER 3 0000000001000013 " " "134400"
+#showtooltip avenging wrath
+/cast avenging wrath
+/use Meteorite Crystal
 END

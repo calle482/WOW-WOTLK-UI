@@ -90,7 +90,6 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [1]
 		},
-		[0] = 8,
 		[8330] = {
 			{
 				["type"] = "item",
@@ -114,9 +113,18 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [3]
 		},
+		[0] = 8,
 	},
 	["currentGuideGroup"] = "RestedXP TBC Guide",
 	["flightPaths"] = {
+		[99] = "Thrallmar, Hellfire Peninsula",
+		[130] = "Hellfire Peninsula, The Dark Portal, Horde",
+		[141] = "Spinebreaker Ridge, Hellfire Peninsula",
+		[120] = "Garadar, Nagrand",
+		[128] = "Shattrath, Terokkar Forest",
+		[102] = "Falcon Watch, Hellfire Peninsula",
+		[118] = "Zabra'jin, Zangarmarsh",
+		[151] = "Swamprat Post, Zangarmarsh",
 	},
 	["questNameCache"] = {
 		[8325] = "Reclaiming Sunstrider Isle",
@@ -171,6 +179,7 @@ RXPCSettings = {
 	["profiles"] = {
 		["Krypadin - Golemagg"] = {
 			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

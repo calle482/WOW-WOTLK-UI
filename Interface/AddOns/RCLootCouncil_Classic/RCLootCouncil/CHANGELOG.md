@@ -1,8 +1,9 @@
 # RCLootCouncil
 
-## [2.19.3-69-g454ddc3](https://github.com/evil-morfar/RCLootCouncil2/tree/454ddc311b79f656b44d86798428df53c93afb9a) (2023-07-23)
-[Full Changelog](https://github.com/evil-morfar/RCLootCouncil2/compare/2.19.3...454ddc311b79f656b44d86798428df53c93afb9a) [Previous Releases](https://github.com/evil-morfar/RCLootCouncil2/releases)
+## [2.19.3-70-g0c62bb6](https://github.com/evil-morfar/RCLootCouncil2/tree/0c62bb61dcfd55124a12fb72397875623b5cd643) (2023-10-12)
+[Full Changelog](https://github.com/evil-morfar/RCLootCouncil2/compare/2.19.3...0c62bb61dcfd55124a12fb72397875623b5cd643) [Previous Releases](https://github.com/evil-morfar/RCLootCouncil2/releases)
 
+- Updated Ace3  
 - VF: Update current session only  
     Updating everything every time we receive data could lead to rows jumping around. Now we only update visuals if there's updates to the session we're looking at.  
 - VF Session buttons checkmark update.  

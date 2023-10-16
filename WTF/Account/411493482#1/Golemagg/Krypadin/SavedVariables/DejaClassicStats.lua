@@ -18,7 +18,7 @@ DejaClassicStatsDBPC = {
 			["DarkerItemColorChecked"] = false,
 		},
 		["DejaClassicStatsShowEnchantChecked"] = {
-			["ShowEnchantSetChecked"] = true,
+			["ShowEnchantSetChecked"] = false,
 		},
 		["DejaClassicStatsShowDefaultStats"] = {
 			["ShowDefaultStatsChecked"] = false,
@@ -120,7 +120,7 @@ DejaClassicStatsDBPC = {
 			["ShowMeleeSetChecked"] = true,
 		},
 		["DejaClassicStatsManaRegenNotCasting"] = {
-			["DCSnotcasting"] = 3.463533878326416,
+			["DCSnotcasting"] = 67.63695526123047,
 		},
 		["DejaClassicStatsShowModelRotation"] = {
 			["ShowModelRotationChecked"] = false,

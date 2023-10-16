@@ -15,9 +15,9 @@ RingMenu_ringConfig = {
 		["backdropScale"] = 1.5,
 		["closeOnClick"] = true,
 		["holdToggle"] = false,
-		["angle"] = 0,
 		["level"] = 1,
-		["numSlots"] = 12,
+		["angle"] = 0,
 		["firstSlot"] = 13,
+		["numSlots"] = 12,
 	}, -- [1]
 }

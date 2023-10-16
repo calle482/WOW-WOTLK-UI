@@ -4,20 +4,23 @@ DecursiveDB = {
 		["Doktormabuse - Golemagg"] = "Default",
 		["Kryptikk - Mograine"] = "Default",
 		["Krypadin - Golemagg"] = "Default",
+		["Nohablotank - Mograine"] = "Default",
 		["Emoshrek - Golemagg"] = "Default",
 		["Dunderguld - Golemagg"] = "Default",
 		["Flintn - Golemagg"] = "Default",
 		["Frusendolme - Golemagg"] = "Default",
+		["Emomage - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
-		["Emomage - Golemagg"] = "Default",
-		["Smygmeister - Golemagg"] = "Default",
 		["Jägerskytt - Golemagg"] = "Default",
+		["Mjölkmannen - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
 		["Manameister - Golemagg"] = "Default",
 		["Hctest - Giantstalker"] = "Default",
-		["Nohablobank - Mograine"] = "Default",
 		["Kryptok - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
+		["Kojävelk - Golemagg"] = "Default",
 	},
 	["namespaces"] = {
 		["LibDualSpec-1.0"] = {
@@ -33,6 +36,7 @@ DecursiveDB = {
 				[8] = -13,
 				[16] = -14,
 				[32] = -16,
+				[64] = 7,
 			},
 		},
 		["WARRIOR"] = {
@@ -56,6 +60,7 @@ DecursiveDB = {
 				[8] = -13,
 				[16] = -14,
 				[32] = -16,
+				[64] = 7,
 			},
 		},
 		["MAGE"] = {
@@ -77,6 +82,7 @@ DecursiveDB = {
 				[8] = -14,
 				[16] = -15,
 				[32] = 2,
+				[64] = 7,
 			},
 		},
 		["PRIEST"] = {
@@ -88,6 +94,7 @@ DecursiveDB = {
 				[8] = -16,
 				[16] = 2,
 				[32] = 4,
+				[64] = 7,
 			},
 		},
 		["WARLOCK"] = {
@@ -99,6 +106,7 @@ DecursiveDB = {
 				[8] = -15,
 				[16] = -16,
 				[32] = -13,
+				[64] = 7,
 			},
 		},
 		["HUNTER"] = {
@@ -110,6 +118,19 @@ DecursiveDB = {
 				[8] = -13,
 				[16] = -14,
 				[32] = -16,
+				[64] = 7,
+			},
+		},
+		["DRUID"] = {
+			["CureOrder-1"] = {
+				1, -- [1]
+				5, -- [2]
+				nil, -- [3]
+				2, -- [4]
+				[64] = 7,
+				[16] = 4,
+				[32] = 6,
+				[8] = 3,
 			},
 		},
 		["PALADIN"] = {
@@ -121,6 +142,7 @@ DecursiveDB = {
 				[8] = 2,
 				[16] = 3,
 				[32] = -16,
+				[64] = 7,
 			},
 		},
 		["SHAMAN"] = {
@@ -132,11 +154,12 @@ DecursiveDB = {
 				[8] = 1,
 				[16] = 2,
 				[32] = -16,
+				[64] = 7,
 			},
 		},
 	},
 	["global"] = {
-		["LastVersionAnnounce"] = 1695229821,
+		["LastVersionAnnounce"] = 1697416558,
 	},
 	["profiles"] = {
 		["Default"] = {

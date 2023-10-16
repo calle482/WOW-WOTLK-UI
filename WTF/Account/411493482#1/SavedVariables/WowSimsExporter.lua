@@ -1,12 +1,25 @@
 
 WSEDB = {
 	["profileKeys"] = {
-		["Nohablobank - Mograine"] = "Default",
+		["Doktormabuse - Golemagg"] = "Default",
 		["Kryptikk - Mograine"] = "Default",
-		["Hctest - Giantstalker"] = "Default",
-		["Kryptok - Golemagg"] = "Default",
+		["Krypadin - Golemagg"] = "Default",
+		["Nohablotank - Mograine"] = "Default",
+		["Emoshrek - Golemagg"] = "Default",
+		["Dunderguld - Golemagg"] = "Default",
+		["Flintn - Golemagg"] = "Default",
+		["Frusendolme - Golemagg"] = "Default",
+		["Kojävelk - Golemagg"] = "Default",
 		["Tjurn - Golemagg"] = "Default",
 		["Kryptik - Golemagg"] = "Default",
 		["Kryptokk - Golemagg"] = "Default",
+		["Manameister - Golemagg"] = "Default",
+		["Mjölkmannen - Golemagg"] = "Default",
+		["Smygmeister - Golemagg"] = "Default",
+		["Kryptok - Golemagg"] = "Default",
+		["Hctest - Giantstalker"] = "Default",
+		["Emomage - Golemagg"] = "Default",
+		["Jägerskytt - Golemagg"] = "Default",
+		["Nohablobank - Mograine"] = "Default",
 	},
 }

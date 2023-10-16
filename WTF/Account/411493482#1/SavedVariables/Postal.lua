@@ -1,5 +1,27 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
+		["Kryptikk - Mograine"] = "Kryptikk - Mograine",
+		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
+		["Nohablotank - Mograine"] = "Nohablotank - Mograine",
+		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
+		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
+		["Flintn - Golemagg"] = "Flintn - Golemagg",
+		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
+		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
+		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
+		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
+		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
+		["Emomage - Golemagg"] = "Emomage - Golemagg",
+		["Mjölkmannen - Golemagg"] = "Mjölkmannen - Golemagg",
+		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
+		["Manameister - Golemagg"] = "Manameister - Golemagg",
+		["Hctest - Giantstalker"] = "Hctest - Giantstalker",
+		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
+		["Nohablobank - Mograine"] = "Nohablobank - Mograine",
+		["Kojävelk - Golemagg"] = "Kojävelk - Golemagg",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -12,39 +34,28 @@ Postal3DB = {
 				"Hctest|Giantstalker|Alliance|1|ROGUE", -- [7]
 				"Hctest|Giantstalker|Horde|1|WARRIOR", -- [8]
 				"Jägerskytt|Golemagg|Horde|35|HUNTER", -- [9]
-				"Krypadin|Golemagg|Horde|80|PALADIN", -- [10]
-				"Kryptikk|Mograine|Horde|1|ROGUE", -- [11]
-				"Kryptik|Golemagg|Horde|80|MAGE", -- [12]
-				"Kryptokk|Golemagg|Alliance|60|WARRIOR", -- [13]
-				"Kryptok|Golemagg|Horde|60|WARRIOR", -- [14]
-				"Manameister|Golemagg|Horde|46|PRIEST", -- [15]
-				"Nohablobank|Mograine|Alliance|1|WARRIOR", -- [16]
-				"Smygmeister|Golemagg|Horde|70|ROGUE", -- [17]
-				"Tjurn|Golemagg|Horde|70|SHAMAN", -- [18]
+				"Kojävelk|Golemagg|Horde|10|DRUID", -- [10]
+				"Krypadin|Golemagg|Horde|80|PALADIN", -- [11]
+				"Kryptikk|Mograine|Horde|1|ROGUE", -- [12]
+				"Kryptik|Golemagg|Horde|80|MAGE", -- [13]
+				"Kryptokk|Golemagg|Alliance|60|WARRIOR", -- [14]
+				"Kryptok|Golemagg|Horde|60|WARRIOR", -- [15]
+				"Manameister|Golemagg|Horde|46|PRIEST", -- [16]
+				"Mjölkmannen|Golemagg|Horde|22|DRUID", -- [17]
+				"Nohablobank|Mograine|Alliance|1|WARRIOR", -- [18]
+				"Nohablotank|Mograine|Alliance|40|WARRIOR", -- [19]
+				"Smygmeister|Golemagg|Horde|70|ROGUE", -- [20]
+				"Tjurn|Golemagg|Horde|70|SHAMAN", -- [21]
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Doktormabuse - Golemagg"] = "Doktormabuse - Golemagg",
-		["Kryptikk - Mograine"] = "Kryptikk - Mograine",
-		["Krypadin - Golemagg"] = "Krypadin - Golemagg",
-		["Emoshrek - Golemagg"] = "Emoshrek - Golemagg",
-		["Dunderguld - Golemagg"] = "Dunderguld - Golemagg",
-		["Flintn - Golemagg"] = "Flintn - Golemagg",
-		["Frusendolme - Golemagg"] = "Frusendolme - Golemagg",
-		["Tjurn - Golemagg"] = "Tjurn - Golemagg",
-		["Kryptik - Golemagg"] = "Kryptik - Golemagg",
-		["Kryptokk - Golemagg"] = "Kryptokk - Golemagg",
-		["Kryptok - Golemagg"] = "Kryptok - Golemagg",
-		["Smygmeister - Golemagg"] = "Smygmeister - Golemagg",
-		["Nohablobank - Mograine"] = "Nohablobank - Mograine",
-		["Hctest - Giantstalker"] = "Hctest - Giantstalker",
-		["Manameister - Golemagg"] = "Manameister - Golemagg",
-		["Emomage - Golemagg"] = "Emomage - Golemagg",
-		["Jägerskytt - Golemagg"] = "Jägerskytt - Golemagg",
-	},
 	["profiles"] = {
 		["Doktormabuse - Golemagg"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Kryptik|Golemagg|Horde", -- [1]
+				},
+			},
 		},
 		["Kryptikk - Mograine"] = {
 		},
@@ -55,6 +66,8 @@ Postal3DB = {
 				},
 			},
 		},
+		["Nohablotank - Mograine"] = {
+		},
 		["Emoshrek - Golemagg"] = {
 		},
 		["Dunderguld - Golemagg"] = {
@@ -63,30 +76,47 @@ Postal3DB = {
 		},
 		["Frusendolme - Golemagg"] = {
 		},
+		["Jägerskytt - Golemagg"] = {
+		},
 		["Tjurn - Golemagg"] = {
 		},
 		["Kryptik - Golemagg"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Smygmeister|Golemagg|Horde", -- [1]
+					"Krypadin|Golemagg|Horde", -- [1]
+					"Doktormabuse|Golemagg|Horde", -- [2]
+					"Mjölkmannen|Golemagg|Horde", -- [3]
+					"Smygmeister|Golemagg|Horde", -- [4]
 				},
 			},
 		},
 		["Kryptokk - Golemagg"] = {
 		},
-		["Kryptok - Golemagg"] = {
+		["Emomage - Golemagg"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Mjölkmannen|Golemagg|Horde", -- [1]
+				},
+			},
+		},
+		["Mjölkmannen - Golemagg"] = {
 		},
 		["Smygmeister - Golemagg"] = {
-		},
-		["Nohablobank - Mograine"] = {
-		},
-		["Hctest - Giantstalker"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Mjölkmannen|Golemagg|Horde", -- [1]
+				},
+			},
 		},
 		["Manameister - Golemagg"] = {
 		},
-		["Emomage - Golemagg"] = {
+		["Hctest - Giantstalker"] = {
 		},
-		["Jägerskytt - Golemagg"] = {
+		["Kryptok - Golemagg"] = {
+		},
+		["Nohablobank - Mograine"] = {
+		},
+		["Kojävelk - Golemagg"] = {
 		},
 	},
 }

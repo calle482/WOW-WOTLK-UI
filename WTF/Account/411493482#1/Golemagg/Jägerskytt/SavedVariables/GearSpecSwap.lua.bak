@@ -1,0 +1,2 @@
+
+GearSpecSwapData = nil

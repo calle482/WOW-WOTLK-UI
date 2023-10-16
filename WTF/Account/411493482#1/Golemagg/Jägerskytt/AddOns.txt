@@ -3,3 +3,4 @@ OPie_Classic: disabled
 Blizzard_CombatText: enabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
+Blizzard_CompactRaidFrames: enabled

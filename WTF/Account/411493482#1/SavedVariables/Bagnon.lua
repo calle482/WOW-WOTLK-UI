@@ -54,13 +54,14 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
+			["currency"] = true,
 			["y"] = 107.1112213134766,
 			["x"] = -76.073486328125,
-			["currency"] = true,
 			["borderColor"] = {
 			},
-			["spacing"] = 2,
+			["broker"] = true,
 			["showBags"] = true,
+			["spacing"] = 2,
 			["bagToggle"] = true,
 			["point"] = "BOTTOMRIGHT",
 		},
@@ -184,7 +185,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.10",
+	["version"] = "10.1.14",
 	["display"] = {
 	},
 	["fridgeColor"] = {

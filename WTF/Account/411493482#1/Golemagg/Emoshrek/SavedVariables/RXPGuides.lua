@@ -6,7 +6,7 @@ RXPCData = {
 	},
 	["currentStep"] = 5,
 	["questObjectivesCache"] = {
-		[0] = 4,
+		[0] = 5,
 		[4402] = {
 			{
 				["type"] = "item",
@@ -39,6 +39,15 @@ RXPCData = {
 				["type"] = "monster",
 				["numRequired"] = 5,
 				["text"] = "Peons Awoken: 0/5",
+				["finished"] = false,
+				["numFulfilled"] = 0,
+			}, -- [1]
+		},
+		[789] = {
+			{
+				["type"] = "item",
+				["numRequired"] = 8,
+				["text"] = "Scorpid Worker Tail: 0/8",
 				["finished"] = false,
 				["numFulfilled"] = 0,
 			}, -- [1]
@@ -101,6 +110,7 @@ RXPCSettings = {
 	["profiles"] = {
 		["Emoshrek - Golemagg"] = {
 			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

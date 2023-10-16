@@ -110,6 +110,7 @@ RXPCSettings = {
 	["profiles"] = {
 		["Flintn - Golemagg"] = {
 			["hardcore"] = false,
+			["migrated"] = true,
 		},
 	},
 }

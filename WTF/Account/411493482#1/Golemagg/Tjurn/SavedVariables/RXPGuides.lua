@@ -6,31 +6,6 @@ RXPCData = {
 	},
 	["currentStep"] = 12,
 	["questObjectivesCache"] = {
-		[747] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 7,
-				["text"] = "Plainstrider Meat: 0/7",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-			{
-				["type"] = "item",
-				["numRequired"] = 7,
-				["text"] = "Plainstrider Feather: 0/7",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [2]
-		},
-		[753] = {
-			{
-				["type"] = "item",
-				["numRequired"] = 1,
-				["text"] = "Water Pitcher: 0/1",
-				["finished"] = false,
-				["numFulfilled"] = 0,
-			}, -- [1]
-		},
 		[750] = {
 			{
 				["type"] = "item",
@@ -70,19 +45,19 @@ RXPCData = {
 				["numFulfilled"] = 0,
 			}, -- [4]
 		},
-		[0] = 4,
+		[0] = 2,
 	},
 	["currentGuideGroup"] = "RestedXP TBC Guide",
 	["flightPaths"] = {
 	},
 	["questNameCache"] = {
 		[747] = "The Hunt Begins",
-		[780] = "The Battleboars",
+		[750] = "The Hunt Continues",
 		[753] = "A Humble Task",
 		[748] = "Poison Water",
 		[757] = "Rite of Strength",
+		[780] = "The Battleboars",
 		[766] = "Mazzranache",
-		[750] = "The Hunt Continues",
 	},
 	["currentGuideName"] = "01-10 Mulgore",
 	["stepSkip"] = {
@@ -104,7 +79,7 @@ RXPCTrackingData = {
 					["mobs"] = {
 					},
 					["timestamp"] = {
-						["started"] = 1693860215,
+						["started"] = 1696521104,
 					},
 					["quests"] = {
 					},
@@ -121,12 +96,12 @@ RXPCComms = {
 		["Tjurn - Golemagg"] = {
 			["players"] = {
 				["Trøndrfurry"] = {
-					["isRxp"] = true,
+					["class"] = "WARRIOR",
 					["lastSeen"] = 52706.273,
 					["xpPercentage"] = 6,
-					["level"] = 70,
+					["isRxp"] = true,
 					["timePlayed"] = 0,
-					["class"] = "WARRIOR",
+					["level"] = 70,
 				},
 			},
 		},

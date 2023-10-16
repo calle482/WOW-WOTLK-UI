@@ -1,0 +1,15 @@
+VER 3 0000000001000001 " " "134400"
+/tar kyle
+END
+VER 3 0000000001000002 " " "134400"
+#showtooltip Regrowth
+/cast [@mouseover,exists,help][@player] Regrowth
+END
+VER 3 0000000001000003 " " "134400"
+#showtooltip Rejuvenation
+/cast [@mouseover,exists,help][@player] Rejuvenation
+END
+VER 3 0000000001000004 " " "134400"
+#showtooltip Healing Touch
+/cast [@mouseover,exists,help][@player] Healing Touch
+END

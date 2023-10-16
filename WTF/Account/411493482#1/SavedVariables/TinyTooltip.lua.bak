@@ -45,20 +45,20 @@ BigTipDB = {
 		},
 		["statusbarPosition"] = "bottom",
 		["statusbarOffsetX"] = 0,
-		["statusbarHeight"] = 4,
-		["bodyFontSize"] = "default",
-		["alwaysShowIdInfo"] = true,
-		["statusbarFontFlag"] = "THINOUTLINE",
-		["statusbarOffsetY"] = 0,
-		["statusbarColor"] = "auto",
-		["borderCorner"] = "default",
-		["statusbarText"] = false,
 		["skinMoreFrames"] = true,
-		["headerFontFlag"] = "default",
-		["headerFontSize"] = "default",
-		["statusbarTexture"] = "Interface\\AddOns\\TinyTooltip\\texture\\StatusBar",
-		["bodyFont"] = "default",
+		["bodyFontSize"] = "default",
 		["bodyFontFlag"] = "default",
+		["bodyFont"] = "default",
+		["statusbarOffsetY"] = 0,
+		["statusbarTexture"] = "Interface\\AddOns\\TinyTooltip\\texture\\StatusBar",
+		["headerFontSize"] = "default",
+		["statusbarText"] = false,
+		["statusbarHeight"] = 4,
+		["headerFontFlag"] = "default",
+		["borderCorner"] = "default",
+		["statusbarColor"] = "auto",
+		["statusbarFontFlag"] = "THINOUTLINE",
+		["alwaysShowIdInfo"] = true,
 	},
 	["version"] = 2.8,
 	["variables"] = {
@@ -208,12 +208,16 @@ BigTipDB = {
 					["wildcard"] = "(%s)",
 					["filter"] = "none",
 				},
-				["factionIcon"] = {
+				["name"] = {
 					["enable"] = true,
+					["color"] = "class",
+					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["friendIcon"] = {
+				["className"] = {
 					["enable"] = true,
+					["color"] = "ffffff",
+					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
 				["factionBig"] = {
@@ -232,16 +236,12 @@ BigTipDB = {
 					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["className"] = {
+				["friendIcon"] = {
 					["enable"] = true,
-					["color"] = "ffffff",
-					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["name"] = {
+				["factionIcon"] = {
 					["enable"] = true,
-					["color"] = "class",
-					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
 				["classIcon"] = {

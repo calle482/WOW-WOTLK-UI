@@ -1,6 +1,3 @@
-VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
-/cast tame beast
-END
 VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
 #showtooltip Hunter's Mark
 /cast Hunter's Mark
@@ -20,6 +17,9 @@ VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip multi-shot
 /startattack
 /cast multi-shot
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+/cast tame beast
 END
 VER 3 0000000001000007 "VuhDoDCShieldData" "Ability_Repair"
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
